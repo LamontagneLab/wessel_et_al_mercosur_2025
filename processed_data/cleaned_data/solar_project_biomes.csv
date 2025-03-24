@@ -1,0 +1,1651 @@
+,Latitude,Longitude,project,load_zone,biome
+0,-40.25,-71.75,p_solar_Argentina_AR13,Argentina,Atacama/Andes
+1,-40.75,-71.75,p_solar_Argentina_AR14,Argentina,Atacama/Andes
+2,-41.25,-71.75,p_solar_Argentina_AR15,Argentina,Atacama/Andes
+3,-39.25,-71.25,p_solar_Argentina_AR33,Argentina,Atacama/Andes
+4,-39.75,-71.25,p_solar_Argentina_AR34,Argentina,Atacama/Andes
+5,-40.25,-71.25,p_solar_Argentina_AR35,Argentina,Atacama/Andes
+6,-40.75,-71.25,p_solar_Argentina_AR36,Argentina,Atacama/Andes
+7,-41.25,-71.25,p_solar_Argentina_AR37,Argentina,Atacama/Andes
+8,-36.75,-70.75,p_solar_Argentina_AR58,Argentina,Atacama/Andes
+9,-37.25,-70.75,p_solar_Argentina_AR59,Argentina,Atacama/Andes
+10,-37.75,-70.75,p_solar_Argentina_AR60,Argentina,Atacama/Andes
+11,-38.25,-70.75,p_solar_Argentina_AR61,Argentina,Atacama/Andes
+12,-38.75,-70.75,p_solar_Argentina_AR62,Argentina,Atacama/Andes
+13,-39.25,-70.75,p_solar_Argentina_AR63,Argentina,Atacama/Andes
+14,-39.75,-70.75,p_solar_Argentina_AR64,Argentina,Atacama/Andes
+15,-40.25,-70.75,p_solar_Argentina_AR65,Argentina,Atacama/Andes
+16,-40.75,-70.75,p_solar_Argentina_AR66,Argentina,Atacama/Andes
+17,-41.25,-70.75,p_solar_Argentina_AR67,Argentina,Atacama/Andes
+18,-30.75,-70.25,p_solar_Argentina_AR89,Argentina,Atacama/Andes
+19,-31.25,-70.25,p_solar_Argentina_AR90,Argentina,Atacama/Andes
+20,-31.75,-70.25,p_solar_Argentina_AR91,Argentina,Atacama/Andes
+21,-32.25,-70.25,p_solar_Argentina_AR92,Argentina,Atacama/Andes
+22,-34.75,-70.25,p_solar_Argentina_AR93,Argentina,Atacama/Andes
+23,-35.25,-70.25,p_solar_Argentina_AR94,Argentina,Atacama/Andes
+24,-35.75,-70.25,p_solar_Argentina_AR95,Argentina,Atacama/Andes
+25,-36.25,-70.25,p_solar_Argentina_AR96,Argentina,Atacama/Andes
+26,-36.75,-70.25,p_solar_Argentina_AR97,Argentina,Atacama/Andes
+27,-37.25,-70.25,p_solar_Argentina_AR98,Argentina,Atacama/Andes
+28,-37.75,-70.25,p_solar_Argentina_AR99,Argentina,Atacama/Andes
+29,-38.25,-70.25,p_solar_Argentina_AR100,Argentina,Atacama/Andes
+30,-38.75,-70.25,p_solar_Argentina_AR101,Argentina,Atacama/Andes
+31,-39.25,-70.25,p_solar_Argentina_AR102,Argentina,Atacama/Andes
+32,-39.75,-70.25,p_solar_Argentina_AR103,Argentina,Atacama/Andes
+33,-40.25,-70.25,p_solar_Argentina_AR104,Argentina,Atacama/Andes
+34,-40.75,-70.25,p_solar_Argentina_AR105,Argentina,Atacama/Andes
+35,-41.25,-70.25,p_solar_Argentina_AR106,Argentina,Atacama/Andes
+36,-41.75,-70.25,p_solar_Argentina_AR107,Argentina,Atacama/Andes
+37,-29.25,-69.75,p_solar_Argentina_AR128,Argentina,Atacama/Andes
+38,-29.75,-69.75,p_solar_Argentina_AR129,Argentina,Atacama/Andes
+39,-30.25,-69.75,p_solar_Argentina_AR130,Argentina,Atacama/Andes
+40,-30.75,-69.75,p_solar_Argentina_AR131,Argentina,Atacama/Andes
+41,-31.25,-69.75,p_solar_Argentina_AR132,Argentina,Atacama/Andes
+42,-31.75,-69.75,p_solar_Argentina_AR133,Argentina,Atacama/Andes
+43,-32.25,-69.75,p_solar_Argentina_AR134,Argentina,Atacama/Andes
+44,-32.75,-69.75,p_solar_Argentina_AR135,Argentina,Atacama/Andes
+45,-33.25,-69.75,p_solar_Argentina_AR136,Argentina,Atacama/Andes
+46,-33.75,-69.75,p_solar_Argentina_AR137,Argentina,Atacama/Andes
+47,-34.25,-69.75,p_solar_Argentina_AR138,Argentina,Atacama/Andes
+48,-34.75,-69.75,p_solar_Argentina_AR139,Argentina,Atacama/Andes
+49,-35.25,-69.75,p_solar_Argentina_AR140,Argentina,Atacama/Andes
+50,-35.75,-69.75,p_solar_Argentina_AR141,Argentina,Atacama/Andes
+51,-36.25,-69.75,p_solar_Argentina_AR142,Argentina,Atacama/Andes
+52,-36.75,-69.75,p_solar_Argentina_AR143,Argentina,Atacama/Andes
+53,-37.25,-69.75,p_solar_Argentina_AR144,Argentina,Atacama/Andes
+54,-37.75,-69.75,p_solar_Argentina_AR145,Argentina,Atacama/Andes
+55,-38.25,-69.75,p_solar_Argentina_AR146,Argentina,Atacama/Andes
+56,-38.75,-69.75,p_solar_Argentina_AR147,Argentina,Atacama/Andes
+57,-39.25,-69.75,p_solar_Argentina_AR148,Argentina,Atacama/Andes
+58,-39.75,-69.75,p_solar_Argentina_AR149,Argentina,Atacama/Andes
+59,-40.25,-69.75,p_solar_Argentina_AR150,Argentina,Atacama/Andes
+60,-40.75,-69.75,p_solar_Argentina_AR151,Argentina,Atacama/Andes
+61,-41.25,-69.75,p_solar_Argentina_AR152,Argentina,Atacama/Andes
+62,-41.75,-69.75,p_solar_Argentina_AR153,Argentina,Atacama/Andes
+63,-28.25,-69.25,p_solar_Argentina_AR174,Argentina,Atacama/Andes
+64,-28.75,-69.25,p_solar_Argentina_AR175,Argentina,Atacama/Andes
+65,-29.25,-69.25,p_solar_Argentina_AR176,Argentina,Atacama/Andes
+66,-29.75,-69.25,p_solar_Argentina_AR177,Argentina,Atacama/Andes
+67,-30.25,-69.25,p_solar_Argentina_AR178,Argentina,Atacama/Andes
+68,-30.75,-69.25,p_solar_Argentina_AR179,Argentina,Atacama/Andes
+69,-31.25,-69.25,p_solar_Argentina_AR180,Argentina,Atacama/Andes
+70,-31.75,-69.25,p_solar_Argentina_AR181,Argentina,Atacama/Andes
+71,-32.25,-69.25,p_solar_Argentina_AR182,Argentina,Atacama/Andes
+72,-32.75,-69.25,p_solar_Argentina_AR183,Argentina,Atacama/Andes
+73,-33.25,-69.25,p_solar_Argentina_AR184,Argentina,Atacama/Andes
+74,-33.75,-69.25,p_solar_Argentina_AR185,Argentina,Atacama/Andes
+75,-34.25,-69.25,p_solar_Argentina_AR186,Argentina,Atacama/Andes
+76,-34.75,-69.25,p_solar_Argentina_AR187,Argentina,Atacama/Andes
+77,-35.25,-69.25,p_solar_Argentina_AR188,Argentina,Atacama/Andes
+78,-35.75,-69.25,p_solar_Argentina_AR189,Argentina,Atacama/Andes
+79,-36.25,-69.25,p_solar_Argentina_AR190,Argentina,Atacama/Andes
+80,-36.75,-69.25,p_solar_Argentina_AR191,Argentina,Atacama/Andes
+81,-37.25,-69.25,p_solar_Argentina_AR192,Argentina,Atacama/Andes
+82,-37.75,-69.25,p_solar_Argentina_AR193,Argentina,Atacama/Andes
+83,-38.25,-69.25,p_solar_Argentina_AR194,Argentina,Atacama/Andes
+84,-38.75,-69.25,p_solar_Argentina_AR195,Argentina,Atacama/Andes
+85,-39.25,-69.25,p_solar_Argentina_AR196,Argentina,Atacama/Andes
+86,-39.75,-69.25,p_solar_Argentina_AR197,Argentina,Atacama/Andes
+87,-40.25,-69.25,p_solar_Argentina_AR198,Argentina,Monte Desert
+88,-40.75,-69.25,p_solar_Argentina_AR199,Argentina,Monte Desert
+89,-41.25,-69.25,p_solar_Argentina_AR200,Argentina,Monte Desert
+90,-41.75,-69.25,p_solar_Argentina_AR201,Argentina,Monte Desert
+91,-42.25,-69.25,p_solar_Argentina_AR202,Argentina,Monte Desert
+92,-42.75,-69.25,p_solar_Argentina_AR203,Argentina,Monte Desert
+93,-27.25,-68.75,p_solar_Argentina_AR222,Argentina,Atacama/Andes
+94,-27.75,-68.75,p_solar_Argentina_AR223,Argentina,Atacama/Andes
+95,-28.25,-68.75,p_solar_Argentina_AR224,Argentina,Atacama/Andes
+96,-28.75,-68.75,p_solar_Argentina_AR225,Argentina,Atacama/Andes
+97,-29.25,-68.75,p_solar_Argentina_AR226,Argentina,Atacama/Andes
+98,-29.75,-68.75,p_solar_Argentina_AR227,Argentina,Atacama/Andes
+99,-30.25,-68.75,p_solar_Argentina_AR228,Argentina,Atacama/Andes
+100,-30.75,-68.75,p_solar_Argentina_AR229,Argentina,Atacama/Andes
+101,-31.75,-68.75,p_solar_Argentina_AR231,Argentina,Atacama/Andes
+102,-32.25,-68.75,p_solar_Argentina_AR232,Argentina,Atacama/Andes
+103,-32.75,-68.75,p_solar_Argentina_AR233,Argentina,Atacama/Andes
+104,-33.25,-68.75,p_solar_Argentina_AR234,Argentina,Atacama/Andes
+105,-33.75,-68.75,p_solar_Argentina_AR235,Argentina,Atacama/Andes
+106,-34.25,-68.75,p_solar_Argentina_AR236,Argentina,Atacama/Andes
+107,-34.75,-68.75,p_solar_Argentina_AR237,Argentina,Atacama/Andes
+108,-35.25,-68.75,p_solar_Argentina_AR238,Argentina,Atacama/Andes
+109,-35.75,-68.75,p_solar_Argentina_AR239,Argentina,Atacama/Andes
+110,-36.25,-68.75,p_solar_Argentina_AR240,Argentina,Atacama/Andes
+111,-36.75,-68.75,p_solar_Argentina_AR241,Argentina,Atacama/Andes
+112,-37.25,-68.75,p_solar_Argentina_AR242,Argentina,Atacama/Andes
+113,-37.75,-68.75,p_solar_Argentina_AR243,Argentina,Atacama/Andes
+114,-38.25,-68.75,p_solar_Argentina_AR244,Argentina,Atacama/Andes
+115,-38.75,-68.75,p_solar_Argentina_AR245,Argentina,Atacama/Andes
+116,-39.25,-68.75,p_solar_Argentina_AR246,Argentina,Atacama/Andes
+117,-39.75,-68.75,p_solar_Argentina_AR247,Argentina,Atacama/Andes
+118,-40.25,-68.75,p_solar_Argentina_AR248,Argentina,Monte Desert
+119,-40.75,-68.75,p_solar_Argentina_AR249,Argentina,Monte Desert
+120,-41.25,-68.75,p_solar_Argentina_AR250,Argentina,Monte Desert
+121,-41.75,-68.75,p_solar_Argentina_AR251,Argentina,Monte Desert
+122,-42.25,-68.75,p_solar_Argentina_AR252,Argentina,Monte Desert
+123,-42.75,-68.75,p_solar_Argentina_AR253,Argentina,Monte Desert
+124,-43.25,-68.75,p_solar_Argentina_AR254,Argentina,Monte Desert
+125,-43.75,-68.75,p_solar_Argentina_AR255,Argentina,Monte Desert
+126,-44.25,-68.75,p_solar_Argentina_AR256,Argentina,Monte Desert
+127,-24.75,-68.25,p_solar_Argentina_AR270,Argentina,Atacama/Andes
+128,-25.25,-68.25,p_solar_Argentina_AR271,Argentina,Atacama/Andes
+129,-25.75,-68.25,p_solar_Argentina_AR272,Argentina,Atacama/Andes
+130,-26.25,-68.25,p_solar_Argentina_AR273,Argentina,Atacama/Andes
+131,-26.75,-68.25,p_solar_Argentina_AR274,Argentina,Atacama/Andes
+132,-27.25,-68.25,p_solar_Argentina_AR275,Argentina,Atacama/Andes
+133,-27.75,-68.25,p_solar_Argentina_AR276,Argentina,Atacama/Andes
+134,-28.25,-68.25,p_solar_Argentina_AR277,Argentina,Atacama/Andes
+135,-28.75,-68.25,p_solar_Argentina_AR278,Argentina,Atacama/Andes
+136,-29.25,-68.25,p_solar_Argentina_AR279,Argentina,Atacama/Andes
+137,-29.75,-68.25,p_solar_Argentina_AR280,Argentina,Atacama/Andes
+138,-30.25,-68.25,p_solar_Argentina_AR281,Argentina,Monte Desert
+139,-30.75,-68.25,p_solar_Argentina_AR282,Argentina,Monte Desert
+140,-31.25,-68.25,p_solar_Argentina_AR283,Argentina,Monte Desert
+141,-31.75,-68.25,p_solar_Argentina_AR284,Argentina,Monte Desert
+142,-32.25,-68.25,p_solar_Argentina_AR285,Argentina,Monte Desert
+143,-32.75,-68.25,p_solar_Argentina_AR286,Argentina,Monte Desert
+144,-33.25,-68.25,p_solar_Argentina_AR287,Argentina,Monte Desert
+145,-33.75,-68.25,p_solar_Argentina_AR288,Argentina,Monte Desert
+146,-34.25,-68.25,p_solar_Argentina_AR289,Argentina,Monte Desert
+147,-34.75,-68.25,p_solar_Argentina_AR290,Argentina,Monte Desert
+148,-35.25,-68.25,p_solar_Argentina_AR291,Argentina,Monte Desert
+149,-35.75,-68.25,p_solar_Argentina_AR292,Argentina,Monte Desert
+150,-36.25,-68.25,p_solar_Argentina_AR293,Argentina,Monte Desert
+151,-36.75,-68.25,p_solar_Argentina_AR294,Argentina,Monte Desert
+152,-37.25,-68.25,p_solar_Argentina_AR295,Argentina,Monte Desert
+153,-37.75,-68.25,p_solar_Argentina_AR296,Argentina,Monte Desert
+154,-38.25,-68.25,p_solar_Argentina_AR297,Argentina,Monte Desert
+155,-38.75,-68.25,p_solar_Argentina_AR298,Argentina,Monte Desert
+156,-39.25,-68.25,p_solar_Argentina_AR299,Argentina,Monte Desert
+157,-39.75,-68.25,p_solar_Argentina_AR300,Argentina,Monte Desert
+158,-40.25,-68.25,p_solar_Argentina_AR301,Argentina,Monte Desert
+159,-40.75,-68.25,p_solar_Argentina_AR302,Argentina,Monte Desert
+160,-41.25,-68.25,p_solar_Argentina_AR303,Argentina,Monte Desert
+161,-41.75,-68.25,p_solar_Argentina_AR304,Argentina,Monte Desert
+162,-42.25,-68.25,p_solar_Argentina_AR305,Argentina,Monte Desert
+163,-42.75,-68.25,p_solar_Argentina_AR306,Argentina,Monte Desert
+164,-43.25,-68.25,p_solar_Argentina_AR307,Argentina,Monte Desert
+165,-43.75,-68.25,p_solar_Argentina_AR308,Argentina,Monte Desert
+166,-44.25,-68.25,p_solar_Argentina_AR309,Argentina,Monte Desert
+167,-44.75,-68.25,p_solar_Argentina_AR310,Argentina,Monte Desert
+168,-45.25,-68.25,p_solar_Argentina_AR311,Argentina,Monte Desert
+169,-45.75,-68.25,p_solar_Argentina_AR312,Argentina,Monte Desert
+170,-46.25,-68.25,p_solar_Argentina_AR313,Argentina,Monte Desert
+171,-24.25,-67.75,p_solar_Argentina_AR324,Argentina,Atacama/Andes
+172,-24.75,-67.75,p_solar_Argentina_AR325,Argentina,Atacama/Andes
+173,-25.25,-67.75,p_solar_Argentina_AR326,Argentina,Atacama/Andes
+174,-25.75,-67.75,p_solar_Argentina_AR327,Argentina,Atacama/Andes
+175,-26.25,-67.75,p_solar_Argentina_AR328,Argentina,Atacama/Andes
+176,-26.75,-67.75,p_solar_Argentina_AR329,Argentina,Atacama/Andes
+177,-27.25,-67.75,p_solar_Argentina_AR330,Argentina,Atacama/Andes
+178,-27.75,-67.75,p_solar_Argentina_AR331,Argentina,Atacama/Andes
+179,-28.25,-67.75,p_solar_Argentina_AR332,Argentina,Atacama/Andes
+180,-28.75,-67.75,p_solar_Argentina_AR333,Argentina,Atacama/Andes
+181,-30.25,-67.75,p_solar_Argentina_AR336,Argentina,Monte Desert
+182,-30.75,-67.75,p_solar_Argentina_AR337,Argentina,Monte Desert
+183,-31.25,-67.75,p_solar_Argentina_AR338,Argentina,Monte Desert
+184,-31.75,-67.75,p_solar_Argentina_AR339,Argentina,Monte Desert
+185,-32.25,-67.75,p_solar_Argentina_AR340,Argentina,Monte Desert
+186,-32.75,-67.75,p_solar_Argentina_AR341,Argentina,Monte Desert
+187,-33.25,-67.75,p_solar_Argentina_AR342,Argentina,Monte Desert
+188,-33.75,-67.75,p_solar_Argentina_AR343,Argentina,Monte Desert
+189,-34.25,-67.75,p_solar_Argentina_AR344,Argentina,Monte Desert
+190,-34.75,-67.75,p_solar_Argentina_AR345,Argentina,Monte Desert
+191,-35.25,-67.75,p_solar_Argentina_AR346,Argentina,Monte Desert
+192,-35.75,-67.75,p_solar_Argentina_AR347,Argentina,Monte Desert
+193,-36.25,-67.75,p_solar_Argentina_AR348,Argentina,Monte Desert
+194,-36.75,-67.75,p_solar_Argentina_AR349,Argentina,Monte Desert
+195,-37.25,-67.75,p_solar_Argentina_AR350,Argentina,Monte Desert
+196,-37.75,-67.75,p_solar_Argentina_AR351,Argentina,Monte Desert
+197,-38.25,-67.75,p_solar_Argentina_AR352,Argentina,Monte Desert
+198,-38.75,-67.75,p_solar_Argentina_AR353,Argentina,Monte Desert
+199,-39.25,-67.75,p_solar_Argentina_AR354,Argentina,Monte Desert
+200,-39.75,-67.75,p_solar_Argentina_AR355,Argentina,Monte Desert
+201,-40.25,-67.75,p_solar_Argentina_AR356,Argentina,Monte Desert
+202,-40.75,-67.75,p_solar_Argentina_AR357,Argentina,Monte Desert
+203,-41.25,-67.75,p_solar_Argentina_AR358,Argentina,Monte Desert
+204,-41.75,-67.75,p_solar_Argentina_AR359,Argentina,Monte Desert
+205,-42.25,-67.75,p_solar_Argentina_AR360,Argentina,Monte Desert
+206,-42.75,-67.75,p_solar_Argentina_AR361,Argentina,Monte Desert
+207,-43.25,-67.75,p_solar_Argentina_AR362,Argentina,Monte Desert
+208,-43.75,-67.75,p_solar_Argentina_AR363,Argentina,Monte Desert
+209,-44.25,-67.75,p_solar_Argentina_AR364,Argentina,Monte Desert
+210,-44.75,-67.75,p_solar_Argentina_AR365,Argentina,Monte Desert
+211,-45.25,-67.75,p_solar_Argentina_AR366,Argentina,Monte Desert
+212,-45.75,-67.75,p_solar_Argentina_AR367,Argentina,Monte Desert
+213,-46.25,-67.75,p_solar_Argentina_AR368,Argentina,Monte Desert
+214,-46.75,-67.75,p_solar_Argentina_AR369,Argentina,Monte Desert
+215,-23.75,-67.25,p_solar_Argentina_AR379,Argentina,Atacama/Andes
+216,-24.25,-67.25,p_solar_Argentina_AR380,Argentina,Atacama/Andes
+217,-24.75,-67.25,p_solar_Argentina_AR381,Argentina,Atacama/Andes
+218,-25.25,-67.25,p_solar_Argentina_AR382,Argentina,Atacama/Andes
+219,-25.75,-67.25,p_solar_Argentina_AR383,Argentina,Atacama/Andes
+220,-26.25,-67.25,p_solar_Argentina_AR384,Argentina,Atacama/Andes
+221,-26.75,-67.25,p_solar_Argentina_AR385,Argentina,Atacama/Andes
+222,-27.25,-67.25,p_solar_Argentina_AR386,Argentina,Atacama/Andes
+223,-27.75,-67.25,p_solar_Argentina_AR387,Argentina,Atacama/Andes
+224,-28.25,-67.25,p_solar_Argentina_AR388,Argentina,Atacama/Andes
+225,-30.75,-67.25,p_solar_Argentina_AR393,Argentina,Monte Desert
+226,-31.25,-67.25,p_solar_Argentina_AR394,Argentina,Monte Desert
+227,-31.75,-67.25,p_solar_Argentina_AR395,Argentina,Monte Desert
+228,-32.25,-67.25,p_solar_Argentina_AR396,Argentina,Monte Desert
+229,-32.75,-67.25,p_solar_Argentina_AR397,Argentina,Monte Desert
+230,-33.25,-67.25,p_solar_Argentina_AR398,Argentina,Monte Desert
+231,-33.75,-67.25,p_solar_Argentina_AR399,Argentina,Monte Desert
+232,-34.25,-67.25,p_solar_Argentina_AR400,Argentina,Monte Desert
+233,-34.75,-67.25,p_solar_Argentina_AR401,Argentina,Monte Desert
+234,-35.25,-67.25,p_solar_Argentina_AR402,Argentina,Monte Desert
+235,-35.75,-67.25,p_solar_Argentina_AR403,Argentina,Monte Desert
+236,-36.25,-67.25,p_solar_Argentina_AR404,Argentina,Monte Desert
+237,-36.75,-67.25,p_solar_Argentina_AR405,Argentina,Monte Desert
+238,-37.25,-67.25,p_solar_Argentina_AR406,Argentina,Monte Desert
+239,-37.75,-67.25,p_solar_Argentina_AR407,Argentina,Monte Desert
+240,-38.25,-67.25,p_solar_Argentina_AR408,Argentina,Monte Desert
+241,-38.75,-67.25,p_solar_Argentina_AR409,Argentina,Monte Desert
+242,-39.25,-67.25,p_solar_Argentina_AR410,Argentina,Monte Desert
+243,-39.75,-67.25,p_solar_Argentina_AR411,Argentina,Monte Desert
+244,-40.25,-67.25,p_solar_Argentina_AR412,Argentina,Monte Desert
+245,-40.75,-67.25,p_solar_Argentina_AR413,Argentina,Monte Desert
+246,-41.25,-67.25,p_solar_Argentina_AR414,Argentina,Monte Desert
+247,-41.75,-67.25,p_solar_Argentina_AR415,Argentina,Monte Desert
+248,-42.25,-67.25,p_solar_Argentina_AR416,Argentina,Monte Desert
+249,-42.75,-67.25,p_solar_Argentina_AR417,Argentina,Monte Desert
+250,-43.25,-67.25,p_solar_Argentina_AR418,Argentina,Monte Desert
+251,-43.75,-67.25,p_solar_Argentina_AR419,Argentina,Monte Desert
+252,-44.25,-67.25,p_solar_Argentina_AR420,Argentina,Monte Desert
+253,-44.75,-67.25,p_solar_Argentina_AR421,Argentina,Monte Desert
+254,-45.25,-67.25,p_solar_Argentina_AR422,Argentina,Monte Desert
+255,-46.75,-67.25,p_solar_Argentina_AR423,Argentina,Monte Desert
+256,-47.25,-67.25,p_solar_Argentina_AR424,Argentina,Monte Desert
+257,-22.75,-66.75,p_solar_Argentina_AR430,Argentina,Atacama/Andes
+258,-23.25,-66.75,p_solar_Argentina_AR431,Argentina,Atacama/Andes
+259,-23.75,-66.75,p_solar_Argentina_AR432,Argentina,Atacama/Andes
+260,-24.75,-66.75,p_solar_Argentina_AR434,Argentina,Atacama/Andes
+261,-25.25,-66.75,p_solar_Argentina_AR435,Argentina,Atacama/Andes
+262,-25.75,-66.75,p_solar_Argentina_AR436,Argentina,Atacama/Andes
+263,-26.25,-66.75,p_solar_Argentina_AR437,Argentina,Atacama/Andes
+264,-26.75,-66.75,p_solar_Argentina_AR438,Argentina,Atacama/Andes
+265,-27.25,-66.75,p_solar_Argentina_AR439,Argentina,Atacama/Andes
+266,-27.75,-66.75,p_solar_Argentina_AR440,Argentina,Atacama/Andes
+267,-31.25,-66.75,p_solar_Argentina_AR447,Argentina,Monte Desert
+268,-31.75,-66.75,p_solar_Argentina_AR448,Argentina,Monte Desert
+269,-32.25,-66.75,p_solar_Argentina_AR449,Argentina,Monte Desert
+270,-32.75,-66.75,p_solar_Argentina_AR450,Argentina,Monte Desert
+271,-33.25,-66.75,p_solar_Argentina_AR451,Argentina,Monte Desert
+272,-33.75,-66.75,p_solar_Argentina_AR452,Argentina,Monte Desert
+273,-34.25,-66.75,p_solar_Argentina_AR453,Argentina,Monte Desert
+274,-34.75,-66.75,p_solar_Argentina_AR454,Argentina,Monte Desert
+275,-35.25,-66.75,p_solar_Argentina_AR455,Argentina,Monte Desert
+276,-35.75,-66.75,p_solar_Argentina_AR456,Argentina,Monte Desert
+277,-36.25,-66.75,p_solar_Argentina_AR457,Argentina,Monte Desert
+278,-36.75,-66.75,p_solar_Argentina_AR458,Argentina,Monte Desert
+279,-37.25,-66.75,p_solar_Argentina_AR459,Argentina,Monte Desert
+280,-37.75,-66.75,p_solar_Argentina_AR460,Argentina,Monte Desert
+281,-38.25,-66.75,p_solar_Argentina_AR461,Argentina,Monte Desert
+282,-38.75,-66.75,p_solar_Argentina_AR462,Argentina,Monte Desert
+283,-39.25,-66.75,p_solar_Argentina_AR463,Argentina,Monte Desert
+284,-39.75,-66.75,p_solar_Argentina_AR464,Argentina,Monte Desert
+285,-40.25,-66.75,p_solar_Argentina_AR465,Argentina,Monte Desert
+286,-40.75,-66.75,p_solar_Argentina_AR466,Argentina,Monte Desert
+287,-41.25,-66.75,p_solar_Argentina_AR467,Argentina,Monte Desert
+288,-41.75,-66.75,p_solar_Argentina_AR468,Argentina,Monte Desert
+289,-42.25,-66.75,p_solar_Argentina_AR469,Argentina,Monte Desert
+290,-42.75,-66.75,p_solar_Argentina_AR470,Argentina,Monte Desert
+291,-43.25,-66.75,p_solar_Argentina_AR471,Argentina,Monte Desert
+292,-43.75,-66.75,p_solar_Argentina_AR472,Argentina,Monte Desert
+293,-44.25,-66.75,p_solar_Argentina_AR473,Argentina,Monte Desert
+294,-44.75,-66.75,p_solar_Argentina_AR474,Argentina,Monte Desert
+295,-47.25,-66.75,p_solar_Argentina_AR475,Argentina,Monte Desert
+296,-47.75,-66.75,p_solar_Argentina_AR476,Argentina,Monte Desert
+297,-22.25,-66.25,p_solar_Argentina_AR479,Argentina,Atacama/Andes
+298,-22.75,-66.25,p_solar_Argentina_AR480,Argentina,Atacama/Andes
+299,-23.25,-66.25,p_solar_Argentina_AR481,Argentina,Atacama/Andes
+300,-23.75,-66.25,p_solar_Argentina_AR482,Argentina,Atacama/Andes
+301,-24.25,-66.25,p_solar_Argentina_AR483,Argentina,Atacama/Andes
+302,-24.75,-66.25,p_solar_Argentina_AR484,Argentina,Atacama/Andes
+303,-25.25,-66.25,p_solar_Argentina_AR485,Argentina,Atacama/Andes
+304,-25.75,-66.25,p_solar_Argentina_AR486,Argentina,Atacama/Andes
+305,-26.25,-66.25,p_solar_Argentina_AR487,Argentina,Atacama/Andes
+306,-26.75,-66.25,p_solar_Argentina_AR488,Argentina,Atacama/Andes
+307,-27.25,-66.25,p_solar_Argentina_AR489,Argentina,Atacama/Andes
+308,-27.75,-66.25,p_solar_Argentina_AR490,Argentina,Atacama/Andes
+309,-31.25,-66.25,p_solar_Argentina_AR497,Argentina,Monte Desert
+310,-31.75,-66.25,p_solar_Argentina_AR498,Argentina,Monte Desert
+311,-32.25,-66.25,p_solar_Argentina_AR499,Argentina,Monte Desert
+312,-32.75,-66.25,p_solar_Argentina_AR500,Argentina,Monte Desert
+313,-33.75,-66.25,p_solar_Argentina_AR502,Argentina,Monte Desert
+314,-34.25,-66.25,p_solar_Argentina_AR503,Argentina,Monte Desert
+315,-34.75,-66.25,p_solar_Argentina_AR504,Argentina,Monte Desert
+316,-35.25,-66.25,p_solar_Argentina_AR505,Argentina,Monte Desert
+317,-35.75,-66.25,p_solar_Argentina_AR506,Argentina,Monte Desert
+318,-36.25,-66.25,p_solar_Argentina_AR507,Argentina,Monte Desert
+319,-36.75,-66.25,p_solar_Argentina_AR508,Argentina,Monte Desert
+320,-37.25,-66.25,p_solar_Argentina_AR509,Argentina,Monte Desert
+321,-37.75,-66.25,p_solar_Argentina_AR510,Argentina,Monte Desert
+322,-38.25,-66.25,p_solar_Argentina_AR511,Argentina,Monte Desert
+323,-38.75,-66.25,p_solar_Argentina_AR512,Argentina,Monte Desert
+324,-39.25,-66.25,p_solar_Argentina_AR513,Argentina,Monte Desert
+325,-39.75,-66.25,p_solar_Argentina_AR514,Argentina,Monte Desert
+326,-40.25,-66.25,p_solar_Argentina_AR515,Argentina,Monte Desert
+327,-40.75,-66.25,p_solar_Argentina_AR516,Argentina,Monte Desert
+328,-41.25,-66.25,p_solar_Argentina_AR517,Argentina,Monte Desert
+329,-41.75,-66.25,p_solar_Argentina_AR518,Argentina,Monte Desert
+330,-42.25,-66.25,p_solar_Argentina_AR519,Argentina,Monte Desert
+331,-42.75,-66.25,p_solar_Argentina_AR520,Argentina,Monte Desert
+332,-43.25,-66.25,p_solar_Argentina_AR521,Argentina,Monte Desert
+333,-43.75,-66.25,p_solar_Argentina_AR522,Argentina,Monte Desert
+334,-44.25,-66.25,p_solar_Argentina_AR523,Argentina,Monte Desert
+335,-44.75,-66.25,p_solar_Argentina_AR524,Argentina,Monte Desert
+336,-47.25,-66.25,p_solar_Argentina_AR525,Argentina,Monte Desert
+337,-47.75,-66.25,p_solar_Argentina_AR526,Argentina,Monte Desert
+338,-22.25,-65.75,p_solar_Argentina_AR528,Argentina,Atacama/Andes
+339,-22.75,-65.75,p_solar_Argentina_AR529,Argentina,Atacama/Andes
+340,-23.25,-65.75,p_solar_Argentina_AR530,Argentina,Atacama/Andes
+341,-23.75,-65.75,p_solar_Argentina_AR531,Argentina,Atacama/Andes
+342,-24.25,-65.75,p_solar_Argentina_AR532,Argentina,Atacama/Andes
+343,-24.75,-65.75,p_solar_Argentina_AR533,Argentina,Atacama/Andes
+344,-25.25,-65.75,p_solar_Argentina_AR534,Argentina,Atacama/Andes
+345,-25.75,-65.75,p_solar_Argentina_AR535,Argentina,Atacama/Andes
+346,-26.75,-65.75,p_solar_Argentina_AR537,Argentina,Atacama/Andes
+347,-27.25,-65.75,p_solar_Argentina_AR538,Argentina,Atacama/Andes
+348,-27.75,-65.75,p_solar_Argentina_AR539,Argentina,Atacama/Andes
+349,-32.75,-65.75,p_solar_Argentina_AR549,Argentina,Monte Desert
+350,-33.25,-65.75,p_solar_Argentina_AR550,Argentina,Monte Desert
+351,-33.75,-65.75,p_solar_Argentina_AR551,Argentina,Monte Desert
+352,-34.25,-65.75,p_solar_Argentina_AR552,Argentina,Monte Desert
+353,-34.75,-65.75,p_solar_Argentina_AR553,Argentina,Monte Desert
+354,-35.25,-65.75,p_solar_Argentina_AR554,Argentina,Monte Desert
+355,-35.75,-65.75,p_solar_Argentina_AR555,Argentina,Monte Desert
+356,-36.25,-65.75,p_solar_Argentina_AR556,Argentina,Monte Desert
+357,-36.75,-65.75,p_solar_Argentina_AR557,Argentina,Monte Desert
+358,-37.25,-65.75,p_solar_Argentina_AR558,Argentina,Monte Desert
+359,-37.75,-65.75,p_solar_Argentina_AR559,Argentina,Monte Desert
+360,-38.25,-65.75,p_solar_Argentina_AR560,Argentina,Monte Desert
+361,-38.75,-65.75,p_solar_Argentina_AR561,Argentina,Monte Desert
+362,-39.25,-65.75,p_solar_Argentina_AR562,Argentina,Monte Desert
+363,-39.75,-65.75,p_solar_Argentina_AR563,Argentina,Monte Desert
+364,-40.25,-65.75,p_solar_Argentina_AR564,Argentina,Monte Desert
+365,-40.75,-65.75,p_solar_Argentina_AR565,Argentina,Monte Desert
+366,-41.25,-65.75,p_solar_Argentina_AR566,Argentina,Monte Desert
+367,-41.75,-65.75,p_solar_Argentina_AR567,Argentina,Monte Desert
+368,-42.25,-65.75,p_solar_Argentina_AR568,Argentina,Monte Desert
+369,-42.75,-65.75,p_solar_Argentina_AR569,Argentina,Monte Desert
+370,-43.25,-65.75,p_solar_Argentina_AR570,Argentina,Monte Desert
+371,-43.75,-65.75,p_solar_Argentina_AR571,Argentina,Monte Desert
+372,-44.25,-65.75,p_solar_Argentina_AR572,Argentina,Monte Desert
+373,-44.75,-65.75,p_solar_Argentina_AR573,Argentina,Monte Desert
+374,-47.25,-65.75,p_solar_Argentina_AR574,Argentina,Monte Desert
+375,-22.25,-65.25,p_solar_Argentina_AR576,Argentina,Gran Chaco
+376,-22.75,-65.25,p_solar_Argentina_AR577,Argentina,Gran Chaco
+377,-23.25,-65.25,p_solar_Argentina_AR578,Argentina,Gran Chaco
+378,-23.75,-65.25,p_solar_Argentina_AR579,Argentina,Gran Chaco
+379,-24.25,-65.25,p_solar_Argentina_AR580,Argentina,Gran Chaco
+380,-24.75,-65.25,p_solar_Argentina_AR581,Argentina,Gran Chaco
+381,-25.25,-65.25,p_solar_Argentina_AR582,Argentina,Gran Chaco
+382,-25.75,-65.25,p_solar_Argentina_AR583,Argentina,Gran Chaco
+383,-26.25,-65.25,p_solar_Argentina_AR584,Argentina,Gran Chaco
+384,-26.75,-65.25,p_solar_Argentina_AR585,Argentina,Gran Chaco
+385,-27.25,-65.25,p_solar_Argentina_AR586,Argentina,Gran Chaco
+386,-34.25,-65.25,p_solar_Argentina_AR600,Argentina,Monte Desert
+387,-34.75,-65.25,p_solar_Argentina_AR601,Argentina,Monte Desert
+388,-35.25,-65.25,p_solar_Argentina_AR602,Argentina,Monte Desert
+389,-35.75,-65.25,p_solar_Argentina_AR603,Argentina,Monte Desert
+390,-36.25,-65.25,p_solar_Argentina_AR604,Argentina,Monte Desert
+391,-36.75,-65.25,p_solar_Argentina_AR605,Argentina,Monte Desert
+392,-37.25,-65.25,p_solar_Argentina_AR606,Argentina,Monte Desert
+393,-37.75,-65.25,p_solar_Argentina_AR607,Argentina,Monte Desert
+394,-38.25,-65.25,p_solar_Argentina_AR608,Argentina,Monte Desert
+395,-38.75,-65.25,p_solar_Argentina_AR609,Argentina,Monte Desert
+396,-39.25,-65.25,p_solar_Argentina_AR610,Argentina,Monte Desert
+397,-39.75,-65.25,p_solar_Argentina_AR611,Argentina,Monte Desert
+398,-40.25,-65.25,p_solar_Argentina_AR612,Argentina,Monte Desert
+399,-40.75,-65.25,p_solar_Argentina_AR613,Argentina,Monte Desert
+400,-41.25,-65.25,p_solar_Argentina_AR614,Argentina,Monte Desert
+401,-41.75,-65.25,p_solar_Argentina_AR615,Argentina,Monte Desert
+402,-42.25,-65.25,p_solar_Argentina_AR616,Argentina,Monte Desert
+403,-42.75,-65.25,p_solar_Argentina_AR617,Argentina,Monte Desert
+404,-43.25,-65.25,p_solar_Argentina_AR618,Argentina,Monte Desert
+405,-22.25,-64.75,p_solar_Argentina_AR620,Argentina,Gran Chaco
+406,-22.75,-64.75,p_solar_Argentina_AR621,Argentina,Gran Chaco
+407,-23.25,-64.75,p_solar_Argentina_AR622,Argentina,Gran Chaco
+408,-23.75,-64.75,p_solar_Argentina_AR623,Argentina,Gran Chaco
+409,-24.25,-64.75,p_solar_Argentina_AR624,Argentina,Gran Chaco
+410,-24.75,-64.75,p_solar_Argentina_AR625,Argentina,Gran Chaco
+411,-25.25,-64.75,p_solar_Argentina_AR626,Argentina,Gran Chaco
+412,-25.75,-64.75,p_solar_Argentina_AR627,Argentina,Gran Chaco
+413,-26.25,-64.75,p_solar_Argentina_AR628,Argentina,Gran Chaco
+414,-26.75,-64.75,p_solar_Argentina_AR629,Argentina,Gran Chaco
+415,-27.25,-64.75,p_solar_Argentina_AR630,Argentina,Gran Chaco
+416,-34.75,-64.75,p_solar_Argentina_AR645,Argentina,Monte Desert
+417,-35.25,-64.75,p_solar_Argentina_AR646,Argentina,Monte Desert
+418,-35.75,-64.75,p_solar_Argentina_AR647,Argentina,Monte Desert
+419,-36.25,-64.75,p_solar_Argentina_AR648,Argentina,Monte Desert
+420,-36.75,-64.75,p_solar_Argentina_AR649,Argentina,Monte Desert
+421,-37.25,-64.75,p_solar_Argentina_AR650,Argentina,Monte Desert
+422,-37.75,-64.75,p_solar_Argentina_AR651,Argentina,Monte Desert
+423,-38.25,-64.75,p_solar_Argentina_AR652,Argentina,Monte Desert
+424,-38.75,-64.75,p_solar_Argentina_AR653,Argentina,Monte Desert
+425,-39.25,-64.75,p_solar_Argentina_AR654,Argentina,Monte Desert
+426,-39.75,-64.75,p_solar_Argentina_AR655,Argentina,Monte Desert
+427,-40.25,-64.75,p_solar_Argentina_AR656,Argentina,Monte Desert
+428,-40.75,-64.75,p_solar_Argentina_AR657,Argentina,Monte Desert
+429,-42.25,-64.75,p_solar_Argentina_AR658,Argentina,Monte Desert
+430,-22.75,-64.25,p_solar_Argentina_AR659,Argentina,Gran Chaco
+431,-23.25,-64.25,p_solar_Argentina_AR660,Argentina,Gran Chaco
+432,-23.75,-64.25,p_solar_Argentina_AR661,Argentina,Gran Chaco
+433,-24.25,-64.25,p_solar_Argentina_AR662,Argentina,Gran Chaco
+434,-24.75,-64.25,p_solar_Argentina_AR663,Argentina,Gran Chaco
+435,-25.25,-64.25,p_solar_Argentina_AR664,Argentina,Gran Chaco
+436,-25.75,-64.25,p_solar_Argentina_AR665,Argentina,Gran Chaco
+437,-26.25,-64.25,p_solar_Argentina_AR666,Argentina,Gran Chaco
+438,-26.75,-64.25,p_solar_Argentina_AR667,Argentina,Gran Chaco
+439,-35.25,-64.25,p_solar_Argentina_AR684,Argentina,Monte Desert
+440,-35.75,-64.25,p_solar_Argentina_AR685,Argentina,Monte Desert
+441,-36.25,-64.25,p_solar_Argentina_AR686,Argentina,Monte Desert
+442,-36.75,-64.25,p_solar_Argentina_AR687,Argentina,Monte Desert
+443,-37.25,-64.25,p_solar_Argentina_AR688,Argentina,Monte Desert
+444,-37.75,-64.25,p_solar_Argentina_AR689,Argentina,Monte Desert
+445,-38.25,-64.25,p_solar_Argentina_AR690,Argentina,Monte Desert
+446,-38.75,-64.25,p_solar_Argentina_AR691,Argentina,Monte Desert
+447,-39.25,-64.25,p_solar_Argentina_AR692,Argentina,Monte Desert
+448,-39.75,-64.25,p_solar_Argentina_AR693,Argentina,Monte Desert
+449,-40.25,-64.25,p_solar_Argentina_AR694,Argentina,Monte Desert
+450,-40.75,-64.25,p_solar_Argentina_AR695,Argentina,Monte Desert
+451,-42.75,-64.25,p_solar_Argentina_AR696,Argentina,Monte Desert
+452,-35.25,-63.75,p_solar_Argentina_AR724,Argentina,Monte Desert
+453,-35.75,-63.75,p_solar_Argentina_AR725,Argentina,Monte Desert
+454,-36.25,-63.75,p_solar_Argentina_AR726,Argentina,Monte Desert
+455,-36.75,-63.75,p_solar_Argentina_AR727,Argentina,Monte Desert
+456,-37.25,-63.75,p_solar_Argentina_AR728,Argentina,Monte Desert
+457,-37.75,-63.75,p_solar_Argentina_AR729,Argentina,Monte Desert
+458,-38.25,-63.75,p_solar_Argentina_AR730,Argentina,Monte Desert
+459,-38.75,-63.75,p_solar_Argentina_AR731,Argentina,Monte Desert
+460,-39.25,-63.75,p_solar_Argentina_AR732,Argentina,Monte Desert
+461,-39.75,-63.75,p_solar_Argentina_AR733,Argentina,Monte Desert
+462,-40.25,-63.75,p_solar_Argentina_AR734,Argentina,Monte Desert
+463,-40.75,-63.75,p_solar_Argentina_AR735,Argentina,Monte Desert
+464,-42.25,-63.75,p_solar_Argentina_AR736,Argentina,Monte Desert
+465,-42.75,-63.75,p_solar_Argentina_AR737,Argentina,Monte Desert
+466,-35.25,-63.25,p_solar_Argentina_AR764,Argentina,Monte Desert
+467,-35.75,-63.25,p_solar_Argentina_AR765,Argentina,Monte Desert
+468,-36.25,-63.25,p_solar_Argentina_AR766,Argentina,Monte Desert
+469,-36.75,-63.25,p_solar_Argentina_AR767,Argentina,Monte Desert
+470,-37.25,-63.25,p_solar_Argentina_AR768,Argentina,Monte Desert
+471,-37.75,-63.25,p_solar_Argentina_AR769,Argentina,Monte Desert
+472,-38.25,-63.25,p_solar_Argentina_AR770,Argentina,Monte Desert
+473,-38.75,-63.25,p_solar_Argentina_AR771,Argentina,Monte Desert
+474,-39.25,-63.25,p_solar_Argentina_AR772,Argentina,Monte Desert
+475,-39.75,-63.25,p_solar_Argentina_AR773,Argentina,Monte Desert
+476,-40.25,-63.25,p_solar_Argentina_AR774,Argentina,Monte Desert
+477,-40.75,-63.25,p_solar_Argentina_AR775,Argentina,Monte Desert
+478,-35.25,-62.75,p_solar_Argentina_AR802,Argentina,Monte Desert
+479,-35.75,-62.75,p_solar_Argentina_AR803,Argentina,Monte Desert
+480,-36.25,-62.75,p_solar_Argentina_AR804,Argentina,Monte Desert
+481,-36.75,-62.75,p_solar_Argentina_AR805,Argentina,Monte Desert
+482,-37.25,-62.75,p_solar_Argentina_AR806,Argentina,Monte Desert
+483,-37.75,-62.75,p_solar_Argentina_AR807,Argentina,Monte Desert
+484,-38.25,-62.75,p_solar_Argentina_AR808,Argentina,Monte Desert
+485,-38.75,-62.75,p_solar_Argentina_AR809,Argentina,Monte Desert
+486,-39.25,-62.75,p_solar_Argentina_AR810,Argentina,Monte Desert
+487,-39.75,-62.75,p_solar_Argentina_AR811,Argentina,Monte Desert
+488,-40.25,-62.75,p_solar_Argentina_AR812,Argentina,Monte Desert
+489,-40.75,-62.75,p_solar_Argentina_AR813,Argentina,Monte Desert
+490,-35.25,-62.25,p_solar_Argentina_AR839,Argentina,Monte Desert
+491,-35.75,-62.25,p_solar_Argentina_AR840,Argentina,Monte Desert
+492,-36.25,-62.25,p_solar_Argentina_AR841,Argentina,Monte Desert
+493,-36.75,-62.25,p_solar_Argentina_AR842,Argentina,Monte Desert
+494,-37.25,-62.25,p_solar_Argentina_AR843,Argentina,Monte Desert
+495,-37.75,-62.25,p_solar_Argentina_AR844,Argentina,Monte Desert
+496,-38.25,-62.25,p_solar_Argentina_AR845,Argentina,Monte Desert
+497,-38.75,-62.25,p_solar_Argentina_AR846,Argentina,Monte Desert
+498,-39.25,-62.25,p_solar_Argentina_AR847,Argentina,Monte Desert
+499,-39.75,-62.25,p_solar_Argentina_AR848,Argentina,Monte Desert
+500,-35.25,-61.75,p_solar_Argentina_AR873,Argentina,Monte Desert
+501,-35.75,-61.75,p_solar_Argentina_AR874,Argentina,Monte Desert
+502,-36.25,-61.75,p_solar_Argentina_AR875,Argentina,Monte Desert
+503,-36.75,-61.75,p_solar_Argentina_AR876,Argentina,Monte Desert
+504,-37.25,-61.75,p_solar_Argentina_AR877,Argentina,Monte Desert
+505,-37.75,-61.75,p_solar_Argentina_AR878,Argentina,Monte Desert
+506,-38.25,-61.75,p_solar_Argentina_AR879,Argentina,Monte Desert
+507,-38.75,-61.75,p_solar_Argentina_AR880,Argentina,Monte Desert
+508,-35.75,-61.25,p_solar_Argentina_AR905,Argentina,Monte Desert
+509,-36.25,-61.25,p_solar_Argentina_AR906,Argentina,Monte Desert
+510,-36.75,-61.25,p_solar_Argentina_AR907,Argentina,Monte Desert
+511,-37.25,-61.25,p_solar_Argentina_AR908,Argentina,Monte Desert
+512,-37.75,-61.25,p_solar_Argentina_AR909,Argentina,Monte Desert
+513,-38.25,-61.25,p_solar_Argentina_AR910,Argentina,Monte Desert
+514,-38.75,-61.25,p_solar_Argentina_AR911,Argentina,Monte Desert
+515,-11.75,-61.75,p_solar_Brazil_BR523,Brazil,Cerrado
+516,-13.25,-60.75,p_solar_Brazil_BR599,Brazil,Cerrado
+517,-14.75,-60.25,p_solar_Brazil_BR640,Brazil,Cerrado
+518,-15.25,-60.25,p_solar_Brazil_BR641,Brazil,Cerrado
+519,-14.75,-59.75,p_solar_Brazil_BR678,Brazil,Cerrado
+520,-15.25,-59.75,p_solar_Brazil_BR679,Brazil,Cerrado
+521,-15.75,-59.75,p_solar_Brazil_BR680,Brazil,Cerrado
+522,-16.25,-59.75,p_solar_Brazil_BR681,Brazil,Cerrado
+523,-14.25,-59.25,p_solar_Brazil_BR713,Brazil,Cerrado
+524,-14.75,-59.25,p_solar_Brazil_BR714,Brazil,Cerrado
+525,-15.25,-59.25,p_solar_Brazil_BR715,Brazil,Cerrado
+526,-15.75,-59.25,p_solar_Brazil_BR716,Brazil,Cerrado
+527,-16.25,-59.25,p_solar_Brazil_BR717,Brazil,Cerrado
+528,-12.75,-58.75,p_solar_Brazil_BR745,Brazil,Cerrado
+529,-13.25,-58.75,p_solar_Brazil_BR746,Brazil,Cerrado
+530,-13.75,-58.75,p_solar_Brazil_BR747,Brazil,Cerrado
+531,-14.25,-58.75,p_solar_Brazil_BR748,Brazil,Cerrado
+532,-14.75,-58.75,p_solar_Brazil_BR749,Brazil,Cerrado
+533,-15.25,-58.75,p_solar_Brazil_BR750,Brazil,Cerrado
+534,-15.75,-58.75,p_solar_Brazil_BR751,Brazil,Cerrado
+535,-16.25,-58.75,p_solar_Brazil_BR752,Brazil,Cerrado
+536,-13.75,-58.25,p_solar_Brazil_BR783,Brazil,Cerrado
+537,-14.25,-58.25,p_solar_Brazil_BR784,Brazil,Cerrado
+538,-14.75,-58.25,p_solar_Brazil_BR785,Brazil,Cerrado
+539,-15.25,-58.25,p_solar_Brazil_BR786,Brazil,Cerrado
+540,-15.75,-58.25,p_solar_Brazil_BR787,Brazil,Cerrado
+541,-16.25,-58.25,p_solar_Brazil_BR788,Brazil,Cerrado
+542,-16.75,-58.25,p_solar_Brazil_BR789,Brazil,Cerrado
+543,-17.25,-58.25,p_solar_Brazil_BR790,Brazil,Cerrado
+544,-13.75,-57.75,p_solar_Brazil_BR821,Brazil,Cerrado
+545,-14.25,-57.75,p_solar_Brazil_BR822,Brazil,Cerrado
+546,-14.75,-57.75,p_solar_Brazil_BR823,Brazil,Cerrado
+547,-15.25,-57.75,p_solar_Brazil_BR824,Brazil,Cerrado
+548,-15.75,-57.75,p_solar_Brazil_BR825,Brazil,Cerrado
+549,-16.25,-57.75,p_solar_Brazil_BR826,Brazil,Cerrado
+550,-16.75,-57.75,p_solar_Brazil_BR827,Brazil,Cerrado
+551,-19.25,-57.75,p_solar_Brazil_BR829,Brazil,Cerrado
+552,-19.75,-57.75,p_solar_Brazil_BR830,Brazil,Cerrado
+553,-20.25,-57.75,p_solar_Brazil_BR831,Brazil,Cerrado
+554,-20.75,-57.75,p_solar_Brazil_BR832,Brazil,Cerrado
+555,-21.25,-57.75,p_solar_Brazil_BR833,Brazil,Cerrado
+556,-21.75,-57.75,p_solar_Brazil_BR834,Brazil,Cerrado
+557,-14.25,-57.25,p_solar_Brazil_BR867,Brazil,Cerrado
+558,-14.75,-57.25,p_solar_Brazil_BR868,Brazil,Cerrado
+559,-15.25,-57.25,p_solar_Brazil_BR869,Brazil,Cerrado
+560,-15.75,-57.25,p_solar_Brazil_BR870,Brazil,Cerrado
+561,-16.25,-57.25,p_solar_Brazil_BR871,Brazil,Cerrado
+562,-16.75,-57.25,p_solar_Brazil_BR872,Brazil,Cerrado
+563,-17.25,-57.25,p_solar_Brazil_BR873,Brazil,Cerrado
+564,-17.75,-57.25,p_solar_Brazil_BR874,Brazil,Cerrado
+565,-18.75,-57.25,p_solar_Brazil_BR876,Brazil,Cerrado
+566,-19.25,-57.25,p_solar_Brazil_BR877,Brazil,Cerrado
+567,-19.75,-57.25,p_solar_Brazil_BR878,Brazil,Cerrado
+568,-20.25,-57.25,p_solar_Brazil_BR879,Brazil,Cerrado
+569,-20.75,-57.25,p_solar_Brazil_BR880,Brazil,Cerrado
+570,-21.25,-57.25,p_solar_Brazil_BR881,Brazil,Cerrado
+571,-21.75,-57.25,p_solar_Brazil_BR882,Brazil,Cerrado
+572,-30.25,-57.25,p_solar_Brazil_BR883,Brazil,Pampas
+573,-14.25,-56.75,p_solar_Brazil_BR916,Brazil,Cerrado
+574,-14.75,-56.75,p_solar_Brazil_BR917,Brazil,Cerrado
+575,-15.25,-56.75,p_solar_Brazil_BR918,Brazil,Cerrado
+576,-15.75,-56.75,p_solar_Brazil_BR919,Brazil,Cerrado
+577,-16.25,-56.75,p_solar_Brazil_BR920,Brazil,Cerrado
+578,-16.75,-56.75,p_solar_Brazil_BR921,Brazil,Cerrado
+579,-17.25,-56.75,p_solar_Brazil_BR922,Brazil,Cerrado
+580,-17.75,-56.75,p_solar_Brazil_BR923,Brazil,Cerrado
+581,-18.25,-56.75,p_solar_Brazil_BR924,Brazil,Cerrado
+582,-18.75,-56.75,p_solar_Brazil_BR925,Brazil,Cerrado
+583,-19.25,-56.75,p_solar_Brazil_BR926,Brazil,Cerrado
+584,-19.75,-56.75,p_solar_Brazil_BR927,Brazil,Cerrado
+585,-20.25,-56.75,p_solar_Brazil_BR928,Brazil,Cerrado
+586,-20.75,-56.75,p_solar_Brazil_BR929,Brazil,Cerrado
+587,-21.25,-56.75,p_solar_Brazil_BR930,Brazil,Cerrado
+588,-21.75,-56.75,p_solar_Brazil_BR931,Brazil,Cerrado
+589,-29.75,-56.75,p_solar_Brazil_BR932,Brazil,Pampas
+590,-12.75,-56.25,p_solar_Brazil_BR962,Brazil,Cerrado
+591,-14.25,-56.25,p_solar_Brazil_BR965,Brazil,Cerrado
+592,-14.75,-56.25,p_solar_Brazil_BR966,Brazil,Cerrado
+593,-15.25,-56.25,p_solar_Brazil_BR967,Brazil,Cerrado
+594,-15.75,-56.25,p_solar_Brazil_BR968,Brazil,Cerrado
+595,-16.25,-56.25,p_solar_Brazil_BR969,Brazil,Cerrado
+596,-16.75,-56.25,p_solar_Brazil_BR970,Brazil,Cerrado
+597,-17.25,-56.25,p_solar_Brazil_BR971,Brazil,Cerrado
+598,-17.75,-56.25,p_solar_Brazil_BR972,Brazil,Cerrado
+599,-18.25,-56.25,p_solar_Brazil_BR973,Brazil,Cerrado
+600,-18.75,-56.25,p_solar_Brazil_BR974,Brazil,Cerrado
+601,-19.25,-56.25,p_solar_Brazil_BR975,Brazil,Cerrado
+602,-19.75,-56.25,p_solar_Brazil_BR976,Brazil,Cerrado
+603,-20.25,-56.25,p_solar_Brazil_BR977,Brazil,Cerrado
+604,-20.75,-56.25,p_solar_Brazil_BR978,Brazil,Cerrado
+605,-21.25,-56.25,p_solar_Brazil_BR979,Brazil,Cerrado
+606,-21.75,-56.25,p_solar_Brazil_BR980,Brazil,Cerrado
+607,-29.75,-56.25,p_solar_Brazil_BR982,Brazil,Pampas
+608,-30.25,-56.25,p_solar_Brazil_BR983,Brazil,Pampas
+609,-13.25,-55.75,p_solar_Brazil_BR1015,Brazil,Cerrado
+610,-14.25,-55.75,p_solar_Brazil_BR1017,Brazil,Cerrado
+611,-14.75,-55.75,p_solar_Brazil_BR1018,Brazil,Cerrado
+612,-15.25,-55.75,p_solar_Brazil_BR1019,Brazil,Cerrado
+613,-15.75,-55.75,p_solar_Brazil_BR1020,Brazil,Cerrado
+614,-16.25,-55.75,p_solar_Brazil_BR1021,Brazil,Cerrado
+615,-16.75,-55.75,p_solar_Brazil_BR1022,Brazil,Cerrado
+616,-17.25,-55.75,p_solar_Brazil_BR1023,Brazil,Cerrado
+617,-17.75,-55.75,p_solar_Brazil_BR1024,Brazil,Cerrado
+618,-18.25,-55.75,p_solar_Brazil_BR1025,Brazil,Cerrado
+619,-18.75,-55.75,p_solar_Brazil_BR1026,Brazil,Cerrado
+620,-19.25,-55.75,p_solar_Brazil_BR1027,Brazil,Cerrado
+621,-19.75,-55.75,p_solar_Brazil_BR1028,Brazil,Cerrado
+622,-20.25,-55.75,p_solar_Brazil_BR1029,Brazil,Cerrado
+623,-20.75,-55.75,p_solar_Brazil_BR1030,Brazil,Cerrado
+624,-21.25,-55.75,p_solar_Brazil_BR1031,Brazil,Cerrado
+625,-21.75,-55.75,p_solar_Brazil_BR1032,Brazil,Cerrado
+626,-22.25,-55.75,p_solar_Brazil_BR1033,Brazil,Cerrado
+627,-30.25,-55.75,p_solar_Brazil_BR1038,Brazil,Pampas
+628,-30.75,-55.75,p_solar_Brazil_BR1039,Brazil,Pampas
+629,-13.75,-55.25,p_solar_Brazil_BR1072,Brazil,Cerrado
+630,-14.25,-55.25,p_solar_Brazil_BR1073,Brazil,Cerrado
+631,-14.75,-55.25,p_solar_Brazil_BR1074,Brazil,Cerrado
+632,-15.25,-55.25,p_solar_Brazil_BR1075,Brazil,Cerrado
+633,-15.75,-55.25,p_solar_Brazil_BR1076,Brazil,Cerrado
+634,-16.25,-55.25,p_solar_Brazil_BR1077,Brazil,Cerrado
+635,-16.75,-55.25,p_solar_Brazil_BR1078,Brazil,Cerrado
+636,-17.25,-55.25,p_solar_Brazil_BR1079,Brazil,Cerrado
+637,-17.75,-55.25,p_solar_Brazil_BR1080,Brazil,Cerrado
+638,-18.25,-55.25,p_solar_Brazil_BR1081,Brazil,Cerrado
+639,-18.75,-55.25,p_solar_Brazil_BR1082,Brazil,Cerrado
+640,-19.25,-55.25,p_solar_Brazil_BR1083,Brazil,Cerrado
+641,-19.75,-55.25,p_solar_Brazil_BR1084,Brazil,Cerrado
+642,-20.25,-55.25,p_solar_Brazil_BR1085,Brazil,Cerrado
+643,-20.75,-55.25,p_solar_Brazil_BR1086,Brazil,Cerrado
+644,-21.25,-55.25,p_solar_Brazil_BR1087,Brazil,Cerrado
+645,-21.75,-55.25,p_solar_Brazil_BR1088,Brazil,Cerrado
+646,-22.25,-55.25,p_solar_Brazil_BR1089,Brazil,Cerrado
+647,-22.75,-55.25,p_solar_Brazil_BR1090,Brazil,Cerrado
+648,-23.25,-55.25,p_solar_Brazil_BR1091,Brazil,Cerrado
+649,-23.75,-55.25,p_solar_Brazil_BR1092,Brazil,Cerrado
+650,-13.75,-54.75,p_solar_Brazil_BR1131,Brazil,Cerrado
+651,-14.25,-54.75,p_solar_Brazil_BR1132,Brazil,Cerrado
+652,-14.75,-54.75,p_solar_Brazil_BR1133,Brazil,Cerrado
+653,-15.25,-54.75,p_solar_Brazil_BR1134,Brazil,Cerrado
+654,-15.75,-54.75,p_solar_Brazil_BR1135,Brazil,Cerrado
+655,-16.25,-54.75,p_solar_Brazil_BR1136,Brazil,Cerrado
+656,-16.75,-54.75,p_solar_Brazil_BR1137,Brazil,Cerrado
+657,-17.25,-54.75,p_solar_Brazil_BR1138,Brazil,Cerrado
+658,-17.75,-54.75,p_solar_Brazil_BR1139,Brazil,Cerrado
+659,-18.25,-54.75,p_solar_Brazil_BR1140,Brazil,Cerrado
+660,-18.75,-54.75,p_solar_Brazil_BR1141,Brazil,Cerrado
+661,-19.25,-54.75,p_solar_Brazil_BR1142,Brazil,Cerrado
+662,-19.75,-54.75,p_solar_Brazil_BR1143,Brazil,Cerrado
+663,-20.25,-54.75,p_solar_Brazil_BR1144,Brazil,Cerrado
+664,-20.75,-54.75,p_solar_Brazil_BR1145,Brazil,Cerrado
+665,-21.25,-54.75,p_solar_Brazil_BR1146,Brazil,Cerrado
+666,-21.75,-54.75,p_solar_Brazil_BR1147,Brazil,Cerrado
+667,-22.25,-54.75,p_solar_Brazil_BR1148,Brazil,Cerrado
+668,-22.75,-54.75,p_solar_Brazil_BR1149,Brazil,Cerrado
+669,-23.25,-54.75,p_solar_Brazil_BR1150,Brazil,Cerrado
+670,-23.75,-54.75,p_solar_Brazil_BR1151,Brazil,Cerrado
+671,-13.75,-54.25,p_solar_Brazil_BR1191,Brazil,Cerrado
+672,-14.25,-54.25,p_solar_Brazil_BR1192,Brazil,Cerrado
+673,-14.75,-54.25,p_solar_Brazil_BR1193,Brazil,Cerrado
+674,-15.25,-54.25,p_solar_Brazil_BR1194,Brazil,Cerrado
+675,-15.75,-54.25,p_solar_Brazil_BR1195,Brazil,Cerrado
+676,-16.25,-54.25,p_solar_Brazil_BR1196,Brazil,Cerrado
+677,-16.75,-54.25,p_solar_Brazil_BR1197,Brazil,Cerrado
+678,-17.25,-54.25,p_solar_Brazil_BR1198,Brazil,Cerrado
+679,-17.75,-54.25,p_solar_Brazil_BR1199,Brazil,Cerrado
+680,-18.25,-54.25,p_solar_Brazil_BR1200,Brazil,Cerrado
+681,-18.75,-54.25,p_solar_Brazil_BR1201,Brazil,Cerrado
+682,-19.25,-54.25,p_solar_Brazil_BR1202,Brazil,Cerrado
+683,-19.75,-54.25,p_solar_Brazil_BR1203,Brazil,Cerrado
+684,-20.25,-54.25,p_solar_Brazil_BR1204,Brazil,Cerrado
+685,-20.75,-54.25,p_solar_Brazil_BR1205,Brazil,Cerrado
+686,-21.25,-54.25,p_solar_Brazil_BR1206,Brazil,Cerrado
+687,-21.75,-54.25,p_solar_Brazil_BR1207,Brazil,Cerrado
+688,-22.25,-54.25,p_solar_Brazil_BR1208,Brazil,Cerrado
+689,-22.75,-54.25,p_solar_Brazil_BR1209,Brazil,Cerrado
+690,-23.25,-54.25,p_solar_Brazil_BR1210,Brazil,Cerrado
+691,-23.75,-54.25,p_solar_Brazil_BR1211,Brazil,Cerrado
+692,-13.75,-53.75,p_solar_Brazil_BR1256,Brazil,Cerrado
+693,-14.25,-53.75,p_solar_Brazil_BR1257,Brazil,Cerrado
+694,-14.75,-53.75,p_solar_Brazil_BR1258,Brazil,Cerrado
+695,-15.25,-53.75,p_solar_Brazil_BR1259,Brazil,Cerrado
+696,-15.75,-53.75,p_solar_Brazil_BR1260,Brazil,Cerrado
+697,-16.25,-53.75,p_solar_Brazil_BR1261,Brazil,Cerrado
+698,-16.75,-53.75,p_solar_Brazil_BR1262,Brazil,Cerrado
+699,-17.25,-53.75,p_solar_Brazil_BR1263,Brazil,Cerrado
+700,-17.75,-53.75,p_solar_Brazil_BR1264,Brazil,Cerrado
+701,-18.25,-53.75,p_solar_Brazil_BR1265,Brazil,Cerrado
+702,-18.75,-53.75,p_solar_Brazil_BR1266,Brazil,Cerrado
+703,-19.25,-53.75,p_solar_Brazil_BR1267,Brazil,Cerrado
+704,-19.75,-53.75,p_solar_Brazil_BR1268,Brazil,Cerrado
+705,-20.25,-53.75,p_solar_Brazil_BR1269,Brazil,Cerrado
+706,-20.75,-53.75,p_solar_Brazil_BR1270,Brazil,Cerrado
+707,-21.25,-53.75,p_solar_Brazil_BR1271,Brazil,Cerrado
+708,-21.75,-53.75,p_solar_Brazil_BR1272,Brazil,Cerrado
+709,-22.25,-53.75,p_solar_Brazil_BR1273,Brazil,Cerrado
+710,-22.75,-53.75,p_solar_Brazil_BR1274,Brazil,Cerrado
+711,-23.25,-53.75,p_solar_Brazil_BR1275,Brazil,Cerrado
+712,-23.75,-53.75,p_solar_Brazil_BR1276,Brazil,Cerrado
+713,-31.75,-53.75,p_solar_Brazil_BR1290,Brazil,Pampas
+714,-13.25,-53.25,p_solar_Brazil_BR1322,Brazil,Cerrado
+715,-13.75,-53.25,p_solar_Brazil_BR1323,Brazil,Cerrado
+716,-14.25,-53.25,p_solar_Brazil_BR1324,Brazil,Cerrado
+717,-14.75,-53.25,p_solar_Brazil_BR1325,Brazil,Cerrado
+718,-15.25,-53.25,p_solar_Brazil_BR1326,Brazil,Cerrado
+719,-15.75,-53.25,p_solar_Brazil_BR1327,Brazil,Cerrado
+720,-16.25,-53.25,p_solar_Brazil_BR1328,Brazil,Cerrado
+721,-16.75,-53.25,p_solar_Brazil_BR1329,Brazil,Cerrado
+722,-17.25,-53.25,p_solar_Brazil_BR1330,Brazil,Cerrado
+723,-17.75,-53.25,p_solar_Brazil_BR1331,Brazil,Cerrado
+724,-18.25,-53.25,p_solar_Brazil_BR1332,Brazil,Cerrado
+725,-18.75,-53.25,p_solar_Brazil_BR1333,Brazil,Cerrado
+726,-19.25,-53.25,p_solar_Brazil_BR1334,Brazil,Cerrado
+727,-19.75,-53.25,p_solar_Brazil_BR1335,Brazil,Cerrado
+728,-20.25,-53.25,p_solar_Brazil_BR1336,Brazil,Cerrado
+729,-20.75,-53.25,p_solar_Brazil_BR1337,Brazil,Cerrado
+730,-21.25,-53.25,p_solar_Brazil_BR1338,Brazil,Cerrado
+731,-21.75,-53.25,p_solar_Brazil_BR1339,Brazil,Cerrado
+732,-22.25,-53.25,p_solar_Brazil_BR1340,Brazil,Cerrado
+733,-22.75,-53.25,p_solar_Brazil_BR1341,Brazil,Cerrado
+734,-23.25,-53.25,p_solar_Brazil_BR1342,Brazil,Cerrado
+735,-23.75,-53.25,p_solar_Brazil_BR1343,Brazil,Cerrado
+736,-31.75,-53.25,p_solar_Brazil_BR1359,Brazil,Pampas
+737,-32.25,-53.25,p_solar_Brazil_BR1360,Brazil,Pampas
+738,-13.25,-52.75,p_solar_Brazil_BR1393,Brazil,Cerrado
+739,-13.75,-52.75,p_solar_Brazil_BR1394,Brazil,Cerrado
+740,-14.25,-52.75,p_solar_Brazil_BR1395,Brazil,Cerrado
+741,-14.75,-52.75,p_solar_Brazil_BR1396,Brazil,Cerrado
+742,-15.25,-52.75,p_solar_Brazil_BR1397,Brazil,Cerrado
+743,-15.75,-52.75,p_solar_Brazil_BR1398,Brazil,Cerrado
+744,-16.25,-52.75,p_solar_Brazil_BR1399,Brazil,Cerrado
+745,-16.75,-52.75,p_solar_Brazil_BR1400,Brazil,Cerrado
+746,-17.25,-52.75,p_solar_Brazil_BR1401,Brazil,Cerrado
+747,-17.75,-52.75,p_solar_Brazil_BR1402,Brazil,Cerrado
+748,-18.25,-52.75,p_solar_Brazil_BR1403,Brazil,Cerrado
+749,-18.75,-52.75,p_solar_Brazil_BR1404,Brazil,Cerrado
+750,-19.25,-52.75,p_solar_Brazil_BR1405,Brazil,Cerrado
+751,-19.75,-52.75,p_solar_Brazil_BR1406,Brazil,Cerrado
+752,-20.25,-52.75,p_solar_Brazil_BR1407,Brazil,Cerrado
+753,-20.75,-52.75,p_solar_Brazil_BR1408,Brazil,Cerrado
+754,-21.25,-52.75,p_solar_Brazil_BR1409,Brazil,Cerrado
+755,-21.75,-52.75,p_solar_Brazil_BR1410,Brazil,Cerrado
+756,-22.25,-52.75,p_solar_Brazil_BR1411,Brazil,Cerrado
+757,-22.75,-52.75,p_solar_Brazil_BR1412,Brazil,Cerrado
+758,-23.25,-52.75,p_solar_Brazil_BR1413,Brazil,Cerrado
+759,-23.75,-52.75,p_solar_Brazil_BR1414,Brazil,Cerrado
+760,-31.75,-52.75,p_solar_Brazil_BR1430,Brazil,Pampas
+761,-13.25,-52.25,p_solar_Brazil_BR1466,Brazil,Cerrado
+762,-13.75,-52.25,p_solar_Brazil_BR1467,Brazil,Cerrado
+763,-14.25,-52.25,p_solar_Brazil_BR1468,Brazil,Cerrado
+764,-14.75,-52.25,p_solar_Brazil_BR1469,Brazil,Cerrado
+765,-15.25,-52.25,p_solar_Brazil_BR1470,Brazil,Cerrado
+766,-15.75,-52.25,p_solar_Brazil_BR1471,Brazil,Cerrado
+767,-16.25,-52.25,p_solar_Brazil_BR1472,Brazil,Cerrado
+768,-16.75,-52.25,p_solar_Brazil_BR1473,Brazil,Cerrado
+769,-17.25,-52.25,p_solar_Brazil_BR1474,Brazil,Cerrado
+770,-17.75,-52.25,p_solar_Brazil_BR1475,Brazil,Cerrado
+771,-18.25,-52.25,p_solar_Brazil_BR1476,Brazil,Cerrado
+772,-18.75,-52.25,p_solar_Brazil_BR1477,Brazil,Cerrado
+773,-19.25,-52.25,p_solar_Brazil_BR1478,Brazil,Cerrado
+774,-19.75,-52.25,p_solar_Brazil_BR1479,Brazil,Cerrado
+775,-20.25,-52.25,p_solar_Brazil_BR1480,Brazil,Cerrado
+776,-20.75,-52.25,p_solar_Brazil_BR1481,Brazil,Cerrado
+777,-21.25,-52.25,p_solar_Brazil_BR1482,Brazil,Cerrado
+778,-21.75,-52.25,p_solar_Brazil_BR1483,Brazil,Cerrado
+779,-22.25,-52.25,p_solar_Brazil_BR1484,Brazil,Cerrado
+780,-22.75,-52.25,p_solar_Brazil_BR1485,Brazil,Cerrado
+781,-23.25,-52.25,p_solar_Brazil_BR1486,Brazil,Cerrado
+782,-24.25,-52.25,p_solar_Brazil_BR1488,Brazil,Cerrado
+783,-12.25,-51.75,p_solar_Brazil_BR1537,Brazil,Cerrado
+784,-12.75,-51.75,p_solar_Brazil_BR1538,Brazil,Cerrado
+785,-13.25,-51.75,p_solar_Brazil_BR1539,Brazil,Cerrado
+786,-13.75,-51.75,p_solar_Brazil_BR1540,Brazil,Cerrado
+787,-14.25,-51.75,p_solar_Brazil_BR1541,Brazil,Cerrado
+788,-14.75,-51.75,p_solar_Brazil_BR1542,Brazil,Cerrado
+789,-15.25,-51.75,p_solar_Brazil_BR1543,Brazil,Cerrado
+790,-15.75,-51.75,p_solar_Brazil_BR1544,Brazil,Cerrado
+791,-16.25,-51.75,p_solar_Brazil_BR1545,Brazil,Cerrado
+792,-16.75,-51.75,p_solar_Brazil_BR1546,Brazil,Cerrado
+793,-17.25,-51.75,p_solar_Brazil_BR1547,Brazil,Cerrado
+794,-17.75,-51.75,p_solar_Brazil_BR1548,Brazil,Cerrado
+795,-18.25,-51.75,p_solar_Brazil_BR1549,Brazil,Cerrado
+796,-18.75,-51.75,p_solar_Brazil_BR1550,Brazil,Cerrado
+797,-19.25,-51.75,p_solar_Brazil_BR1551,Brazil,Cerrado
+798,-19.75,-51.75,p_solar_Brazil_BR1552,Brazil,Cerrado
+799,-20.25,-51.75,p_solar_Brazil_BR1553,Brazil,Cerrado
+800,-20.75,-51.75,p_solar_Brazil_BR1554,Brazil,Cerrado
+801,-21.25,-51.75,p_solar_Brazil_BR1555,Brazil,Cerrado
+802,-21.75,-51.75,p_solar_Brazil_BR1556,Brazil,Cerrado
+803,-22.25,-51.75,p_solar_Brazil_BR1557,Brazil,Cerrado
+804,-22.75,-51.75,p_solar_Brazil_BR1558,Brazil,Cerrado
+805,-23.25,-51.75,p_solar_Brazil_BR1559,Brazil,Cerrado
+806,-24.25,-51.75,p_solar_Brazil_BR1561,Brazil,Cerrado
+807,-12.75,-51.25,p_solar_Brazil_BR1610,Brazil,Cerrado
+808,-13.25,-51.25,p_solar_Brazil_BR1611,Brazil,Cerrado
+809,-13.75,-51.25,p_solar_Brazil_BR1612,Brazil,Cerrado
+810,-14.25,-51.25,p_solar_Brazil_BR1613,Brazil,Cerrado
+811,-15.75,-51.25,p_solar_Brazil_BR1616,Brazil,Cerrado
+812,-16.25,-51.25,p_solar_Brazil_BR1617,Brazil,Cerrado
+813,-16.75,-51.25,p_solar_Brazil_BR1618,Brazil,Cerrado
+814,-17.25,-51.25,p_solar_Brazil_BR1619,Brazil,Cerrado
+815,-17.75,-51.25,p_solar_Brazil_BR1620,Brazil,Cerrado
+816,-18.25,-51.25,p_solar_Brazil_BR1621,Brazil,Cerrado
+817,-18.75,-51.25,p_solar_Brazil_BR1622,Brazil,Cerrado
+818,-19.25,-51.25,p_solar_Brazil_BR1623,Brazil,Cerrado
+819,-19.75,-51.25,p_solar_Brazil_BR1624,Brazil,Cerrado
+820,-20.25,-51.25,p_solar_Brazil_BR1625,Brazil,Cerrado
+821,-20.75,-51.25,p_solar_Brazil_BR1626,Brazil,Cerrado
+822,-21.25,-51.25,p_solar_Brazil_BR1627,Brazil,Cerrado
+823,-21.75,-51.25,p_solar_Brazil_BR1628,Brazil,Cerrado
+824,-22.25,-51.25,p_solar_Brazil_BR1629,Brazil,Cerrado
+825,-22.75,-51.25,p_solar_Brazil_BR1630,Brazil,Cerrado
+826,-23.75,-51.25,p_solar_Brazil_BR1632,Brazil,Cerrado
+827,-13.75,-50.75,p_solar_Brazil_BR1679,Brazil,Cerrado
+828,-16.25,-50.75,p_solar_Brazil_BR1684,Brazil,Cerrado
+829,-16.75,-50.75,p_solar_Brazil_BR1685,Brazil,Cerrado
+830,-17.25,-50.75,p_solar_Brazil_BR1686,Brazil,Cerrado
+831,-17.75,-50.75,p_solar_Brazil_BR1687,Brazil,Cerrado
+832,-18.25,-50.75,p_solar_Brazil_BR1688,Brazil,Cerrado
+833,-18.75,-50.75,p_solar_Brazil_BR1689,Brazil,Cerrado
+834,-19.25,-50.75,p_solar_Brazil_BR1690,Brazil,Cerrado
+835,-19.75,-50.75,p_solar_Brazil_BR1691,Brazil,Cerrado
+836,-20.25,-50.75,p_solar_Brazil_BR1692,Brazil,Cerrado
+837,-20.75,-50.75,p_solar_Brazil_BR1693,Brazil,Cerrado
+838,-21.25,-50.75,p_solar_Brazil_BR1694,Brazil,Cerrado
+839,-21.75,-50.75,p_solar_Brazil_BR1695,Brazil,Cerrado
+840,-22.25,-50.75,p_solar_Brazil_BR1696,Brazil,Cerrado
+841,-22.75,-50.75,p_solar_Brazil_BR1697,Brazil,Cerrado
+842,-23.75,-50.75,p_solar_Brazil_BR1699,Brazil,Cerrado
+843,-16.25,-50.25,p_solar_Brazil_BR1749,Brazil,Cerrado
+844,-16.75,-50.25,p_solar_Brazil_BR1750,Brazil,Cerrado
+845,-17.25,-50.25,p_solar_Brazil_BR1751,Brazil,Cerrado
+846,-17.75,-50.25,p_solar_Brazil_BR1752,Brazil,Cerrado
+847,-18.25,-50.25,p_solar_Brazil_BR1753,Brazil,Cerrado
+848,-18.75,-50.25,p_solar_Brazil_BR1754,Brazil,Cerrado
+849,-19.25,-50.25,p_solar_Brazil_BR1755,Brazil,Cerrado
+850,-19.75,-50.25,p_solar_Brazil_BR1756,Brazil,Cerrado
+851,-20.25,-50.25,p_solar_Brazil_BR1757,Brazil,Cerrado
+852,-20.75,-50.25,p_solar_Brazil_BR1758,Brazil,Cerrado
+853,-21.25,-50.25,p_solar_Brazil_BR1759,Brazil,Cerrado
+854,-21.75,-50.25,p_solar_Brazil_BR1760,Brazil,Cerrado
+855,-22.25,-50.25,p_solar_Brazil_BR1761,Brazil,Cerrado
+856,-22.75,-50.25,p_solar_Brazil_BR1762,Brazil,Cerrado
+857,-23.25,-50.25,p_solar_Brazil_BR1763,Brazil,Cerrado
+858,-23.75,-50.25,p_solar_Brazil_BR1764,Brazil,Cerrado
+859,-15.75,-49.75,p_solar_Brazil_BR1810,Brazil,Cerrado
+860,-16.25,-49.75,p_solar_Brazil_BR1811,Brazil,Cerrado
+861,-16.75,-49.75,p_solar_Brazil_BR1812,Brazil,Cerrado
+862,-17.25,-49.75,p_solar_Brazil_BR1813,Brazil,Cerrado
+863,-17.75,-49.75,p_solar_Brazil_BR1814,Brazil,Cerrado
+864,-18.25,-49.75,p_solar_Brazil_BR1815,Brazil,Cerrado
+865,-18.75,-49.75,p_solar_Brazil_BR1816,Brazil,Cerrado
+866,-19.25,-49.75,p_solar_Brazil_BR1817,Brazil,Cerrado
+867,-19.75,-49.75,p_solar_Brazil_BR1818,Brazil,Cerrado
+868,-20.25,-49.75,p_solar_Brazil_BR1819,Brazil,Cerrado
+869,-20.75,-49.75,p_solar_Brazil_BR1820,Brazil,Cerrado
+870,-21.25,-49.75,p_solar_Brazil_BR1821,Brazil,Cerrado
+871,-21.75,-49.75,p_solar_Brazil_BR1822,Brazil,Cerrado
+872,-22.25,-49.75,p_solar_Brazil_BR1823,Brazil,Cerrado
+873,-22.75,-49.75,p_solar_Brazil_BR1824,Brazil,Cerrado
+874,-23.25,-49.75,p_solar_Brazil_BR1825,Brazil,Cerrado
+875,-23.75,-49.75,p_solar_Brazil_BR1826,Brazil,Cerrado
+876,-13.25,-49.25,p_solar_Brazil_BR1864,Brazil,Cerrado
+877,-13.75,-49.25,p_solar_Brazil_BR1865,Brazil,Cerrado
+878,-14.25,-49.25,p_solar_Brazil_BR1866,Brazil,Cerrado
+879,-14.75,-49.25,p_solar_Brazil_BR1867,Brazil,Cerrado
+880,-15.25,-49.25,p_solar_Brazil_BR1868,Brazil,Cerrado
+881,-15.75,-49.25,p_solar_Brazil_BR1869,Brazil,Cerrado
+882,-16.25,-49.25,p_solar_Brazil_BR1870,Brazil,Cerrado
+883,-16.75,-49.25,p_solar_Brazil_BR1871,Brazil,Cerrado
+884,-17.25,-49.25,p_solar_Brazil_BR1872,Brazil,Cerrado
+885,-17.75,-49.25,p_solar_Brazil_BR1873,Brazil,Cerrado
+886,-18.25,-49.25,p_solar_Brazil_BR1874,Brazil,Cerrado
+887,-18.75,-49.25,p_solar_Brazil_BR1875,Brazil,Cerrado
+888,-19.25,-49.25,p_solar_Brazil_BR1876,Brazil,Cerrado
+889,-19.75,-49.25,p_solar_Brazil_BR1877,Brazil,Cerrado
+890,-20.25,-49.25,p_solar_Brazil_BR1878,Brazil,Cerrado
+891,-20.75,-49.25,p_solar_Brazil_BR1879,Brazil,Cerrado
+892,-21.25,-49.25,p_solar_Brazil_BR1880,Brazil,Cerrado
+893,-21.75,-49.25,p_solar_Brazil_BR1881,Brazil,Cerrado
+894,-22.25,-49.25,p_solar_Brazil_BR1882,Brazil,Cerrado
+895,-22.75,-49.25,p_solar_Brazil_BR1883,Brazil,Cerrado
+896,-23.25,-49.25,p_solar_Brazil_BR1884,Brazil,Cerrado
+897,-23.75,-49.25,p_solar_Brazil_BR1885,Brazil,Cerrado
+898,-12.75,-48.75,p_solar_Brazil_BR1921,Brazil,Cerrado
+899,-13.25,-48.75,p_solar_Brazil_BR1922,Brazil,Cerrado
+900,-13.75,-48.75,p_solar_Brazil_BR1923,Brazil,Cerrado
+901,-14.25,-48.75,p_solar_Brazil_BR1924,Brazil,Cerrado
+902,-14.75,-48.75,p_solar_Brazil_BR1925,Brazil,Cerrado
+903,-15.25,-48.75,p_solar_Brazil_BR1926,Brazil,Cerrado
+904,-15.75,-48.75,p_solar_Brazil_BR1927,Brazil,Cerrado
+905,-16.25,-48.75,p_solar_Brazil_BR1928,Brazil,Cerrado
+906,-16.75,-48.75,p_solar_Brazil_BR1929,Brazil,Cerrado
+907,-17.25,-48.75,p_solar_Brazil_BR1930,Brazil,Cerrado
+908,-17.75,-48.75,p_solar_Brazil_BR1931,Brazil,Cerrado
+909,-18.25,-48.75,p_solar_Brazil_BR1932,Brazil,Cerrado
+910,-18.75,-48.75,p_solar_Brazil_BR1933,Brazil,Cerrado
+911,-19.25,-48.75,p_solar_Brazil_BR1934,Brazil,Cerrado
+912,-19.75,-48.75,p_solar_Brazil_BR1935,Brazil,Cerrado
+913,-20.25,-48.75,p_solar_Brazil_BR1936,Brazil,Cerrado
+914,-23.75,-48.75,p_solar_Brazil_BR1943,Brazil,Cerrado
+915,-12.25,-48.25,p_solar_Brazil_BR1974,Brazil,Cerrado
+916,-12.75,-48.25,p_solar_Brazil_BR1975,Brazil,Cerrado
+917,-13.25,-48.25,p_solar_Brazil_BR1976,Brazil,Cerrado
+918,-13.75,-48.25,p_solar_Brazil_BR1977,Brazil,Cerrado
+919,-14.25,-48.25,p_solar_Brazil_BR1978,Brazil,Cerrado
+920,-14.75,-48.25,p_solar_Brazil_BR1979,Brazil,Cerrado
+921,-15.25,-48.25,p_solar_Brazil_BR1980,Brazil,Cerrado
+922,-15.75,-48.25,p_solar_Brazil_BR1981,Brazil,Cerrado
+923,-16.25,-48.25,p_solar_Brazil_BR1982,Brazil,Cerrado
+924,-16.75,-48.25,p_solar_Brazil_BR1983,Brazil,Cerrado
+925,-17.25,-48.25,p_solar_Brazil_BR1984,Brazil,Cerrado
+926,-17.75,-48.25,p_solar_Brazil_BR1985,Brazil,Cerrado
+927,-18.25,-48.25,p_solar_Brazil_BR1986,Brazil,Cerrado
+928,-18.75,-48.25,p_solar_Brazil_BR1987,Brazil,Cerrado
+929,-19.25,-48.25,p_solar_Brazil_BR1988,Brazil,Cerrado
+930,-19.75,-48.25,p_solar_Brazil_BR1989,Brazil,Cerrado
+931,-22.25,-48.25,p_solar_Brazil_BR1994,Brazil,Cerrado
+932,-22.75,-48.25,p_solar_Brazil_BR1995,Brazil,Cerrado
+933,-23.25,-48.25,p_solar_Brazil_BR1996,Brazil,Cerrado
+934,-23.75,-48.25,p_solar_Brazil_BR1997,Brazil,Cerrado
+935,-11.25,-47.75,p_solar_Brazil_BR2022,Brazil,Cerrado
+936,-11.75,-47.75,p_solar_Brazil_BR2023,Brazil,Cerrado
+937,-12.25,-47.75,p_solar_Brazil_BR2024,Brazil,Cerrado
+938,-12.75,-47.75,p_solar_Brazil_BR2025,Brazil,Cerrado
+939,-13.25,-47.75,p_solar_Brazil_BR2026,Brazil,Cerrado
+940,-13.75,-47.75,p_solar_Brazil_BR2027,Brazil,Cerrado
+941,-14.25,-47.75,p_solar_Brazil_BR2028,Brazil,Cerrado
+942,-14.75,-47.75,p_solar_Brazil_BR2029,Brazil,Cerrado
+943,-15.25,-47.75,p_solar_Brazil_BR2030,Brazil,Cerrado
+944,-15.75,-47.75,p_solar_Brazil_BR2031,Brazil,Cerrado
+945,-16.25,-47.75,p_solar_Brazil_BR2032,Brazil,Cerrado
+946,-16.75,-47.75,p_solar_Brazil_BR2033,Brazil,Cerrado
+947,-17.25,-47.75,p_solar_Brazil_BR2034,Brazil,Cerrado
+948,-17.75,-47.75,p_solar_Brazil_BR2035,Brazil,Cerrado
+949,-18.25,-47.75,p_solar_Brazil_BR2036,Brazil,Cerrado
+950,-18.75,-47.75,p_solar_Brazil_BR2037,Brazil,Cerrado
+951,-19.25,-47.75,p_solar_Brazil_BR2038,Brazil,Cerrado
+952,-19.75,-47.75,p_solar_Brazil_BR2039,Brazil,Cerrado
+953,-20.25,-47.75,p_solar_Brazil_BR2040,Brazil,Cerrado
+954,-21.75,-47.75,p_solar_Brazil_BR2043,Brazil,Cerrado
+955,-22.25,-47.75,p_solar_Brazil_BR2044,Brazil,Cerrado
+956,-11.25,-47.25,p_solar_Brazil_BR2071,Brazil,Cerrado
+957,-11.75,-47.25,p_solar_Brazil_BR2072,Brazil,Cerrado
+958,-12.25,-47.25,p_solar_Brazil_BR2073,Brazil,Cerrado
+959,-12.75,-47.25,p_solar_Brazil_BR2074,Brazil,Cerrado
+960,-13.25,-47.25,p_solar_Brazil_BR2075,Brazil,Cerrado
+961,-13.75,-47.25,p_solar_Brazil_BR2076,Brazil,Cerrado
+962,-14.25,-47.25,p_solar_Brazil_BR2077,Brazil,Cerrado
+963,-14.75,-47.25,p_solar_Brazil_BR2078,Brazil,Cerrado
+964,-15.25,-47.25,p_solar_Brazil_BR2079,Brazil,Cerrado
+965,-15.75,-47.25,p_solar_Brazil_BR2080,Brazil,Cerrado
+966,-16.25,-47.25,p_solar_Brazil_BR2081,Brazil,Cerrado
+967,-16.75,-47.25,p_solar_Brazil_BR2082,Brazil,Cerrado
+968,-17.25,-47.25,p_solar_Brazil_BR2083,Brazil,Cerrado
+969,-17.75,-47.25,p_solar_Brazil_BR2084,Brazil,Cerrado
+970,-18.25,-47.25,p_solar_Brazil_BR2085,Brazil,Cerrado
+971,-18.75,-47.25,p_solar_Brazil_BR2086,Brazil,Cerrado
+972,-19.25,-47.25,p_solar_Brazil_BR2087,Brazil,Cerrado
+973,-19.75,-47.25,p_solar_Brazil_BR2088,Brazil,Cerrado
+974,-20.25,-47.25,p_solar_Brazil_BR2089,Brazil,Cerrado
+975,-20.75,-47.25,p_solar_Brazil_BR2090,Brazil,Cerrado
+976,-21.25,-47.25,p_solar_Brazil_BR2091,Brazil,Cerrado
+977,-10.75,-46.75,p_solar_Brazil_BR2117,Brazil,Cerrado
+978,-11.25,-46.75,p_solar_Brazil_BR2118,Brazil,Cerrado
+979,-11.75,-46.75,p_solar_Brazil_BR2119,Brazil,Cerrado
+980,-12.25,-46.75,p_solar_Brazil_BR2120,Brazil,Cerrado
+981,-12.75,-46.75,p_solar_Brazil_BR2121,Brazil,Cerrado
+982,-13.25,-46.75,p_solar_Brazil_BR2122,Brazil,Cerrado
+983,-13.75,-46.75,p_solar_Brazil_BR2123,Brazil,Cerrado
+984,-14.25,-46.75,p_solar_Brazil_BR2124,Brazil,Cerrado
+985,-14.75,-46.75,p_solar_Brazil_BR2125,Brazil,Cerrado
+986,-15.25,-46.75,p_solar_Brazil_BR2126,Brazil,Cerrado
+987,-15.75,-46.75,p_solar_Brazil_BR2127,Brazil,Cerrado
+988,-16.25,-46.75,p_solar_Brazil_BR2128,Brazil,Cerrado
+989,-16.75,-46.75,p_solar_Brazil_BR2129,Brazil,Cerrado
+990,-17.25,-46.75,p_solar_Brazil_BR2130,Brazil,Cerrado
+991,-17.75,-46.75,p_solar_Brazil_BR2131,Brazil,Cerrado
+992,-18.25,-46.75,p_solar_Brazil_BR2132,Brazil,Cerrado
+993,-18.75,-46.75,p_solar_Brazil_BR2133,Brazil,Cerrado
+994,-19.25,-46.75,p_solar_Brazil_BR2134,Brazil,Cerrado
+995,-19.75,-46.75,p_solar_Brazil_BR2135,Brazil,Cerrado
+996,-20.25,-46.75,p_solar_Brazil_BR2136,Brazil,Cerrado
+997,-20.75,-46.75,p_solar_Brazil_BR2137,Brazil,Cerrado
+998,-10.25,-46.25,p_solar_Brazil_BR2162,Brazil,Cerrado
+999,-10.75,-46.25,p_solar_Brazil_BR2163,Brazil,Cerrado
+1000,-11.25,-46.25,p_solar_Brazil_BR2164,Brazil,Cerrado
+1001,-11.75,-46.25,p_solar_Brazil_BR2165,Brazil,Cerrado
+1002,-12.25,-46.25,p_solar_Brazil_BR2166,Brazil,Cerrado
+1003,-12.75,-46.25,p_solar_Brazil_BR2167,Brazil,Cerrado
+1004,-13.25,-46.25,p_solar_Brazil_BR2168,Brazil,Cerrado
+1005,-13.75,-46.25,p_solar_Brazil_BR2169,Brazil,Cerrado
+1006,-14.25,-46.25,p_solar_Brazil_BR2170,Brazil,Cerrado
+1007,-14.75,-46.25,p_solar_Brazil_BR2171,Brazil,Cerrado
+1008,-15.25,-46.25,p_solar_Brazil_BR2172,Brazil,Cerrado
+1009,-15.75,-46.25,p_solar_Brazil_BR2173,Brazil,Cerrado
+1010,-16.25,-46.25,p_solar_Brazil_BR2174,Brazil,Cerrado
+1011,-16.75,-46.25,p_solar_Brazil_BR2175,Brazil,Cerrado
+1012,-17.25,-46.25,p_solar_Brazil_BR2176,Brazil,Cerrado
+1013,-17.75,-46.25,p_solar_Brazil_BR2177,Brazil,Cerrado
+1014,-18.25,-46.25,p_solar_Brazil_BR2178,Brazil,Cerrado
+1015,-18.75,-46.25,p_solar_Brazil_BR2179,Brazil,Cerrado
+1016,-19.25,-46.25,p_solar_Brazil_BR2180,Brazil,Cerrado
+1017,-19.75,-46.25,p_solar_Brazil_BR2181,Brazil,Cerrado
+1018,-20.25,-46.25,p_solar_Brazil_BR2182,Brazil,Cerrado
+1019,-10.25,-45.75,p_solar_Brazil_BR2207,Brazil,Cerrado
+1020,-10.75,-45.75,p_solar_Brazil_BR2208,Brazil,Cerrado
+1021,-11.25,-45.75,p_solar_Brazil_BR2209,Brazil,Cerrado
+1022,-11.75,-45.75,p_solar_Brazil_BR2210,Brazil,Cerrado
+1023,-12.25,-45.75,p_solar_Brazil_BR2211,Brazil,Cerrado
+1024,-12.75,-45.75,p_solar_Brazil_BR2212,Brazil,Cerrado
+1025,-13.25,-45.75,p_solar_Brazil_BR2213,Brazil,Cerrado
+1026,-13.75,-45.75,p_solar_Brazil_BR2214,Brazil,Cerrado
+1027,-14.25,-45.75,p_solar_Brazil_BR2215,Brazil,Cerrado
+1028,-14.75,-45.75,p_solar_Brazil_BR2216,Brazil,Cerrado
+1029,-15.25,-45.75,p_solar_Brazil_BR2217,Brazil,Cerrado
+1030,-15.75,-45.75,p_solar_Brazil_BR2218,Brazil,Cerrado
+1031,-16.25,-45.75,p_solar_Brazil_BR2219,Brazil,Cerrado
+1032,-16.75,-45.75,p_solar_Brazil_BR2220,Brazil,Cerrado
+1033,-17.25,-45.75,p_solar_Brazil_BR2221,Brazil,Cerrado
+1034,-17.75,-45.75,p_solar_Brazil_BR2222,Brazil,Cerrado
+1035,-18.25,-45.75,p_solar_Brazil_BR2223,Brazil,Cerrado
+1036,-18.75,-45.75,p_solar_Brazil_BR2224,Brazil,Cerrado
+1037,-19.25,-45.75,p_solar_Brazil_BR2225,Brazil,Cerrado
+1038,-19.75,-45.75,p_solar_Brazil_BR2226,Brazil,Cerrado
+1039,-9.75,-45.25,p_solar_Brazil_BR2250,Brazil,Cerrado
+1040,-10.25,-45.25,p_solar_Brazil_BR2251,Brazil,Cerrado
+1041,-10.75,-45.25,p_solar_Brazil_BR2252,Brazil,Cerrado
+1042,-11.25,-45.25,p_solar_Brazil_BR2253,Brazil,Cerrado
+1043,-11.75,-45.25,p_solar_Brazil_BR2254,Brazil,Cerrado
+1044,-12.25,-45.25,p_solar_Brazil_BR2255,Brazil,Cerrado
+1045,-12.75,-45.25,p_solar_Brazil_BR2256,Brazil,Cerrado
+1046,-13.25,-45.25,p_solar_Brazil_BR2257,Brazil,Cerrado
+1047,-13.75,-45.25,p_solar_Brazil_BR2258,Brazil,Cerrado
+1048,-14.25,-45.25,p_solar_Brazil_BR2259,Brazil,Cerrado
+1049,-14.75,-45.25,p_solar_Brazil_BR2260,Brazil,Cerrado
+1050,-15.25,-45.25,p_solar_Brazil_BR2261,Brazil,Cerrado
+1051,-15.75,-45.25,p_solar_Brazil_BR2262,Brazil,Cerrado
+1052,-16.25,-45.25,p_solar_Brazil_BR2263,Brazil,Cerrado
+1053,-16.75,-45.25,p_solar_Brazil_BR2264,Brazil,Cerrado
+1054,-17.25,-45.25,p_solar_Brazil_BR2265,Brazil,Cerrado
+1055,-17.75,-45.25,p_solar_Brazil_BR2266,Brazil,Cerrado
+1056,-18.25,-45.25,p_solar_Brazil_BR2267,Brazil,Cerrado
+1057,-18.75,-45.25,p_solar_Brazil_BR2268,Brazil,Cerrado
+1058,-19.25,-45.25,p_solar_Brazil_BR2269,Brazil,Cerrado
+1059,-9.25,-44.75,p_solar_Brazil_BR2293,Brazil,Cerrado
+1060,-9.75,-44.75,p_solar_Brazil_BR2294,Brazil,Cerrado
+1061,-10.25,-44.75,p_solar_Brazil_BR2295,Brazil,Cerrado
+1062,-10.75,-44.75,p_solar_Brazil_BR2296,Brazil,Cerrado
+1063,-11.25,-44.75,p_solar_Brazil_BR2297,Brazil,Cerrado
+1064,-11.75,-44.75,p_solar_Brazil_BR2298,Brazil,Cerrado
+1065,-12.25,-44.75,p_solar_Brazil_BR2299,Brazil,Cerrado
+1066,-12.75,-44.75,p_solar_Brazil_BR2300,Brazil,Cerrado
+1067,-13.25,-44.75,p_solar_Brazil_BR2301,Brazil,Cerrado
+1068,-13.75,-44.75,p_solar_Brazil_BR2302,Brazil,Cerrado
+1069,-14.25,-44.75,p_solar_Brazil_BR2303,Brazil,Cerrado
+1070,-14.75,-44.75,p_solar_Brazil_BR2304,Brazil,Cerrado
+1071,-15.25,-44.75,p_solar_Brazil_BR2305,Brazil,Cerrado
+1072,-15.75,-44.75,p_solar_Brazil_BR2306,Brazil,Cerrado
+1073,-16.25,-44.75,p_solar_Brazil_BR2307,Brazil,Cerrado
+1074,-16.75,-44.75,p_solar_Brazil_BR2308,Brazil,Cerrado
+1075,-17.75,-44.75,p_solar_Brazil_BR2310,Brazil,Cerrado
+1076,-18.25,-44.75,p_solar_Brazil_BR2311,Brazil,Cerrado
+1077,-18.75,-44.75,p_solar_Brazil_BR2312,Brazil,Cerrado
+1078,-8.75,-44.25,p_solar_Brazil_BR2333,Brazil,Caatinga
+1079,-9.25,-44.25,p_solar_Brazil_BR2334,Brazil,Caatinga
+1080,-9.75,-44.25,p_solar_Brazil_BR2335,Brazil,Caatinga
+1081,-10.25,-44.25,p_solar_Brazil_BR2336,Brazil,Caatinga
+1082,-10.75,-44.25,p_solar_Brazil_BR2337,Brazil,Caatinga
+1083,-11.25,-44.25,p_solar_Brazil_BR2338,Brazil,Caatinga
+1084,-11.75,-44.25,p_solar_Brazil_BR2339,Brazil,Caatinga
+1085,-12.25,-44.25,p_solar_Brazil_BR2340,Brazil,Caatinga
+1086,-13.25,-44.25,p_solar_Brazil_BR2342,Brazil,Caatinga
+1087,-13.75,-44.25,p_solar_Brazil_BR2343,Brazil,Caatinga
+1088,-14.25,-44.25,p_solar_Brazil_BR2344,Brazil,Caatinga
+1089,-14.75,-44.25,p_solar_Brazil_BR2345,Brazil,Caatinga
+1090,-15.25,-44.25,p_solar_Brazil_BR2346,Brazil,Caatinga
+1091,-15.75,-44.25,p_solar_Brazil_BR2347,Brazil,Caatinga
+1092,-16.25,-44.25,p_solar_Brazil_BR2348,Brazil,Caatinga
+1093,-16.75,-44.25,p_solar_Brazil_BR2349,Brazil,Cerrado
+1094,-17.25,-44.25,p_solar_Brazil_BR2350,Brazil,Cerrado
+1095,-17.75,-44.25,p_solar_Brazil_BR2351,Brazil,Cerrado
+1096,-18.25,-44.25,p_solar_Brazil_BR2352,Brazil,Cerrado
+1097,-18.75,-44.25,p_solar_Brazil_BR2353,Brazil,Cerrado
+1098,-8.25,-43.75,p_solar_Brazil_BR2373,Brazil,Caatinga
+1099,-8.75,-43.75,p_solar_Brazil_BR2374,Brazil,Caatinga
+1100,-9.25,-43.75,p_solar_Brazil_BR2375,Brazil,Caatinga
+1101,-9.75,-43.75,p_solar_Brazil_BR2376,Brazil,Caatinga
+1102,-10.25,-43.75,p_solar_Brazil_BR2377,Brazil,Caatinga
+1103,-10.75,-43.75,p_solar_Brazil_BR2378,Brazil,Caatinga
+1104,-11.25,-43.75,p_solar_Brazil_BR2379,Brazil,Caatinga
+1105,-11.75,-43.75,p_solar_Brazil_BR2380,Brazil,Caatinga
+1106,-12.25,-43.75,p_solar_Brazil_BR2381,Brazil,Caatinga
+1107,-12.75,-43.75,p_solar_Brazil_BR2382,Brazil,Caatinga
+1108,-13.25,-43.75,p_solar_Brazil_BR2383,Brazil,Caatinga
+1109,-13.75,-43.75,p_solar_Brazil_BR2384,Brazil,Caatinga
+1110,-14.25,-43.75,p_solar_Brazil_BR2385,Brazil,Caatinga
+1111,-14.75,-43.75,p_solar_Brazil_BR2386,Brazil,Caatinga
+1112,-15.25,-43.75,p_solar_Brazil_BR2387,Brazil,Caatinga
+1113,-15.75,-43.75,p_solar_Brazil_BR2388,Brazil,Caatinga
+1114,-16.25,-43.75,p_solar_Brazil_BR2389,Brazil,Caatinga
+1115,-16.75,-43.75,p_solar_Brazil_BR2390,Brazil,Cerrado
+1116,-17.25,-43.75,p_solar_Brazil_BR2391,Brazil,Cerrado
+1117,-17.75,-43.75,p_solar_Brazil_BR2392,Brazil,Cerrado
+1118,-18.25,-43.75,p_solar_Brazil_BR2393,Brazil,Cerrado
+1119,-7.75,-43.25,p_solar_Brazil_BR2413,Brazil,Caatinga
+1120,-8.25,-43.25,p_solar_Brazil_BR2414,Brazil,Caatinga
+1121,-8.75,-43.25,p_solar_Brazil_BR2415,Brazil,Caatinga
+1122,-9.25,-43.25,p_solar_Brazil_BR2416,Brazil,Caatinga
+1123,-9.75,-43.25,p_solar_Brazil_BR2417,Brazil,Caatinga
+1124,-10.25,-43.25,p_solar_Brazil_BR2418,Brazil,Caatinga
+1125,-10.75,-43.25,p_solar_Brazil_BR2419,Brazil,Caatinga
+1126,-11.25,-43.25,p_solar_Brazil_BR2420,Brazil,Caatinga
+1127,-11.75,-43.25,p_solar_Brazil_BR2421,Brazil,Caatinga
+1128,-12.25,-43.25,p_solar_Brazil_BR2422,Brazil,Caatinga
+1129,-14.25,-43.25,p_solar_Brazil_BR2426,Brazil,Caatinga
+1130,-14.75,-43.25,p_solar_Brazil_BR2427,Brazil,Caatinga
+1131,-15.25,-43.25,p_solar_Brazil_BR2428,Brazil,Caatinga
+1132,-15.75,-43.25,p_solar_Brazil_BR2429,Brazil,Caatinga
+1133,-16.25,-43.25,p_solar_Brazil_BR2430,Brazil,Caatinga
+1134,-16.75,-43.25,p_solar_Brazil_BR2431,Brazil,Cerrado
+1135,-17.25,-43.25,p_solar_Brazil_BR2432,Brazil,Cerrado
+1136,-2.75,-42.75,p_solar_Brazil_BR2444,Brazil,Caatinga
+1137,-3.25,-42.75,p_solar_Brazil_BR2445,Brazil,Caatinga
+1138,-7.25,-42.75,p_solar_Brazil_BR2453,Brazil,Caatinga
+1139,-7.75,-42.75,p_solar_Brazil_BR2454,Brazil,Caatinga
+1140,-8.25,-42.75,p_solar_Brazil_BR2455,Brazil,Caatinga
+1141,-8.75,-42.75,p_solar_Brazil_BR2456,Brazil,Caatinga
+1142,-9.25,-42.75,p_solar_Brazil_BR2457,Brazil,Caatinga
+1143,-9.75,-42.75,p_solar_Brazil_BR2458,Brazil,Caatinga
+1144,-10.25,-42.75,p_solar_Brazil_BR2459,Brazil,Caatinga
+1145,-10.75,-42.75,p_solar_Brazil_BR2460,Brazil,Caatinga
+1146,-11.25,-42.75,p_solar_Brazil_BR2461,Brazil,Caatinga
+1147,-11.75,-42.75,p_solar_Brazil_BR2462,Brazil,Caatinga
+1148,-3.25,-42.25,p_solar_Brazil_BR2485,Brazil,Caatinga
+1149,-3.75,-42.25,p_solar_Brazil_BR2486,Brazil,Caatinga
+1150,-6.75,-42.25,p_solar_Brazil_BR2492,Brazil,Caatinga
+1151,-7.25,-42.25,p_solar_Brazil_BR2493,Brazil,Caatinga
+1152,-7.75,-42.25,p_solar_Brazil_BR2494,Brazil,Caatinga
+1153,-8.25,-42.25,p_solar_Brazil_BR2495,Brazil,Caatinga
+1154,-8.75,-42.25,p_solar_Brazil_BR2496,Brazil,Caatinga
+1155,-9.25,-42.25,p_solar_Brazil_BR2497,Brazil,Caatinga
+1156,-9.75,-42.25,p_solar_Brazil_BR2498,Brazil,Caatinga
+1157,-10.25,-42.25,p_solar_Brazil_BR2499,Brazil,Caatinga
+1158,-10.75,-42.25,p_solar_Brazil_BR2500,Brazil,Caatinga
+1159,-11.25,-42.25,p_solar_Brazil_BR2501,Brazil,Caatinga
+1160,-3.25,-41.75,p_solar_Brazil_BR2525,Brazil,Caatinga
+1161,-3.75,-41.75,p_solar_Brazil_BR2526,Brazil,Caatinga
+1162,-4.25,-41.75,p_solar_Brazil_BR2527,Brazil,Caatinga
+1163,-4.75,-41.75,p_solar_Brazil_BR2528,Brazil,Caatinga
+1164,-5.25,-41.75,p_solar_Brazil_BR2529,Brazil,Caatinga
+1165,-5.75,-41.75,p_solar_Brazil_BR2530,Brazil,Caatinga
+1166,-6.25,-41.75,p_solar_Brazil_BR2531,Brazil,Caatinga
+1167,-6.75,-41.75,p_solar_Brazil_BR2532,Brazil,Caatinga
+1168,-7.25,-41.75,p_solar_Brazil_BR2533,Brazil,Caatinga
+1169,-7.75,-41.75,p_solar_Brazil_BR2534,Brazil,Caatinga
+1170,-8.25,-41.75,p_solar_Brazil_BR2535,Brazil,Caatinga
+1171,-8.75,-41.75,p_solar_Brazil_BR2536,Brazil,Caatinga
+1172,-9.25,-41.75,p_solar_Brazil_BR2537,Brazil,Caatinga
+1173,-9.75,-41.75,p_solar_Brazil_BR2538,Brazil,Caatinga
+1174,-10.25,-41.75,p_solar_Brazil_BR2539,Brazil,Caatinga
+1175,-10.75,-41.75,p_solar_Brazil_BR2540,Brazil,Caatinga
+1176,-11.25,-41.75,p_solar_Brazil_BR2541,Brazil,Caatinga
+1177,-21.25,-41.75,p_solar_Brazil_BR2561,Brazil,Caatinga
+1178,-21.75,-41.75,p_solar_Brazil_BR2562,Brazil,Caatinga
+1179,-3.25,-41.25,p_solar_Brazil_BR2564,Brazil,Caatinga
+1180,-3.75,-41.25,p_solar_Brazil_BR2565,Brazil,Caatinga
+1181,-4.25,-41.25,p_solar_Brazil_BR2566,Brazil,Caatinga
+1182,-4.75,-41.25,p_solar_Brazil_BR2567,Brazil,Caatinga
+1183,-5.25,-41.25,p_solar_Brazil_BR2568,Brazil,Caatinga
+1184,-5.75,-41.25,p_solar_Brazil_BR2569,Brazil,Caatinga
+1185,-6.25,-41.25,p_solar_Brazil_BR2570,Brazil,Caatinga
+1186,-6.75,-41.25,p_solar_Brazil_BR2571,Brazil,Caatinga
+1187,-7.25,-41.25,p_solar_Brazil_BR2572,Brazil,Caatinga
+1188,-7.75,-41.25,p_solar_Brazil_BR2573,Brazil,Caatinga
+1189,-8.25,-41.25,p_solar_Brazil_BR2574,Brazil,Caatinga
+1190,-8.75,-41.25,p_solar_Brazil_BR2575,Brazil,Caatinga
+1191,-9.25,-41.25,p_solar_Brazil_BR2576,Brazil,Caatinga
+1192,-9.75,-41.25,p_solar_Brazil_BR2577,Brazil,Caatinga
+1193,-10.25,-41.25,p_solar_Brazil_BR2578,Brazil,Caatinga
+1194,-10.75,-41.25,p_solar_Brazil_BR2579,Brazil,Caatinga
+1195,-11.25,-41.25,p_solar_Brazil_BR2580,Brazil,Caatinga
+1196,-21.25,-41.25,p_solar_Brazil_BR2600,Brazil,Caatinga
+1197,-21.75,-41.25,p_solar_Brazil_BR2601,Brazil,Caatinga
+1198,-3.25,-40.75,p_solar_Brazil_BR2602,Brazil,Caatinga
+1199,-3.75,-40.75,p_solar_Brazil_BR2603,Brazil,Caatinga
+1200,-4.25,-40.75,p_solar_Brazil_BR2604,Brazil,Caatinga
+1201,-4.75,-40.75,p_solar_Brazil_BR2605,Brazil,Caatinga
+1202,-5.25,-40.75,p_solar_Brazil_BR2606,Brazil,Caatinga
+1203,-5.75,-40.75,p_solar_Brazil_BR2607,Brazil,Caatinga
+1204,-6.25,-40.75,p_solar_Brazil_BR2608,Brazil,Caatinga
+1205,-6.75,-40.75,p_solar_Brazil_BR2609,Brazil,Caatinga
+1206,-7.25,-40.75,p_solar_Brazil_BR2610,Brazil,Caatinga
+1207,-7.75,-40.75,p_solar_Brazil_BR2611,Brazil,Caatinga
+1208,-8.25,-40.75,p_solar_Brazil_BR2612,Brazil,Caatinga
+1209,-8.75,-40.75,p_solar_Brazil_BR2613,Brazil,Caatinga
+1210,-9.25,-40.75,p_solar_Brazil_BR2614,Brazil,Caatinga
+1211,-9.75,-40.75,p_solar_Brazil_BR2615,Brazil,Caatinga
+1212,-10.25,-40.75,p_solar_Brazil_BR2616,Brazil,Caatinga
+1213,-10.75,-40.75,p_solar_Brazil_BR2617,Brazil,Caatinga
+1214,-20.75,-40.75,p_solar_Brazil_BR2637,Brazil,Caatinga
+1215,-3.25,-40.25,p_solar_Brazil_BR2638,Brazil,Caatinga
+1216,-3.75,-40.25,p_solar_Brazil_BR2639,Brazil,Caatinga
+1217,-4.25,-40.25,p_solar_Brazil_BR2640,Brazil,Caatinga
+1218,-4.75,-40.25,p_solar_Brazil_BR2641,Brazil,Caatinga
+1219,-5.25,-40.25,p_solar_Brazil_BR2642,Brazil,Caatinga
+1220,-5.75,-40.25,p_solar_Brazil_BR2643,Brazil,Caatinga
+1221,-6.25,-40.25,p_solar_Brazil_BR2644,Brazil,Caatinga
+1222,-6.75,-40.25,p_solar_Brazil_BR2645,Brazil,Caatinga
+1223,-7.25,-40.25,p_solar_Brazil_BR2646,Brazil,Caatinga
+1224,-7.75,-40.25,p_solar_Brazil_BR2647,Brazil,Caatinga
+1225,-8.25,-40.25,p_solar_Brazil_BR2648,Brazil,Caatinga
+1226,-8.75,-40.25,p_solar_Brazil_BR2649,Brazil,Caatinga
+1227,-9.25,-40.25,p_solar_Brazil_BR2650,Brazil,Caatinga
+1228,-9.75,-40.25,p_solar_Brazil_BR2651,Brazil,Caatinga
+1229,-10.25,-40.25,p_solar_Brazil_BR2652,Brazil,Caatinga
+1230,-10.75,-40.25,p_solar_Brazil_BR2653,Brazil,Caatinga
+1231,-11.25,-40.25,p_solar_Brazil_BR2654,Brazil,Caatinga
+1232,-3.25,-39.75,p_solar_Brazil_BR2673,Brazil,Caatinga
+1233,-3.75,-39.75,p_solar_Brazil_BR2674,Brazil,Caatinga
+1234,-4.25,-39.75,p_solar_Brazil_BR2675,Brazil,Caatinga
+1235,-4.75,-39.75,p_solar_Brazil_BR2676,Brazil,Caatinga
+1236,-5.25,-39.75,p_solar_Brazil_BR2677,Brazil,Caatinga
+1237,-5.75,-39.75,p_solar_Brazil_BR2678,Brazil,Caatinga
+1238,-6.25,-39.75,p_solar_Brazil_BR2679,Brazil,Caatinga
+1239,-6.75,-39.75,p_solar_Brazil_BR2680,Brazil,Caatinga
+1240,-7.25,-39.75,p_solar_Brazil_BR2681,Brazil,Caatinga
+1241,-7.75,-39.75,p_solar_Brazil_BR2682,Brazil,Caatinga
+1242,-8.25,-39.75,p_solar_Brazil_BR2683,Brazil,Caatinga
+1243,-8.75,-39.75,p_solar_Brazil_BR2684,Brazil,Caatinga
+1244,-9.25,-39.75,p_solar_Brazil_BR2685,Brazil,Caatinga
+1245,-9.75,-39.75,p_solar_Brazil_BR2686,Brazil,Caatinga
+1246,-10.25,-39.75,p_solar_Brazil_BR2687,Brazil,Caatinga
+1247,-10.75,-39.75,p_solar_Brazil_BR2688,Brazil,Caatinga
+1248,-11.25,-39.75,p_solar_Brazil_BR2689,Brazil,Caatinga
+1249,-3.25,-39.25,p_solar_Brazil_BR2706,Brazil,Caatinga
+1250,-3.75,-39.25,p_solar_Brazil_BR2707,Brazil,Caatinga
+1251,-4.25,-39.25,p_solar_Brazil_BR2708,Brazil,Caatinga
+1252,-4.75,-39.25,p_solar_Brazil_BR2709,Brazil,Caatinga
+1253,-5.25,-39.25,p_solar_Brazil_BR2710,Brazil,Caatinga
+1254,-5.75,-39.25,p_solar_Brazil_BR2711,Brazil,Caatinga
+1255,-6.25,-39.25,p_solar_Brazil_BR2712,Brazil,Caatinga
+1256,-6.75,-39.25,p_solar_Brazil_BR2713,Brazil,Caatinga
+1257,-7.25,-39.25,p_solar_Brazil_BR2714,Brazil,Caatinga
+1258,-7.75,-39.25,p_solar_Brazil_BR2715,Brazil,Caatinga
+1259,-8.25,-39.25,p_solar_Brazil_BR2716,Brazil,Caatinga
+1260,-8.75,-39.25,p_solar_Brazil_BR2717,Brazil,Caatinga
+1261,-9.25,-39.25,p_solar_Brazil_BR2718,Brazil,Caatinga
+1262,-9.75,-39.25,p_solar_Brazil_BR2719,Brazil,Caatinga
+1263,-10.25,-39.25,p_solar_Brazil_BR2720,Brazil,Caatinga
+1264,-10.75,-39.25,p_solar_Brazil_BR2721,Brazil,Caatinga
+1265,-11.25,-39.25,p_solar_Brazil_BR2722,Brazil,Caatinga
+1266,-11.75,-39.25,p_solar_Brazil_BR2723,Brazil,Caatinga
+1267,-3.75,-38.75,p_solar_Brazil_BR2736,Brazil,Caatinga
+1268,-4.25,-38.75,p_solar_Brazil_BR2737,Brazil,Caatinga
+1269,-4.75,-38.75,p_solar_Brazil_BR2738,Brazil,Caatinga
+1270,-5.25,-38.75,p_solar_Brazil_BR2739,Brazil,Caatinga
+1271,-5.75,-38.75,p_solar_Brazil_BR2740,Brazil,Caatinga
+1272,-6.25,-38.75,p_solar_Brazil_BR2741,Brazil,Caatinga
+1273,-6.75,-38.75,p_solar_Brazil_BR2742,Brazil,Caatinga
+1274,-7.25,-38.75,p_solar_Brazil_BR2743,Brazil,Caatinga
+1275,-7.75,-38.75,p_solar_Brazil_BR2744,Brazil,Caatinga
+1276,-8.25,-38.75,p_solar_Brazil_BR2745,Brazil,Caatinga
+1277,-8.75,-38.75,p_solar_Brazil_BR2746,Brazil,Caatinga
+1278,-9.25,-38.75,p_solar_Brazil_BR2747,Brazil,Caatinga
+1279,-9.75,-38.75,p_solar_Brazil_BR2748,Brazil,Caatinga
+1280,-10.25,-38.75,p_solar_Brazil_BR2749,Brazil,Caatinga
+1281,-10.75,-38.75,p_solar_Brazil_BR2750,Brazil,Caatinga
+1282,-11.25,-38.75,p_solar_Brazil_BR2751,Brazil,Caatinga
+1283,-11.75,-38.75,p_solar_Brazil_BR2752,Brazil,Caatinga
+1284,-12.25,-38.75,p_solar_Brazil_BR2753,Brazil,Caatinga
+1285,-4.25,-38.25,p_solar_Brazil_BR2754,Brazil,Caatinga
+1286,-4.75,-38.25,p_solar_Brazil_BR2755,Brazil,Caatinga
+1287,-5.25,-38.25,p_solar_Brazil_BR2756,Brazil,Caatinga
+1288,-5.75,-38.25,p_solar_Brazil_BR2757,Brazil,Caatinga
+1289,-6.25,-38.25,p_solar_Brazil_BR2758,Brazil,Caatinga
+1290,-6.75,-38.25,p_solar_Brazil_BR2759,Brazil,Caatinga
+1291,-7.25,-38.25,p_solar_Brazil_BR2760,Brazil,Caatinga
+1292,-7.75,-38.25,p_solar_Brazil_BR2761,Brazil,Caatinga
+1293,-8.25,-38.25,p_solar_Brazil_BR2762,Brazil,Caatinga
+1294,-8.75,-38.25,p_solar_Brazil_BR2763,Brazil,Caatinga
+1295,-9.25,-38.25,p_solar_Brazil_BR2764,Brazil,Caatinga
+1296,-9.75,-38.25,p_solar_Brazil_BR2765,Brazil,Caatinga
+1297,-10.25,-38.25,p_solar_Brazil_BR2766,Brazil,Caatinga
+1298,-10.75,-38.25,p_solar_Brazil_BR2767,Brazil,Caatinga
+1299,-11.25,-38.25,p_solar_Brazil_BR2768,Brazil,Caatinga
+1300,-11.75,-38.25,p_solar_Brazil_BR2769,Brazil,Caatinga
+1301,-12.25,-38.25,p_solar_Brazil_BR2770,Brazil,Caatinga
+1302,-4.75,-37.75,p_solar_Brazil_BR2772,Brazil,Caatinga
+1303,-5.25,-37.75,p_solar_Brazil_BR2773,Brazil,Caatinga
+1304,-5.75,-37.75,p_solar_Brazil_BR2774,Brazil,Caatinga
+1305,-6.25,-37.75,p_solar_Brazil_BR2775,Brazil,Caatinga
+1306,-6.75,-37.75,p_solar_Brazil_BR2776,Brazil,Caatinga
+1307,-7.25,-37.75,p_solar_Brazil_BR2777,Brazil,Caatinga
+1308,-7.75,-37.75,p_solar_Brazil_BR2778,Brazil,Caatinga
+1309,-8.25,-37.75,p_solar_Brazil_BR2779,Brazil,Caatinga
+1310,-8.75,-37.75,p_solar_Brazil_BR2780,Brazil,Caatinga
+1311,-9.25,-37.75,p_solar_Brazil_BR2781,Brazil,Caatinga
+1312,-9.75,-37.75,p_solar_Brazil_BR2782,Brazil,Caatinga
+1313,-10.25,-37.75,p_solar_Brazil_BR2783,Brazil,Caatinga
+1314,-10.75,-37.75,p_solar_Brazil_BR2784,Brazil,Caatinga
+1315,-11.25,-37.75,p_solar_Brazil_BR2785,Brazil,Caatinga
+1316,-11.75,-37.75,p_solar_Brazil_BR2786,Brazil,Caatinga
+1317,-5.25,-37.25,p_solar_Brazil_BR2787,Brazil,Caatinga
+1318,-5.75,-37.25,p_solar_Brazil_BR2788,Brazil,Caatinga
+1319,-6.25,-37.25,p_solar_Brazil_BR2789,Brazil,Caatinga
+1320,-6.75,-37.25,p_solar_Brazil_BR2790,Brazil,Caatinga
+1321,-7.25,-37.25,p_solar_Brazil_BR2791,Brazil,Caatinga
+1322,-7.75,-37.25,p_solar_Brazil_BR2792,Brazil,Caatinga
+1323,-8.25,-37.25,p_solar_Brazil_BR2793,Brazil,Caatinga
+1324,-8.75,-37.25,p_solar_Brazil_BR2794,Brazil,Caatinga
+1325,-9.25,-37.25,p_solar_Brazil_BR2795,Brazil,Caatinga
+1326,-9.75,-37.25,p_solar_Brazil_BR2796,Brazil,Caatinga
+1327,-10.25,-37.25,p_solar_Brazil_BR2797,Brazil,Caatinga
+1328,-10.75,-37.25,p_solar_Brazil_BR2798,Brazil,Caatinga
+1329,-11.25,-37.25,p_solar_Brazil_BR2799,Brazil,Caatinga
+1330,-5.25,-36.75,p_solar_Brazil_BR2800,Brazil,Caatinga
+1331,-5.75,-36.75,p_solar_Brazil_BR2801,Brazil,Caatinga
+1332,-6.25,-36.75,p_solar_Brazil_BR2802,Brazil,Caatinga
+1333,-6.75,-36.75,p_solar_Brazil_BR2803,Brazil,Caatinga
+1334,-7.25,-36.75,p_solar_Brazil_BR2804,Brazil,Caatinga
+1335,-7.75,-36.75,p_solar_Brazil_BR2805,Brazil,Caatinga
+1336,-8.25,-36.75,p_solar_Brazil_BR2806,Brazil,Caatinga
+1337,-8.75,-36.75,p_solar_Brazil_BR2807,Brazil,Caatinga
+1338,-9.25,-36.75,p_solar_Brazil_BR2808,Brazil,Caatinga
+1339,-9.75,-36.75,p_solar_Brazil_BR2809,Brazil,Caatinga
+1340,-10.25,-36.75,p_solar_Brazil_BR2810,Brazil,Caatinga
+1341,-5.25,-36.25,p_solar_Brazil_BR2811,Brazil,Caatinga
+1342,-5.75,-36.25,p_solar_Brazil_BR2812,Brazil,Caatinga
+1343,-6.25,-36.25,p_solar_Brazil_BR2813,Brazil,Caatinga
+1344,-6.75,-36.25,p_solar_Brazil_BR2814,Brazil,Caatinga
+1345,-7.25,-36.25,p_solar_Brazil_BR2815,Brazil,Caatinga
+1346,-7.75,-36.25,p_solar_Brazil_BR2816,Brazil,Caatinga
+1347,-9.75,-36.25,p_solar_Brazil_BR2820,Brazil,Caatinga
+1348,-10.25,-36.25,p_solar_Brazil_BR2821,Brazil,Caatinga
+1349,-5.25,-35.75,p_solar_Brazil_BR2822,Brazil,Caatinga
+1350,-5.75,-35.75,p_solar_Brazil_BR2823,Brazil,Caatinga
+1351,-6.25,-35.75,p_solar_Brazil_BR2824,Brazil,Caatinga
+1352,-6.75,-35.75,p_solar_Brazil_BR2825,Brazil,Caatinga
+1353,-7.25,-35.75,p_solar_Brazil_BR2826,Brazil,Caatinga
+1354,-7.75,-35.75,p_solar_Brazil_BR2827,Brazil,Caatinga
+1355,-9.25,-35.75,p_solar_Brazil_BR2830,Brazil,Caatinga
+1356,-5.75,-35.25,p_solar_Brazil_BR2831,Brazil,Caatinga
+1357,-6.25,-35.25,p_solar_Brazil_BR2832,Brazil,Caatinga
+1358,-6.75,-35.25,p_solar_Brazil_BR2833,Brazil,Caatinga
+1359,-7.25,-35.25,p_solar_Brazil_BR2834,Brazil,Caatinga
+1360,-7.75,-35.25,p_solar_Brazil_BR2835,Brazil,Caatinga
+1361,-8.25,-35.25,p_solar_Brazil_BR2836,Brazil,Caatinga
+1362,-8.75,-35.25,p_solar_Brazil_BR2837,Brazil,Caatinga
+1363,-38.25,-72.75,p_solar_Chile_CL70,Chile,Atacama/Andes
+1364,-38.75,-72.75,p_solar_Chile_CL71,Chile,Atacama/Andes
+1365,-35.75,-72.25,p_solar_Chile_CL97,Chile,Atacama/Andes
+1366,-36.25,-72.25,p_solar_Chile_CL98,Chile,Atacama/Andes
+1367,-36.75,-72.25,p_solar_Chile_CL99,Chile,Atacama/Andes
+1368,-37.25,-72.25,p_solar_Chile_CL100,Chile,Atacama/Andes
+1369,-37.75,-72.25,p_solar_Chile_CL101,Chile,Atacama/Andes
+1370,-38.25,-72.25,p_solar_Chile_CL102,Chile,Atacama/Andes
+1371,-38.75,-72.25,p_solar_Chile_CL103,Chile,Atacama/Andes
+1372,-39.25,-72.25,p_solar_Chile_CL104,Chile,Atacama/Andes
+1373,-34.25,-71.75,p_solar_Chile_CL125,Chile,Atacama/Andes
+1374,-34.75,-71.75,p_solar_Chile_CL126,Chile,Atacama/Andes
+1375,-35.25,-71.75,p_solar_Chile_CL127,Chile,Atacama/Andes
+1376,-35.75,-71.75,p_solar_Chile_CL128,Chile,Atacama/Andes
+1377,-36.25,-71.75,p_solar_Chile_CL129,Chile,Atacama/Andes
+1378,-36.75,-71.75,p_solar_Chile_CL130,Chile,Atacama/Andes
+1379,-37.25,-71.75,p_solar_Chile_CL131,Chile,Atacama/Andes
+1380,-38.25,-71.75,p_solar_Chile_CL133,Chile,Atacama/Andes
+1381,-38.75,-71.75,p_solar_Chile_CL134,Chile,Atacama/Andes
+1382,-28.75,-71.25,p_solar_Chile_CL145,Chile,Atacama/Andes
+1383,-29.25,-71.25,p_solar_Chile_CL146,Chile,Atacama/Andes
+1384,-29.75,-71.25,p_solar_Chile_CL147,Chile,Atacama/Andes
+1385,-30.25,-71.25,p_solar_Chile_CL148,Chile,Atacama/Andes
+1386,-31.75,-71.25,p_solar_Chile_CL151,Chile,Atacama/Andes
+1387,-32.25,-71.25,p_solar_Chile_CL152,Chile,Atacama/Andes
+1388,-32.75,-71.25,p_solar_Chile_CL153,Chile,Atacama/Andes
+1389,-33.25,-71.25,p_solar_Chile_CL154,Chile,Atacama/Andes
+1390,-33.75,-71.25,p_solar_Chile_CL155,Chile,Atacama/Andes
+1391,-34.25,-71.25,p_solar_Chile_CL156,Chile,Atacama/Andes
+1392,-34.75,-71.25,p_solar_Chile_CL157,Chile,Atacama/Andes
+1393,-35.25,-71.25,p_solar_Chile_CL158,Chile,Atacama/Andes
+1394,-35.75,-71.25,p_solar_Chile_CL159,Chile,Atacama/Andes
+1395,-36.25,-71.25,p_solar_Chile_CL160,Chile,Atacama/Andes
+1396,-36.75,-71.25,p_solar_Chile_CL161,Chile,Atacama/Andes
+1397,-37.25,-71.25,p_solar_Chile_CL162,Chile,Atacama/Andes
+1398,-37.75,-71.25,p_solar_Chile_CL163,Chile,Atacama/Andes
+1399,-38.25,-71.25,p_solar_Chile_CL164,Chile,Atacama/Andes
+1400,-38.75,-71.25,p_solar_Chile_CL165,Chile,Atacama/Andes
+1401,-27.25,-70.75,p_solar_Chile_CL171,Chile,Atacama/Andes
+1402,-27.75,-70.75,p_solar_Chile_CL172,Chile,Atacama/Andes
+1403,-28.25,-70.75,p_solar_Chile_CL173,Chile,Atacama/Andes
+1404,-28.75,-70.75,p_solar_Chile_CL174,Chile,Atacama/Andes
+1405,-29.25,-70.75,p_solar_Chile_CL175,Chile,Atacama/Andes
+1406,-29.75,-70.75,p_solar_Chile_CL176,Chile,Atacama/Andes
+1407,-30.25,-70.75,p_solar_Chile_CL177,Chile,Atacama/Andes
+1408,-30.75,-70.75,p_solar_Chile_CL178,Chile,Atacama/Andes
+1409,-31.25,-70.75,p_solar_Chile_CL179,Chile,Atacama/Andes
+1410,-31.75,-70.75,p_solar_Chile_CL180,Chile,Atacama/Andes
+1411,-32.25,-70.75,p_solar_Chile_CL181,Chile,Atacama/Andes
+1412,-32.75,-70.75,p_solar_Chile_CL182,Chile,Atacama/Andes
+1413,-33.75,-70.75,p_solar_Chile_CL184,Chile,Atacama/Andes
+1414,-34.25,-70.75,p_solar_Chile_CL185,Chile,Atacama/Andes
+1415,-34.75,-70.75,p_solar_Chile_CL186,Chile,Atacama/Andes
+1416,-35.25,-70.75,p_solar_Chile_CL187,Chile,Atacama/Andes
+1417,-35.75,-70.75,p_solar_Chile_CL188,Chile,Atacama/Andes
+1418,-36.25,-70.75,p_solar_Chile_CL189,Chile,Atacama/Andes
+1419,-18.75,-70.25,p_solar_Chile_CL192,Chile,Atacama/Andes
+1420,-19.25,-70.25,p_solar_Chile_CL193,Chile,Atacama/Andes
+1421,-22.75,-70.25,p_solar_Chile_CL194,Chile,Atacama/Andes
+1422,-23.25,-70.25,p_solar_Chile_CL195,Chile,Atacama/Andes
+1423,-23.75,-70.25,p_solar_Chile_CL196,Chile,Atacama/Andes
+1424,-24.25,-70.25,p_solar_Chile_CL197,Chile,Atacama/Andes
+1425,-24.75,-70.25,p_solar_Chile_CL198,Chile,Atacama/Andes
+1426,-25.25,-70.25,p_solar_Chile_CL199,Chile,Atacama/Andes
+1427,-25.75,-70.25,p_solar_Chile_CL200,Chile,Atacama/Andes
+1428,-26.25,-70.25,p_solar_Chile_CL201,Chile,Atacama/Andes
+1429,-26.75,-70.25,p_solar_Chile_CL202,Chile,Atacama/Andes
+1430,-27.25,-70.25,p_solar_Chile_CL203,Chile,Atacama/Andes
+1431,-27.75,-70.25,p_solar_Chile_CL204,Chile,Atacama/Andes
+1432,-28.25,-70.25,p_solar_Chile_CL205,Chile,Atacama/Andes
+1433,-28.75,-70.25,p_solar_Chile_CL206,Chile,Atacama/Andes
+1434,-29.25,-70.25,p_solar_Chile_CL207,Chile,Atacama/Andes
+1435,-29.75,-70.25,p_solar_Chile_CL208,Chile,Atacama/Andes
+1436,-30.25,-70.25,p_solar_Chile_CL209,Chile,Atacama/Andes
+1437,-32.75,-70.25,p_solar_Chile_CL210,Chile,Atacama/Andes
+1438,-33.25,-70.25,p_solar_Chile_CL211,Chile,Atacama/Andes
+1439,-33.75,-70.25,p_solar_Chile_CL212,Chile,Atacama/Andes
+1440,-34.25,-70.25,p_solar_Chile_CL213,Chile,Atacama/Andes
+1441,-17.75,-69.75,p_solar_Chile_CL219,Chile,Atacama/Andes
+1442,-18.25,-69.75,p_solar_Chile_CL220,Chile,Atacama/Andes
+1443,-18.75,-69.75,p_solar_Chile_CL221,Chile,Atacama/Andes
+1444,-19.25,-69.75,p_solar_Chile_CL222,Chile,Atacama/Andes
+1445,-19.75,-69.75,p_solar_Chile_CL223,Chile,Atacama/Andes
+1446,-20.25,-69.75,p_solar_Chile_CL224,Chile,Atacama/Andes
+1447,-20.75,-69.75,p_solar_Chile_CL225,Chile,Atacama/Andes
+1448,-21.25,-69.75,p_solar_Chile_CL226,Chile,Atacama/Andes
+1449,-21.75,-69.75,p_solar_Chile_CL227,Chile,Atacama/Andes
+1450,-22.25,-69.75,p_solar_Chile_CL228,Chile,Atacama/Andes
+1451,-22.75,-69.75,p_solar_Chile_CL229,Chile,Atacama/Andes
+1452,-23.25,-69.75,p_solar_Chile_CL230,Chile,Atacama/Andes
+1453,-23.75,-69.75,p_solar_Chile_CL231,Chile,Atacama/Andes
+1454,-24.25,-69.75,p_solar_Chile_CL232,Chile,Atacama/Andes
+1455,-24.75,-69.75,p_solar_Chile_CL233,Chile,Atacama/Andes
+1456,-25.25,-69.75,p_solar_Chile_CL234,Chile,Atacama/Andes
+1457,-25.75,-69.75,p_solar_Chile_CL235,Chile,Atacama/Andes
+1458,-26.25,-69.75,p_solar_Chile_CL236,Chile,Atacama/Andes
+1459,-26.75,-69.75,p_solar_Chile_CL237,Chile,Atacama/Andes
+1460,-27.25,-69.75,p_solar_Chile_CL238,Chile,Atacama/Andes
+1461,-27.75,-69.75,p_solar_Chile_CL239,Chile,Atacama/Andes
+1462,-28.25,-69.75,p_solar_Chile_CL240,Chile,Atacama/Andes
+1463,-28.75,-69.75,p_solar_Chile_CL241,Chile,Atacama/Andes
+1464,-18.25,-69.25,p_solar_Chile_CL247,Chile,Atacama/Andes
+1465,-18.75,-69.25,p_solar_Chile_CL248,Chile,Atacama/Andes
+1466,-19.25,-69.25,p_solar_Chile_CL249,Chile,Atacama/Andes
+1467,-19.75,-69.25,p_solar_Chile_CL250,Chile,Atacama/Andes
+1468,-20.25,-69.25,p_solar_Chile_CL251,Chile,Atacama/Andes
+1469,-20.75,-69.25,p_solar_Chile_CL252,Chile,Atacama/Andes
+1470,-21.25,-69.25,p_solar_Chile_CL253,Chile,Atacama/Andes
+1471,-21.75,-69.25,p_solar_Chile_CL254,Chile,Atacama/Andes
+1472,-22.25,-69.25,p_solar_Chile_CL255,Chile,Atacama/Andes
+1473,-22.75,-69.25,p_solar_Chile_CL256,Chile,Atacama/Andes
+1474,-23.25,-69.25,p_solar_Chile_CL257,Chile,Atacama/Andes
+1475,-23.75,-69.25,p_solar_Chile_CL258,Chile,Atacama/Andes
+1476,-24.25,-69.25,p_solar_Chile_CL259,Chile,Atacama/Andes
+1477,-24.75,-69.25,p_solar_Chile_CL260,Chile,Atacama/Andes
+1478,-25.25,-69.25,p_solar_Chile_CL261,Chile,Atacama/Andes
+1479,-25.75,-69.25,p_solar_Chile_CL262,Chile,Atacama/Andes
+1480,-26.25,-69.25,p_solar_Chile_CL263,Chile,Atacama/Andes
+1481,-26.75,-69.25,p_solar_Chile_CL264,Chile,Atacama/Andes
+1482,-27.25,-69.25,p_solar_Chile_CL265,Chile,Atacama/Andes
+1483,-27.75,-69.25,p_solar_Chile_CL266,Chile,Atacama/Andes
+1484,-19.25,-68.75,p_solar_Chile_CL272,Chile,Atacama/Andes
+1485,-19.75,-68.75,p_solar_Chile_CL273,Chile,Atacama/Andes
+1486,-20.25,-68.75,p_solar_Chile_CL274,Chile,Atacama/Andes
+1487,-20.75,-68.75,p_solar_Chile_CL275,Chile,Atacama/Andes
+1488,-21.25,-68.75,p_solar_Chile_CL276,Chile,Atacama/Andes
+1489,-21.75,-68.75,p_solar_Chile_CL277,Chile,Atacama/Andes
+1490,-22.25,-68.75,p_solar_Chile_CL278,Chile,Atacama/Andes
+1491,-22.75,-68.75,p_solar_Chile_CL279,Chile,Atacama/Andes
+1492,-23.25,-68.75,p_solar_Chile_CL280,Chile,Atacama/Andes
+1493,-23.75,-68.75,p_solar_Chile_CL281,Chile,Atacama/Andes
+1494,-24.25,-68.75,p_solar_Chile_CL282,Chile,Atacama/Andes
+1495,-24.75,-68.75,p_solar_Chile_CL283,Chile,Atacama/Andes
+1496,-25.25,-68.75,p_solar_Chile_CL284,Chile,Atacama/Andes
+1497,-25.75,-68.75,p_solar_Chile_CL285,Chile,Atacama/Andes
+1498,-26.25,-68.75,p_solar_Chile_CL286,Chile,Atacama/Andes
+1499,-26.75,-68.75,p_solar_Chile_CL287,Chile,Atacama/Andes
+1500,-21.25,-68.25,p_solar_Chile_CL294,Chile,Atacama/Andes
+1501,-21.75,-68.25,p_solar_Chile_CL295,Chile,Atacama/Andes
+1502,-22.25,-68.25,p_solar_Chile_CL296,Chile,Atacama/Andes
+1503,-22.75,-68.25,p_solar_Chile_CL297,Chile,Atacama/Andes
+1504,-23.25,-68.25,p_solar_Chile_CL298,Chile,Atacama/Andes
+1505,-23.75,-68.25,p_solar_Chile_CL299,Chile,Atacama/Andes
+1506,-24.25,-68.25,p_solar_Chile_CL300,Chile,Atacama/Andes
+1507,-23.25,-67.75,p_solar_Chile_CL301,Chile,Atacama/Andes
+1508,-23.75,-67.75,p_solar_Chile_CL302,Chile,Atacama/Andes
+1509,-23.25,-67.25,p_solar_Chile_CL304,Chile,Atacama/Andes
+1510,-19.75,-60.25,p_solar_Paraguay_PY29,Paraguay,Gran Chaco
+1511,-20.25,-60.25,p_solar_Paraguay_PY30,Paraguay,Gran Chaco
+1512,-20.75,-60.25,p_solar_Paraguay_PY31,Paraguay,Gran Chaco
+1513,-19.75,-59.75,p_solar_Paraguay_PY38,Paraguay,Gran Chaco
+1514,-20.25,-59.75,p_solar_Paraguay_PY39,Paraguay,Gran Chaco
+1515,-20.75,-59.75,p_solar_Paraguay_PY40,Paraguay,Gran Chaco
+1516,-21.25,-59.75,p_solar_Paraguay_PY41,Paraguay,Gran Chaco
+1517,-21.75,-59.75,p_solar_Paraguay_PY42,Paraguay,Gran Chaco
+1518,-22.25,-59.75,p_solar_Paraguay_PY43,Paraguay,Gran Chaco
+1519,-19.75,-59.25,p_solar_Paraguay_PY47,Paraguay,Gran Chaco
+1520,-20.25,-59.25,p_solar_Paraguay_PY48,Paraguay,Gran Chaco
+1521,-20.75,-59.25,p_solar_Paraguay_PY49,Paraguay,Gran Chaco
+1522,-21.25,-59.25,p_solar_Paraguay_PY50,Paraguay,Gran Chaco
+1523,-21.75,-59.25,p_solar_Paraguay_PY51,Paraguay,Gran Chaco
+1524,-22.25,-59.25,p_solar_Paraguay_PY52,Paraguay,Gran Chaco
+1525,-22.75,-59.25,p_solar_Paraguay_PY53,Paraguay,Gran Chaco
+1526,-23.25,-59.25,p_solar_Paraguay_PY54,Paraguay,Gran Chaco
+1527,-19.75,-58.75,p_solar_Paraguay_PY57,Paraguay,Gran Chaco
+1528,-20.25,-58.75,p_solar_Paraguay_PY58,Paraguay,Gran Chaco
+1529,-20.75,-58.75,p_solar_Paraguay_PY59,Paraguay,Gran Chaco
+1530,-21.25,-58.75,p_solar_Paraguay_PY60,Paraguay,Gran Chaco
+1531,-21.75,-58.75,p_solar_Paraguay_PY61,Paraguay,Gran Chaco
+1532,-22.25,-58.75,p_solar_Paraguay_PY62,Paraguay,Gran Chaco
+1533,-22.75,-58.75,p_solar_Paraguay_PY63,Paraguay,Gran Chaco
+1534,-23.25,-58.75,p_solar_Paraguay_PY64,Paraguay,Gran Chaco
+1535,-23.75,-58.75,p_solar_Paraguay_PY65,Paraguay,Gran Chaco
+1536,-20.25,-58.25,p_solar_Paraguay_PY68,Paraguay,Gran Chaco
+1537,-20.75,-58.25,p_solar_Paraguay_PY69,Paraguay,Gran Chaco
+1538,-21.25,-58.25,p_solar_Paraguay_PY70,Paraguay,Gran Chaco
+1539,-21.75,-58.25,p_solar_Paraguay_PY71,Paraguay,Gran Chaco
+1540,-22.25,-58.25,p_solar_Paraguay_PY72,Paraguay,Gran Chaco
+1541,-22.75,-58.25,p_solar_Paraguay_PY73,Paraguay,Gran Chaco
+1542,-23.25,-58.25,p_solar_Paraguay_PY74,Paraguay,Gran Chaco
+1543,-23.75,-58.25,p_solar_Paraguay_PY75,Paraguay,Gran Chaco
+1544,-24.25,-58.25,p_solar_Paraguay_PY76,Paraguay,Gran Chaco
+1545,-24.75,-58.25,p_solar_Paraguay_PY77,Paraguay,Gran Chaco
+1546,-22.25,-57.75,p_solar_Paraguay_PY79,Paraguay,Gran Chaco
+1547,-22.75,-57.75,p_solar_Paraguay_PY80,Paraguay,Gran Chaco
+1548,-23.25,-57.75,p_solar_Paraguay_PY81,Paraguay,Gran Chaco
+1549,-23.75,-57.75,p_solar_Paraguay_PY82,Paraguay,Gran Chaco
+1550,-24.25,-57.75,p_solar_Paraguay_PY83,Paraguay,Gran Chaco
+1551,-24.75,-57.75,p_solar_Paraguay_PY84,Paraguay,Gran Chaco
+1552,-25.75,-57.75,p_solar_Paraguay_PY85,Paraguay,Gran Chaco
+1553,-22.25,-57.25,p_solar_Paraguay_PY89,Paraguay,Gran Chaco
+1554,-22.75,-57.25,p_solar_Paraguay_PY90,Paraguay,Gran Chaco
+1555,-23.25,-57.25,p_solar_Paraguay_PY91,Paraguay,Gran Chaco
+1556,-23.75,-57.25,p_solar_Paraguay_PY92,Paraguay,Gran Chaco
+1557,-24.25,-57.25,p_solar_Paraguay_PY93,Paraguay,Gran Chaco
+1558,-24.75,-57.25,p_solar_Paraguay_PY94,Paraguay,Gran Chaco
+1559,-25.25,-57.25,p_solar_Paraguay_PY95,Paraguay,Gran Chaco
+1560,-25.75,-57.25,p_solar_Paraguay_PY96,Paraguay,Gran Chaco
+1561,-26.25,-57.25,p_solar_Paraguay_PY97,Paraguay,Gran Chaco
+1562,-22.25,-56.75,p_solar_Paraguay_PY100,Paraguay,Gran Chaco
+1563,-22.75,-56.75,p_solar_Paraguay_PY101,Paraguay,Gran Chaco
+1564,-23.25,-56.75,p_solar_Paraguay_PY102,Paraguay,Gran Chaco
+1565,-23.75,-56.75,p_solar_Paraguay_PY103,Paraguay,Gran Chaco
+1566,-24.25,-56.75,p_solar_Paraguay_PY104,Paraguay,Gran Chaco
+1567,-24.75,-56.75,p_solar_Paraguay_PY105,Paraguay,Gran Chaco
+1568,-25.25,-56.75,p_solar_Paraguay_PY106,Paraguay,Gran Chaco
+1569,-25.75,-56.75,p_solar_Paraguay_PY107,Paraguay,Gran Chaco
+1570,-26.25,-56.75,p_solar_Paraguay_PY108,Paraguay,Gran Chaco
+1571,-22.25,-56.25,p_solar_Paraguay_PY111,Paraguay,Gran Chaco
+1572,-22.75,-56.25,p_solar_Paraguay_PY112,Paraguay,Gran Chaco
+1573,-23.25,-56.25,p_solar_Paraguay_PY113,Paraguay,Gran Chaco
+1574,-23.75,-56.25,p_solar_Paraguay_PY114,Paraguay,Gran Chaco
+1575,-24.25,-56.25,p_solar_Paraguay_PY115,Paraguay,Gran Chaco
+1576,-24.75,-56.25,p_solar_Paraguay_PY116,Paraguay,Gran Chaco
+1577,-25.25,-56.25,p_solar_Paraguay_PY117,Paraguay,Gran Chaco
+1578,-25.75,-56.25,p_solar_Paraguay_PY118,Paraguay,Gran Chaco
+1579,-26.25,-56.25,p_solar_Paraguay_PY119,Paraguay,Gran Chaco
+1580,-22.75,-55.75,p_solar_Paraguay_PY122,Paraguay,Gran Chaco
+1581,-23.25,-55.75,p_solar_Paraguay_PY123,Paraguay,Gran Chaco
+1582,-23.75,-55.75,p_solar_Paraguay_PY124,Paraguay,Gran Chaco
+1583,-24.25,-55.75,p_solar_Paraguay_PY125,Paraguay,Gran Chaco
+1584,-24.75,-55.75,p_solar_Paraguay_PY126,Paraguay,Gran Chaco
+1585,-25.25,-55.75,p_solar_Paraguay_PY127,Paraguay,Gran Chaco
+1586,-25.75,-55.75,p_solar_Paraguay_PY128,Paraguay,Gran Chaco
+1587,-26.25,-55.75,p_solar_Paraguay_PY129,Paraguay,Gran Chaco
+1588,-24.75,-55.25,p_solar_Paraguay_PY133,Paraguay,Gran Chaco
+1589,-30.75,-57.75,p_solar_Uruguay_UY3,Uruguay,Pampas
+1590,-31.75,-57.75,p_solar_Uruguay_UY5,Uruguay,Pampas
+1591,-32.25,-57.75,p_solar_Uruguay_UY6,Uruguay,Pampas
+1592,-32.75,-57.75,p_solar_Uruguay_UY7,Uruguay,Pampas
+1593,-33.25,-57.75,p_solar_Uruguay_UY8,Uruguay,Pampas
+1594,-33.75,-57.75,p_solar_Uruguay_UY9,Uruguay,Pampas
+1595,-34.25,-57.75,p_solar_Uruguay_UY10,Uruguay,Pampas
+1596,-30.75,-57.25,p_solar_Uruguay_UY11,Uruguay,Pampas
+1597,-31.25,-57.25,p_solar_Uruguay_UY12,Uruguay,Pampas
+1598,-31.75,-57.25,p_solar_Uruguay_UY13,Uruguay,Pampas
+1599,-32.25,-57.25,p_solar_Uruguay_UY14,Uruguay,Pampas
+1600,-32.75,-57.25,p_solar_Uruguay_UY15,Uruguay,Pampas
+1601,-33.25,-57.25,p_solar_Uruguay_UY16,Uruguay,Pampas
+1602,-33.75,-57.25,p_solar_Uruguay_UY17,Uruguay,Pampas
+1603,-34.25,-57.25,p_solar_Uruguay_UY18,Uruguay,Pampas
+1604,-30.25,-56.75,p_solar_Uruguay_UY19,Uruguay,Pampas
+1605,-30.75,-56.75,p_solar_Uruguay_UY20,Uruguay,Pampas
+1606,-31.25,-56.75,p_solar_Uruguay_UY21,Uruguay,Pampas
+1607,-31.75,-56.75,p_solar_Uruguay_UY22,Uruguay,Pampas
+1608,-32.25,-56.75,p_solar_Uruguay_UY23,Uruguay,Pampas
+1609,-32.75,-56.75,p_solar_Uruguay_UY24,Uruguay,Pampas
+1610,-33.25,-56.75,p_solar_Uruguay_UY25,Uruguay,Pampas
+1611,-33.75,-56.75,p_solar_Uruguay_UY26,Uruguay,Pampas
+1612,-34.25,-56.75,p_solar_Uruguay_UY27,Uruguay,Pampas
+1613,-34.75,-56.75,p_solar_Uruguay_UY28,Uruguay,Pampas
+1614,-30.75,-56.25,p_solar_Uruguay_UY29,Uruguay,Pampas
+1615,-31.25,-56.25,p_solar_Uruguay_UY30,Uruguay,Pampas
+1616,-31.75,-56.25,p_solar_Uruguay_UY31,Uruguay,Pampas
+1617,-32.25,-56.25,p_solar_Uruguay_UY32,Uruguay,Pampas
+1618,-32.75,-56.25,p_solar_Uruguay_UY33,Uruguay,Pampas
+1619,-33.25,-56.25,p_solar_Uruguay_UY34,Uruguay,Pampas
+1620,-33.75,-56.25,p_solar_Uruguay_UY35,Uruguay,Pampas
+1621,-34.25,-56.25,p_solar_Uruguay_UY36,Uruguay,Pampas
+1622,-34.75,-56.25,p_solar_Uruguay_UY37,Uruguay,Pampas
+1623,-31.75,-55.75,p_solar_Uruguay_UY39,Uruguay,Pampas
+1624,-32.25,-55.75,p_solar_Uruguay_UY40,Uruguay,Pampas
+1625,-32.75,-55.75,p_solar_Uruguay_UY41,Uruguay,Pampas
+1626,-33.25,-55.75,p_solar_Uruguay_UY42,Uruguay,Pampas
+1627,-33.75,-55.75,p_solar_Uruguay_UY43,Uruguay,Pampas
+1628,-34.25,-55.75,p_solar_Uruguay_UY44,Uruguay,Pampas
+1629,-34.75,-55.75,p_solar_Uruguay_UY45,Uruguay,Pampas
+1630,-31.25,-55.25,p_solar_Uruguay_UY46,Uruguay,Pampas
+1631,-31.75,-55.25,p_solar_Uruguay_UY47,Uruguay,Pampas
+1632,-32.25,-55.25,p_solar_Uruguay_UY48,Uruguay,Pampas
+1633,-33.25,-55.25,p_solar_Uruguay_UY50,Uruguay,Pampas
+1634,-33.75,-55.25,p_solar_Uruguay_UY51,Uruguay,Pampas
+1635,-34.25,-55.25,p_solar_Uruguay_UY52,Uruguay,Pampas
+1636,-34.75,-55.25,p_solar_Uruguay_UY53,Uruguay,Pampas
+1637,-32.25,-54.75,p_solar_Uruguay_UY55,Uruguay,Pampas
+1638,-33.75,-54.75,p_solar_Uruguay_UY58,Uruguay,Pampas
+1639,-34.25,-54.75,p_solar_Uruguay_UY59,Uruguay,Pampas
+1640,-34.75,-54.75,p_solar_Uruguay_UY60,Uruguay,Pampas
+1641,-32.25,-54.25,p_solar_Uruguay_UY61,Uruguay,Pampas
+1642,-32.75,-54.25,p_solar_Uruguay_UY62,Uruguay,Pampas
+1643,-33.25,-54.25,p_solar_Uruguay_UY63,Uruguay,Pampas
+1644,-33.75,-54.25,p_solar_Uruguay_UY64,Uruguay,Pampas
+1645,-34.25,-54.25,p_solar_Uruguay_UY65,Uruguay,Pampas
+1646,-32.25,-53.75,p_solar_Uruguay_UY66,Uruguay,Pampas
+1647,-32.75,-53.75,p_solar_Uruguay_UY67,Uruguay,Pampas
+1648,-33.25,-53.75,p_solar_Uruguay_UY68,Uruguay,Pampas
+1649,-33.75,-53.75,p_solar_Uruguay_UY69,Uruguay,Pampas

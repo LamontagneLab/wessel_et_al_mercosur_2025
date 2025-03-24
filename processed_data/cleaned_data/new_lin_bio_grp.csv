@@ -1,0 +1,441 @@
+,scenario,technology,biome,new_build_mw,sc_group
+0,prm15_wcost_re10_c2p1_co2_cut90p_t1,SolarPV,Atacama/Andes,50187.15458116096,3.0
+1,prm15_wcost_re10_c2p1_co2_cut90p_t1,SolarPV,Caatinga,57525.73972533734,3.0
+2,prm15_wcost_re10_c2p1_co2_cut90p_t1,SolarPV,Cerrado,83302.5,3.0
+3,prm15_wcost_re10_c2p1_co2_cut90p_t1,SolarPV,Gran Chaco,8505.4,3.0
+4,prm15_wcost_re10_c2p1_co2_cut90p_t1,SolarPV,Monte Desert,799.0,3.0
+5,prm15_wcost_re10_c2p1_co2_cut90p_t1,SolarPV,Pampas,4518.7815852447275,3.0
+6,prm15_wcost_re10_c2p1_co2_cut90p_t1,Wind,Caatinga,131303.0143177098,3.0
+7,prm15_wcost_re10_c2p1_co2_cut90p_t1,Wind,Coastal,3846.0,3.0
+8,prm15_wcost_re10_c2p1_co2_cut90p_t1,Wind,Gran Chaco,3306.0138696280374,3.0
+9,prm15_wcost_re10_c2p1_co2_cut90p_t1,Wind,Pampas,70417.50183460637,3.0
+10,prm15_wcost_re10_c2p1_co2_cut90p_t1,Wind,Patagonia,64587.191368244356,3.0
+11,prm15_wcost_re10_c2p1_t1,SolarPV,Atacama/Andes,14330.051946083977,1.0
+12,prm15_wcost_re10_c2p1_t1,SolarPV,Caatinga,53473.8,1.0
+13,prm15_wcost_re10_c2p1_t1,SolarPV,Cerrado,62980.4,1.0
+14,prm15_wcost_re10_c2p1_t1,SolarPV,Gran Chaco,3554.8663669040743,1.0
+15,prm15_wcost_re10_c2p1_t1,SolarPV,Monte Desert,0.0,1.0
+16,prm15_wcost_re10_c2p1_t1,SolarPV,Pampas,4574.916552191111,1.0
+17,prm15_wcost_re10_c2p1_t1,Wind,Caatinga,91470.58526873906,1.0
+18,prm15_wcost_re10_c2p1_t1,Wind,Coastal,0.0,1.0
+19,prm15_wcost_re10_c2p1_t1,Wind,Gran Chaco,1940.373831368368,1.0
+20,prm15_wcost_re10_c2p1_t1,Wind,Pampas,18334.528344446535,1.0
+21,prm15_wcost_re10_c2p1_t1,Wind,Patagonia,12750.0,1.0
+22,prm15_wcost_re11_c2p1_co2_cut90p_t1,SolarPV,Atacama/Andes,27688.685324275888,4.0
+23,prm15_wcost_re11_c2p1_co2_cut90p_t1,SolarPV,Caatinga,48773.4,4.0
+24,prm15_wcost_re11_c2p1_co2_cut90p_t1,SolarPV,Cerrado,80184.18481820045,4.0
+25,prm15_wcost_re11_c2p1_co2_cut90p_t1,SolarPV,Gran Chaco,6735.0,4.0
+26,prm15_wcost_re11_c2p1_co2_cut90p_t1,SolarPV,Monte Desert,139.7,4.0
+27,prm15_wcost_re11_c2p1_co2_cut90p_t1,SolarPV,Pampas,4965.738288763258,4.0
+28,prm15_wcost_re11_c2p1_co2_cut90p_t1,Wind,Caatinga,171020.16874742674,4.0
+29,prm15_wcost_re11_c2p1_co2_cut90p_t1,Wind,Coastal,5466.0,4.0
+30,prm15_wcost_re11_c2p1_co2_cut90p_t1,Wind,Gran Chaco,4282.587154236233,4.0
+31,prm15_wcost_re11_c2p1_co2_cut90p_t1,Wind,Pampas,59526.7752484686,4.0
+32,prm15_wcost_re11_c2p1_co2_cut90p_t1,Wind,Patagonia,83047.75759467491,4.0
+33,prm15_wcost_re11_c2p1_t1,SolarPV,Atacama/Andes,0.0,2.0
+34,prm15_wcost_re11_c2p1_t1,SolarPV,Caatinga,17843.9,2.0
+35,prm15_wcost_re11_c2p1_t1,SolarPV,Cerrado,5991.991347964264,2.0
+36,prm15_wcost_re11_c2p1_t1,SolarPV,Gran Chaco,3608.8991262330733,2.0
+37,prm15_wcost_re11_c2p1_t1,SolarPV,Monte Desert,0.0,2.0
+38,prm15_wcost_re11_c2p1_t1,SolarPV,Pampas,2609.0134007682786,2.0
+39,prm15_wcost_re11_c2p1_t1,Wind,Caatinga,111093.15317070717,2.0
+40,prm15_wcost_re11_c2p1_t1,Wind,Coastal,0.0,2.0
+41,prm15_wcost_re11_c2p1_t1,Wind,Gran Chaco,1866.690411221058,2.0
+42,prm15_wcost_re11_c2p1_t1,Wind,Pampas,20817.057904188354,2.0
+43,prm15_wcost_re11_c2p1_t1,Wind,Patagonia,7973.857284734425,2.0
+44,prm15_wcost_re12_c2p1_co2_cut90p_t1,SolarPV,Atacama/Andes,43649.135196604984,4.0
+45,prm15_wcost_re12_c2p1_co2_cut90p_t1,SolarPV,Caatinga,49149.6,4.0
+46,prm15_wcost_re12_c2p1_co2_cut90p_t1,SolarPV,Cerrado,84189.4,4.0
+47,prm15_wcost_re12_c2p1_co2_cut90p_t1,SolarPV,Gran Chaco,9134.3,4.0
+48,prm15_wcost_re12_c2p1_co2_cut90p_t1,SolarPV,Monte Desert,520.0,4.0
+49,prm15_wcost_re12_c2p1_co2_cut90p_t1,SolarPV,Pampas,5498.935287214651,4.0
+50,prm15_wcost_re12_c2p1_co2_cut90p_t1,Wind,Caatinga,164016.76183108508,4.0
+51,prm15_wcost_re12_c2p1_co2_cut90p_t1,Wind,Coastal,4164.0,4.0
+52,prm15_wcost_re12_c2p1_co2_cut90p_t1,Wind,Gran Chaco,4091.7129721318465,4.0
+53,prm15_wcost_re12_c2p1_co2_cut90p_t1,Wind,Pampas,64750.3593330724,4.0
+54,prm15_wcost_re12_c2p1_co2_cut90p_t1,Wind,Patagonia,85842.26508713164,4.0
+55,prm15_wcost_re12_c2p1_t1,SolarPV,Atacama/Andes,239.0,2.0
+56,prm15_wcost_re12_c2p1_t1,SolarPV,Caatinga,38652.6,2.0
+57,prm15_wcost_re12_c2p1_t1,SolarPV,Cerrado,49473.04347734699,2.0
+58,prm15_wcost_re12_c2p1_t1,SolarPV,Gran Chaco,2571.0460592699355,2.0
+59,prm15_wcost_re12_c2p1_t1,SolarPV,Monte Desert,0.0,2.0
+60,prm15_wcost_re12_c2p1_t1,SolarPV,Pampas,4336.339829085287,2.0
+61,prm15_wcost_re12_c2p1_t1,Wind,Caatinga,67597.11505691762,2.0
+62,prm15_wcost_re12_c2p1_t1,Wind,Coastal,0.0,2.0
+63,prm15_wcost_re12_c2p1_t1,Wind,Gran Chaco,114.97840163601856,2.0
+64,prm15_wcost_re12_c2p1_t1,Wind,Pampas,15565.403284671533,2.0
+65,prm15_wcost_re12_c2p1_t1,Wind,Patagonia,5851.4430192310265,2.0
+66,prm15_wcost_re13_c2p1_co2_cut90p_t1,SolarPV,Atacama/Andes,47039.475088703475,4.0
+67,prm15_wcost_re13_c2p1_co2_cut90p_t1,SolarPV,Caatinga,58264.38596459655,4.0
+68,prm15_wcost_re13_c2p1_co2_cut90p_t1,SolarPV,Cerrado,84189.4,4.0
+69,prm15_wcost_re13_c2p1_co2_cut90p_t1,SolarPV,Gran Chaco,10970.4,4.0
+70,prm15_wcost_re13_c2p1_co2_cut90p_t1,SolarPV,Monte Desert,1577.7,4.0
+71,prm15_wcost_re13_c2p1_co2_cut90p_t1,SolarPV,Pampas,5697.993048752997,4.0
+72,prm15_wcost_re13_c2p1_co2_cut90p_t1,Wind,Caatinga,147989.22191455038,4.0
+73,prm15_wcost_re13_c2p1_co2_cut90p_t1,Wind,Coastal,1890.0,4.0
+74,prm15_wcost_re13_c2p1_co2_cut90p_t1,Wind,Gran Chaco,3883.575666491688,4.0
+75,prm15_wcost_re13_c2p1_co2_cut90p_t1,Wind,Pampas,57568.78507781205,4.0
+76,prm15_wcost_re13_c2p1_co2_cut90p_t1,Wind,Patagonia,86512.2531755543,4.0
+77,prm15_wcost_re13_c2p1_t1,SolarPV,Atacama/Andes,1878.8,2.0
+78,prm15_wcost_re13_c2p1_t1,SolarPV,Caatinga,46751.3,2.0
+79,prm15_wcost_re13_c2p1_t1,SolarPV,Cerrado,66328.2,2.0
+80,prm15_wcost_re13_c2p1_t1,SolarPV,Gran Chaco,2488.6233168875924,2.0
+81,prm15_wcost_re13_c2p1_t1,SolarPV,Monte Desert,0.0,2.0
+82,prm15_wcost_re13_c2p1_t1,SolarPV,Pampas,5357.920732272492,2.0
+83,prm15_wcost_re13_c2p1_t1,Wind,Caatinga,36727.678027807466,2.0
+84,prm15_wcost_re13_c2p1_t1,Wind,Coastal,0.0,2.0
+85,prm15_wcost_re13_c2p1_t1,Wind,Gran Chaco,0.0,2.0
+86,prm15_wcost_re13_c2p1_t1,Wind,Pampas,13526.872733686067,2.0
+87,prm15_wcost_re13_c2p1_t1,Wind,Patagonia,585.0,2.0
+88,prm15_wcost_re14_c2p1_co2_cut90p_t1,SolarPV,Atacama/Andes,43856.743635721505,4.0
+89,prm15_wcost_re14_c2p1_co2_cut90p_t1,SolarPV,Caatinga,49149.6,4.0
+90,prm15_wcost_re14_c2p1_co2_cut90p_t1,SolarPV,Cerrado,84189.40000000001,4.0
+91,prm15_wcost_re14_c2p1_co2_cut90p_t1,SolarPV,Gran Chaco,9657.699402869212,4.0
+92,prm15_wcost_re14_c2p1_co2_cut90p_t1,SolarPV,Monte Desert,520.0,4.0
+93,prm15_wcost_re14_c2p1_co2_cut90p_t1,SolarPV,Pampas,5535.518068949216,4.0
+94,prm15_wcost_re14_c2p1_co2_cut90p_t1,Wind,Caatinga,162867.55416762663,4.0
+95,prm15_wcost_re14_c2p1_co2_cut90p_t1,Wind,Coastal,1890.0,4.0
+96,prm15_wcost_re14_c2p1_co2_cut90p_t1,Wind,Gran Chaco,4031.1323388154815,4.0
+97,prm15_wcost_re14_c2p1_co2_cut90p_t1,Wind,Pampas,59717.1547225029,4.0
+98,prm15_wcost_re14_c2p1_co2_cut90p_t1,Wind,Patagonia,89439.64196549733,4.0
+99,prm15_wcost_re14_c2p1_t1,SolarPV,Atacama/Andes,501.9,2.0
+100,prm15_wcost_re14_c2p1_t1,SolarPV,Caatinga,42895.9,2.0
+101,prm15_wcost_re14_c2p1_t1,SolarPV,Cerrado,54380.6,2.0
+102,prm15_wcost_re14_c2p1_t1,SolarPV,Gran Chaco,2488.6233168875924,2.0
+103,prm15_wcost_re14_c2p1_t1,SolarPV,Monte Desert,0.0,2.0
+104,prm15_wcost_re14_c2p1_t1,SolarPV,Pampas,4353.407936072067,2.0
+105,prm15_wcost_re14_c2p1_t1,Wind,Caatinga,61936.44998883454,2.0
+106,prm15_wcost_re14_c2p1_t1,Wind,Coastal,0.0,2.0
+107,prm15_wcost_re14_c2p1_t1,Wind,Gran Chaco,0.0,2.0
+108,prm15_wcost_re14_c2p1_t1,Wind,Pampas,15483.452130441041,2.0
+109,prm15_wcost_re14_c2p1_t1,Wind,Patagonia,5769.0322771278625,2.0
+110,prm15_wcost_re15_c2p1_co2_cut90p_t1,SolarPV,Atacama/Andes,43540.218055840705,4.0
+111,prm15_wcost_re15_c2p1_co2_cut90p_t1,SolarPV,Caatinga,49149.6,4.0
+112,prm15_wcost_re15_c2p1_co2_cut90p_t1,SolarPV,Cerrado,84189.4,4.0
+113,prm15_wcost_re15_c2p1_co2_cut90p_t1,SolarPV,Gran Chaco,9010.355861101449,4.0
+114,prm15_wcost_re15_c2p1_co2_cut90p_t1,SolarPV,Monte Desert,520.0,4.0
+115,prm15_wcost_re15_c2p1_co2_cut90p_t1,SolarPV,Pampas,5144.933780280852,4.0
+116,prm15_wcost_re15_c2p1_co2_cut90p_t1,Wind,Caatinga,171569.42771395182,4.0
+117,prm15_wcost_re15_c2p1_co2_cut90p_t1,Wind,Coastal,2397.0,4.0
+118,prm15_wcost_re15_c2p1_co2_cut90p_t1,Wind,Gran Chaco,4085.7509828799457,4.0
+119,prm15_wcost_re15_c2p1_co2_cut90p_t1,Wind,Pampas,60013.793311952024,4.0
+120,prm15_wcost_re15_c2p1_co2_cut90p_t1,Wind,Patagonia,84843.97148603498,4.0
+121,prm15_wcost_re15_c2p1_t1,SolarPV,Atacama/Andes,0.0,2.0
+122,prm15_wcost_re15_c2p1_t1,SolarPV,Caatinga,37100.5,2.0
+123,prm15_wcost_re15_c2p1_t1,SolarPV,Cerrado,44541.2,2.0
+124,prm15_wcost_re15_c2p1_t1,SolarPV,Gran Chaco,2576.645513732091,2.0
+125,prm15_wcost_re15_c2p1_t1,SolarPV,Monte Desert,0.0,2.0
+126,prm15_wcost_re15_c2p1_t1,SolarPV,Pampas,4052.5550490432015,2.0
+127,prm15_wcost_re15_c2p1_t1,Wind,Caatinga,75042.74452452584,2.0
+128,prm15_wcost_re15_c2p1_t1,Wind,Coastal,0.0,2.0
+129,prm15_wcost_re15_c2p1_t1,Wind,Gran Chaco,144.35510258146323,2.0
+130,prm15_wcost_re15_c2p1_t1,Wind,Pampas,17033.40336842105,2.0
+131,prm15_wcost_re15_c2p1_t1,Wind,Patagonia,5931.463456174226,2.0
+132,prm15_wcost_re16_c2p1_co2_cut90p_t1,SolarPV,Atacama/Andes,29615.508935315644,4.0
+133,prm15_wcost_re16_c2p1_co2_cut90p_t1,SolarPV,Caatinga,49149.6,4.0
+134,prm15_wcost_re16_c2p1_co2_cut90p_t1,SolarPV,Cerrado,83476.8,4.0
+135,prm15_wcost_re16_c2p1_co2_cut90p_t1,SolarPV,Gran Chaco,7490.358234474257,4.0
+136,prm15_wcost_re16_c2p1_co2_cut90p_t1,SolarPV,Monte Desert,273.5,4.0
+137,prm15_wcost_re16_c2p1_co2_cut90p_t1,SolarPV,Pampas,5181.807642521961,4.0
+138,prm15_wcost_re16_c2p1_co2_cut90p_t1,Wind,Caatinga,172739.5223993537,4.0
+139,prm15_wcost_re16_c2p1_co2_cut90p_t1,Wind,Coastal,5587.722049649163,4.0
+140,prm15_wcost_re16_c2p1_co2_cut90p_t1,Wind,Gran Chaco,4118.586565497107,4.0
+141,prm15_wcost_re16_c2p1_co2_cut90p_t1,Wind,Pampas,65988.56117049504,4.0
+142,prm15_wcost_re16_c2p1_co2_cut90p_t1,Wind,Patagonia,82336.89232244482,4.0
+143,prm15_wcost_re16_c2p1_t1,SolarPV,Atacama/Andes,0.0,2.0
+144,prm15_wcost_re16_c2p1_t1,SolarPV,Caatinga,28307.8,2.0
+145,prm15_wcost_re16_c2p1_t1,SolarPV,Cerrado,25432.3,2.0
+146,prm15_wcost_re16_c2p1_t1,SolarPV,Gran Chaco,3700.5,2.0
+147,prm15_wcost_re16_c2p1_t1,SolarPV,Monte Desert,0.0,2.0
+148,prm15_wcost_re16_c2p1_t1,SolarPV,Pampas,3050.115863163657,2.0
+149,prm15_wcost_re16_c2p1_t1,Wind,Caatinga,101144.75594903443,2.0
+150,prm15_wcost_re16_c2p1_t1,Wind,Coastal,0.0,2.0
+151,prm15_wcost_re16_c2p1_t1,Wind,Gran Chaco,1840.7077973988767,2.0
+152,prm15_wcost_re16_c2p1_t1,Wind,Pampas,19386.189917907082,2.0
+153,prm15_wcost_re16_c2p1_t1,Wind,Patagonia,8318.068708627894,2.0
+154,prm15_wcost_re17_c2p1_co2_cut90p_t1,SolarPV,Atacama/Andes,39431.54789884473,4.0
+155,prm15_wcost_re17_c2p1_co2_cut90p_t1,SolarPV,Caatinga,49149.6,4.0
+156,prm15_wcost_re17_c2p1_co2_cut90p_t1,SolarPV,Cerrado,84189.4,4.0
+157,prm15_wcost_re17_c2p1_co2_cut90p_t1,SolarPV,Gran Chaco,8286.5,4.0
+158,prm15_wcost_re17_c2p1_co2_cut90p_t1,SolarPV,Monte Desert,273.5,4.0
+159,prm15_wcost_re17_c2p1_co2_cut90p_t1,SolarPV,Pampas,5153.828072785969,4.0
+160,prm15_wcost_re17_c2p1_co2_cut90p_t1,Wind,Caatinga,176679.26145902992,4.0
+161,prm15_wcost_re17_c2p1_co2_cut90p_t1,Wind,Coastal,3348.0,4.0
+162,prm15_wcost_re17_c2p1_co2_cut90p_t1,Wind,Gran Chaco,4114.267430476213,4.0
+163,prm15_wcost_re17_c2p1_co2_cut90p_t1,Wind,Pampas,60070.46660887066,4.0
+164,prm15_wcost_re17_c2p1_co2_cut90p_t1,Wind,Patagonia,83099.64184905238,4.0
+165,prm15_wcost_re17_c2p1_t1,SolarPV,Atacama/Andes,0.0,2.0
+166,prm15_wcost_re17_c2p1_t1,SolarPV,Caatinga,36828.42113893225,2.0
+167,prm15_wcost_re17_c2p1_t1,SolarPV,Cerrado,43032.3,2.0
+168,prm15_wcost_re17_c2p1_t1,SolarPV,Gran Chaco,2577.870703893069,2.0
+169,prm15_wcost_re17_c2p1_t1,SolarPV,Monte Desert,0.0,2.0
+170,prm15_wcost_re17_c2p1_t1,SolarPV,Pampas,3990.8046940770637,2.0
+171,prm15_wcost_re17_c2p1_t1,Wind,Caatinga,83951.70331945544,2.0
+172,prm15_wcost_re17_c2p1_t1,Wind,Coastal,0.0,2.0
+173,prm15_wcost_re17_c2p1_t1,Wind,Gran Chaco,144.51832886240393,2.0
+174,prm15_wcost_re17_c2p1_t1,Wind,Pampas,18557.8491405141,2.0
+175,prm15_wcost_re17_c2p1_t1,Wind,Patagonia,5921.185416290466,2.0
+176,prm15_wcost_re18_c2p1_co2_cut90p_t1,SolarPV,Atacama/Andes,45362.51226487095,4.0
+177,prm15_wcost_re18_c2p1_co2_cut90p_t1,SolarPV,Caatinga,52275.7658673172,4.0
+178,prm15_wcost_re18_c2p1_co2_cut90p_t1,SolarPV,Cerrado,84189.4,4.0
+179,prm15_wcost_re18_c2p1_co2_cut90p_t1,SolarPV,Gran Chaco,10038.8,4.0
+180,prm15_wcost_re18_c2p1_co2_cut90p_t1,SolarPV,Monte Desert,520.0,4.0
+181,prm15_wcost_re18_c2p1_co2_cut90p_t1,SolarPV,Pampas,5519.457479399002,4.0
+182,prm15_wcost_re18_c2p1_co2_cut90p_t1,Wind,Caatinga,150245.03230745532,4.0
+183,prm15_wcost_re18_c2p1_co2_cut90p_t1,Wind,Coastal,1254.0,4.0
+184,prm15_wcost_re18_c2p1_co2_cut90p_t1,Wind,Gran Chaco,3984.3768302643857,4.0
+185,prm15_wcost_re18_c2p1_co2_cut90p_t1,Wind,Pampas,56505.25415195262,4.0
+186,prm15_wcost_re18_c2p1_co2_cut90p_t1,Wind,Patagonia,83868.85145072115,4.0
+187,prm15_wcost_re18_c2p1_t1,SolarPV,Atacama/Andes,1361.824595719103,2.0
+188,prm15_wcost_re18_c2p1_t1,SolarPV,Caatinga,45369.4,2.0
+189,prm15_wcost_re18_c2p1_t1,SolarPV,Cerrado,62813.8,2.0
+190,prm15_wcost_re18_c2p1_t1,SolarPV,Gran Chaco,2488.623316887592,2.0
+191,prm15_wcost_re18_c2p1_t1,SolarPV,Monte Desert,0.0,2.0
+192,prm15_wcost_re18_c2p1_t1,SolarPV,Pampas,5028.820595912104,2.0
+193,prm15_wcost_re18_c2p1_t1,Wind,Caatinga,44838.0,2.0
+194,prm15_wcost_re18_c2p1_t1,Wind,Coastal,0.0,2.0
+195,prm15_wcost_re18_c2p1_t1,Wind,Gran Chaco,0.0,2.0
+196,prm15_wcost_re18_c2p1_t1,Wind,Pampas,15631.999729802756,2.0
+197,prm15_wcost_re18_c2p1_t1,Wind,Patagonia,1452.0,2.0
+198,prm15_wcost_re19_c2p1_co2_cut90p_t1,SolarPV,Atacama/Andes,45355.67261100419,4.0
+199,prm15_wcost_re19_c2p1_co2_cut90p_t1,SolarPV,Caatinga,56256.0,4.0
+200,prm15_wcost_re19_c2p1_co2_cut90p_t1,SolarPV,Cerrado,84189.4,4.0
+201,prm15_wcost_re19_c2p1_co2_cut90p_t1,SolarPV,Gran Chaco,10036.381543988897,4.0
+202,prm15_wcost_re19_c2p1_co2_cut90p_t1,SolarPV,Monte Desert,520.0,4.0
+203,prm15_wcost_re19_c2p1_co2_cut90p_t1,SolarPV,Pampas,5449.768533664745,4.0
+204,prm15_wcost_re19_c2p1_co2_cut90p_t1,Wind,Caatinga,140437.43209372737,4.0
+205,prm15_wcost_re19_c2p1_co2_cut90p_t1,Wind,Coastal,3657.0,4.0
+206,prm15_wcost_re19_c2p1_co2_cut90p_t1,Wind,Gran Chaco,4061.245258158216,4.0
+207,prm15_wcost_re19_c2p1_co2_cut90p_t1,Wind,Pampas,78362.10509682307,4.0
+208,prm15_wcost_re19_c2p1_co2_cut90p_t1,Wind,Patagonia,86687.83370084346,4.0
+209,prm15_wcost_re19_c2p1_t1,SolarPV,Atacama/Andes,1868.3083106052807,2.0
+210,prm15_wcost_re19_c2p1_t1,SolarPV,Caatinga,45369.4,2.0
+211,prm15_wcost_re19_c2p1_t1,SolarPV,Cerrado,62813.8,2.0
+212,prm15_wcost_re19_c2p1_t1,SolarPV,Gran Chaco,2488.623316887591,2.0
+213,prm15_wcost_re19_c2p1_t1,SolarPV,Monte Desert,0.0,2.0
+214,prm15_wcost_re19_c2p1_t1,SolarPV,Pampas,5253.395773447498,2.0
+215,prm15_wcost_re19_c2p1_t1,Wind,Caatinga,39735.0,2.0
+216,prm15_wcost_re19_c2p1_t1,Wind,Coastal,0.0,2.0
+217,prm15_wcost_re19_c2p1_t1,Wind,Gran Chaco,0.0,2.0
+218,prm15_wcost_re19_c2p1_t1,Wind,Pampas,15498.227203482047,2.0
+219,prm15_wcost_re19_c2p1_t1,Wind,Patagonia,1491.7352227069246,2.0
+220,prm15_wcost_re1_c2p1_co2_cut90p_t1,SolarPV,Atacama/Andes,51659.61114349561,3.0
+221,prm15_wcost_re1_c2p1_co2_cut90p_t1,SolarPV,Caatinga,57975.66824136569,3.0
+222,prm15_wcost_re1_c2p1_co2_cut90p_t1,SolarPV,Cerrado,83816.3,3.0
+223,prm15_wcost_re1_c2p1_co2_cut90p_t1,SolarPV,Gran Chaco,8798.147817718256,3.0
+224,prm15_wcost_re1_c2p1_co2_cut90p_t1,SolarPV,Monte Desert,659.5,3.0
+225,prm15_wcost_re1_c2p1_co2_cut90p_t1,SolarPV,Pampas,4631.917843309725,3.0
+226,prm15_wcost_re1_c2p1_co2_cut90p_t1,Wind,Caatinga,150515.8311967418,3.0
+227,prm15_wcost_re1_c2p1_co2_cut90p_t1,Wind,Coastal,2841.0,3.0
+228,prm15_wcost_re1_c2p1_co2_cut90p_t1,Wind,Gran Chaco,3269.351032344911,3.0
+229,prm15_wcost_re1_c2p1_co2_cut90p_t1,Wind,Pampas,57373.85310578668,3.0
+230,prm15_wcost_re1_c2p1_co2_cut90p_t1,Wind,Patagonia,63981.5913361675,3.0
+231,prm15_wcost_re1_c2p1_t1,SolarPV,Atacama/Andes,14660.5163871805,1.0
+232,prm15_wcost_re1_c2p1_t1,SolarPV,Caatinga,55697.1,1.0
+233,prm15_wcost_re1_c2p1_t1,SolarPV,Cerrado,67510.2,1.0
+234,prm15_wcost_re1_c2p1_t1,SolarPV,Gran Chaco,3872.6410921516162,1.0
+235,prm15_wcost_re1_c2p1_t1,SolarPV,Monte Desert,0.0,1.0
+236,prm15_wcost_re1_c2p1_t1,SolarPV,Pampas,4572.910043348038,1.0
+237,prm15_wcost_re1_c2p1_t1,Wind,Caatinga,85215.02117067453,1.0
+238,prm15_wcost_re1_c2p1_t1,Wind,Coastal,0.0,1.0
+239,prm15_wcost_re1_c2p1_t1,Wind,Gran Chaco,1880.9891765592095,1.0
+240,prm15_wcost_re1_c2p1_t1,Wind,Pampas,17629.680505363125,1.0
+241,prm15_wcost_re1_c2p1_t1,Wind,Patagonia,8991.0,1.0
+242,prm15_wcost_re20_c2p1_co2_cut90p_t1,SolarPV,Atacama/Andes,24550.598493621113,4.0
+243,prm15_wcost_re20_c2p1_co2_cut90p_t1,SolarPV,Caatinga,47841.3,4.0
+244,prm15_wcost_re20_c2p1_co2_cut90p_t1,SolarPV,Cerrado,76473.8,4.0
+245,prm15_wcost_re20_c2p1_co2_cut90p_t1,SolarPV,Gran Chaco,5624.2,4.0
+246,prm15_wcost_re20_c2p1_co2_cut90p_t1,SolarPV,Monte Desert,0.0,4.0
+247,prm15_wcost_re20_c2p1_co2_cut90p_t1,SolarPV,Pampas,4978.934414193135,4.0
+248,prm15_wcost_re20_c2p1_co2_cut90p_t1,Wind,Caatinga,159200.3046110683,4.0
+249,prm15_wcost_re20_c2p1_co2_cut90p_t1,Wind,Coastal,5466.0,4.0
+250,prm15_wcost_re20_c2p1_co2_cut90p_t1,Wind,Gran Chaco,4461.638764176462,4.0
+251,prm15_wcost_re20_c2p1_co2_cut90p_t1,Wind,Pampas,74648.11282487877,4.0
+252,prm15_wcost_re20_c2p1_co2_cut90p_t1,Wind,Patagonia,81732.54627696956,4.0
+253,prm15_wcost_re20_c2p1_t1,SolarPV,Atacama/Andes,0.0,2.0
+254,prm15_wcost_re20_c2p1_t1,SolarPV,Caatinga,15729.0,2.0
+255,prm15_wcost_re20_c2p1_t1,SolarPV,Cerrado,2432.4,2.0
+256,prm15_wcost_re20_c2p1_t1,SolarPV,Gran Chaco,3563.3164188517276,2.0
+257,prm15_wcost_re20_c2p1_t1,SolarPV,Monte Desert,0.0,2.0
+258,prm15_wcost_re20_c2p1_t1,SolarPV,Pampas,2463.6679151903427,2.0
+259,prm15_wcost_re20_c2p1_t1,Wind,Caatinga,116774.01126036358,2.0
+260,prm15_wcost_re20_c2p1_t1,Wind,Coastal,0.0,2.0
+261,prm15_wcost_re20_c2p1_t1,Wind,Gran Chaco,1840.3347537687443,2.0
+262,prm15_wcost_re20_c2p1_t1,Wind,Pampas,25720.921896415075,2.0
+263,prm15_wcost_re20_c2p1_t1,Wind,Patagonia,12750.0,2.0
+264,prm15_wcost_re2_c2p1_co2_cut90p_t1,SolarPV,Atacama/Andes,58227.985594964295,3.0
+265,prm15_wcost_re2_c2p1_co2_cut90p_t1,SolarPV,Caatinga,74474.5,3.0
+266,prm15_wcost_re2_c2p1_co2_cut90p_t1,SolarPV,Cerrado,87921.72489821009,3.0
+267,prm15_wcost_re2_c2p1_co2_cut90p_t1,SolarPV,Gran Chaco,11125.651070963831,3.0
+268,prm15_wcost_re2_c2p1_co2_cut90p_t1,SolarPV,Monte Desert,2525.5,3.0
+269,prm15_wcost_re2_c2p1_co2_cut90p_t1,SolarPV,Pampas,5139.287531663544,3.0
+270,prm15_wcost_re2_c2p1_co2_cut90p_t1,Wind,Caatinga,146613.0,3.0
+271,prm15_wcost_re2_c2p1_co2_cut90p_t1,Wind,Coastal,2706.0,3.0
+272,prm15_wcost_re2_c2p1_co2_cut90p_t1,Wind,Gran Chaco,3347.54200079681,3.0
+273,prm15_wcost_re2_c2p1_co2_cut90p_t1,Wind,Pampas,62424.0035108256,3.0
+274,prm15_wcost_re2_c2p1_co2_cut90p_t1,Wind,Patagonia,73107.4359281159,3.0
+275,prm15_wcost_re2_c2p1_t1,SolarPV,Atacama/Andes,16673.30649516603,1.0
+276,prm15_wcost_re2_c2p1_t1,SolarPV,Caatinga,70347.23787412464,1.0
+277,prm15_wcost_re2_c2p1_t1,SolarPV,Cerrado,76390.4,1.0
+278,prm15_wcost_re2_c2p1_t1,SolarPV,Gran Chaco,6146.4953248761885,1.0
+279,prm15_wcost_re2_c2p1_t1,SolarPV,Monte Desert,0.0,1.0
+280,prm15_wcost_re2_c2p1_t1,SolarPV,Pampas,5409.0016101593155,1.0
+281,prm15_wcost_re2_c2p1_t1,Wind,Caatinga,46864.76602213746,1.0
+282,prm15_wcost_re2_c2p1_t1,Wind,Coastal,0.0,1.0
+283,prm15_wcost_re2_c2p1_t1,Wind,Gran Chaco,0.0,1.0
+284,prm15_wcost_re2_c2p1_t1,Wind,Pampas,14490.093530784887,1.0
+285,prm15_wcost_re2_c2p1_t1,Wind,Patagonia,0.0,1.0
+286,prm15_wcost_re3_c2p1_co2_cut90p_t1,SolarPV,Atacama/Andes,62931.80836144523,3.0
+287,prm15_wcost_re3_c2p1_co2_cut90p_t1,SolarPV,Caatinga,79211.6,3.0
+288,prm15_wcost_re3_c2p1_co2_cut90p_t1,SolarPV,Cerrado,89273.34205745473,3.0
+289,prm15_wcost_re3_c2p1_co2_cut90p_t1,SolarPV,Gran Chaco,11576.01366333866,3.0
+290,prm15_wcost_re3_c2p1_co2_cut90p_t1,SolarPV,Monte Desert,5193.2,3.0
+291,prm15_wcost_re3_c2p1_co2_cut90p_t1,SolarPV,Pampas,5564.5801561258995,3.0
+292,prm15_wcost_re3_c2p1_co2_cut90p_t1,Wind,Caatinga,119900.50501544285,3.0
+293,prm15_wcost_re3_c2p1_co2_cut90p_t1,Wind,Coastal,654.0,3.0
+294,prm15_wcost_re3_c2p1_co2_cut90p_t1,Wind,Gran Chaco,3643.8689135955656,3.0
+295,prm15_wcost_re3_c2p1_co2_cut90p_t1,Wind,Pampas,52514.0340709778,3.0
+296,prm15_wcost_re3_c2p1_co2_cut90p_t1,Wind,Patagonia,67359.01633895609,3.0
+297,prm15_wcost_re3_c2p1_t1,SolarPV,Atacama/Andes,16681.176903846474,1.0
+298,prm15_wcost_re3_c2p1_t1,SolarPV,Caatinga,75315.8,1.0
+299,prm15_wcost_re3_c2p1_t1,SolarPV,Cerrado,79869.30882745562,1.0
+300,prm15_wcost_re3_c2p1_t1,SolarPV,Gran Chaco,6146.4953248761885,1.0
+301,prm15_wcost_re3_c2p1_t1,SolarPV,Monte Desert,0.0,1.0
+302,prm15_wcost_re3_c2p1_t1,SolarPV,Pampas,6020.990888917156,1.0
+303,prm15_wcost_re3_c2p1_t1,Wind,Caatinga,23871.0,1.0
+304,prm15_wcost_re3_c2p1_t1,Wind,Coastal,0.0,1.0
+305,prm15_wcost_re3_c2p1_t1,Wind,Gran Chaco,0.0,1.0
+306,prm15_wcost_re3_c2p1_t1,Wind,Pampas,10919.921787464456,1.0
+307,prm15_wcost_re3_c2p1_t1,Wind,Patagonia,0.0,1.0
+308,prm15_wcost_re4_c2p1_co2_cut90p_t1,SolarPV,Atacama/Andes,58651.91304950465,3.0
+309,prm15_wcost_re4_c2p1_co2_cut90p_t1,SolarPV,Caatinga,77076.86967380546,3.0
+310,prm15_wcost_re4_c2p1_co2_cut90p_t1,SolarPV,Cerrado,87326.4094528616,3.0
+311,prm15_wcost_re4_c2p1_co2_cut90p_t1,SolarPV,Gran Chaco,11129.809531608966,3.0
+312,prm15_wcost_re4_c2p1_co2_cut90p_t1,SolarPV,Monte Desert,2511.557586983447,3.0
+313,prm15_wcost_re4_c2p1_co2_cut90p_t1,SolarPV,Pampas,5037.551736029974,3.0
+314,prm15_wcost_re4_c2p1_co2_cut90p_t1,Wind,Caatinga,142446.30551430755,3.0
+315,prm15_wcost_re4_c2p1_co2_cut90p_t1,Wind,Coastal,1890.0,3.0
+316,prm15_wcost_re4_c2p1_co2_cut90p_t1,Wind,Gran Chaco,3445.900749174372,3.0
+317,prm15_wcost_re4_c2p1_co2_cut90p_t1,Wind,Pampas,60360.241386377405,3.0
+318,prm15_wcost_re4_c2p1_co2_cut90p_t1,Wind,Patagonia,74310.94668577227,3.0
+319,prm15_wcost_re4_c2p1_t1,SolarPV,Atacama/Andes,16795.59621737472,1.0
+320,prm15_wcost_re4_c2p1_t1,SolarPV,Caatinga,72722.25894940697,1.0
+321,prm15_wcost_re4_c2p1_t1,SolarPV,Cerrado,77981.6,1.0
+322,prm15_wcost_re4_c2p1_t1,SolarPV,Gran Chaco,6146.4953248761885,1.0
+323,prm15_wcost_re4_c2p1_t1,SolarPV,Monte Desert,0.0,1.0
+324,prm15_wcost_re4_c2p1_t1,SolarPV,Pampas,5517.386027475342,1.0
+325,prm15_wcost_re4_c2p1_t1,Wind,Caatinga,42781.09642138583,1.0
+326,prm15_wcost_re4_c2p1_t1,Wind,Coastal,0.0,1.0
+327,prm15_wcost_re4_c2p1_t1,Wind,Gran Chaco,0.0,1.0
+328,prm15_wcost_re4_c2p1_t1,Wind,Pampas,13462.161585355636,1.0
+329,prm15_wcost_re4_c2p1_t1,Wind,Patagonia,0.0,1.0
+330,prm15_wcost_re5_c2p1_co2_cut90p_t1,SolarPV,Atacama/Andes,57400.50651058117,3.0
+331,prm15_wcost_re5_c2p1_co2_cut90p_t1,SolarPV,Caatinga,72667.3,3.0
+332,prm15_wcost_re5_c2p1_co2_cut90p_t1,SolarPV,Cerrado,85366.2120430441,3.0
+333,prm15_wcost_re5_c2p1_co2_cut90p_t1,SolarPV,Gran Chaco,10787.537268673937,3.0
+334,prm15_wcost_re5_c2p1_co2_cut90p_t1,SolarPV,Monte Desert,2253.6,3.0
+335,prm15_wcost_re5_c2p1_co2_cut90p_t1,SolarPV,Pampas,4906.6,3.0
+336,prm15_wcost_re5_c2p1_co2_cut90p_t1,Wind,Caatinga,154872.0,3.0
+337,prm15_wcost_re5_c2p1_co2_cut90p_t1,Wind,Coastal,2397.0,3.0
+338,prm15_wcost_re5_c2p1_co2_cut90p_t1,Wind,Gran Chaco,3377.9084346997256,3.0
+339,prm15_wcost_re5_c2p1_co2_cut90p_t1,Wind,Pampas,60406.14682376228,3.0
+340,prm15_wcost_re5_c2p1_co2_cut90p_t1,Wind,Patagonia,70560.63270372101,3.0
+341,prm15_wcost_re5_c2p1_t1,SolarPV,Atacama/Andes,16021.333350023806,1.0
+342,prm15_wcost_re5_c2p1_t1,SolarPV,Caatinga,68063.1,1.0
+343,prm15_wcost_re5_c2p1_t1,SolarPV,Cerrado,73171.29867398652,1.0
+344,prm15_wcost_re5_c2p1_t1,SolarPV,Gran Chaco,6060.2,1.0
+345,prm15_wcost_re5_c2p1_t1,SolarPV,Monte Desert,0.0,1.0
+346,prm15_wcost_re5_c2p1_t1,SolarPV,Pampas,5155.241805602406,1.0
+347,prm15_wcost_re5_c2p1_t1,Wind,Caatinga,49913.10934414305,1.0
+348,prm15_wcost_re5_c2p1_t1,Wind,Coastal,0.0,1.0
+349,prm15_wcost_re5_c2p1_t1,Wind,Gran Chaco,48.83068719731842,1.0
+350,prm15_wcost_re5_c2p1_t1,Wind,Pampas,14562.635064140195,1.0
+351,prm15_wcost_re5_c2p1_t1,Wind,Patagonia,0.0,1.0
+352,prm15_wcost_re6_c2p1_co2_cut90p_t1,SolarPV,Atacama/Andes,54246.76191396166,3.0
+353,prm15_wcost_re6_c2p1_co2_cut90p_t1,SolarPV,Caatinga,63747.783715770915,3.0
+354,prm15_wcost_re6_c2p1_co2_cut90p_t1,SolarPV,Cerrado,84189.4,3.0
+355,prm15_wcost_re6_c2p1_co2_cut90p_t1,SolarPV,Gran Chaco,9430.771863919399,3.0
+356,prm15_wcost_re6_c2p1_co2_cut90p_t1,SolarPV,Monte Desert,1354.6,3.0
+357,prm15_wcost_re6_c2p1_co2_cut90p_t1,SolarPV,Pampas,4577.98123627384,3.0
+358,prm15_wcost_re6_c2p1_co2_cut90p_t1,Wind,Caatinga,151587.03506389307,3.0
+359,prm15_wcost_re6_c2p1_co2_cut90p_t1,Wind,Coastal,3348.0,3.0
+360,prm15_wcost_re6_c2p1_co2_cut90p_t1,Wind,Gran Chaco,3254.7331078818797,3.0
+361,prm15_wcost_re6_c2p1_co2_cut90p_t1,Wind,Pampas,60902.1245410171,3.0
+362,prm15_wcost_re6_c2p1_co2_cut90p_t1,Wind,Patagonia,64489.034443390985,3.0
+363,prm15_wcost_re6_c2p1_t1,SolarPV,Atacama/Andes,15583.65254046558,1.0
+364,prm15_wcost_re6_c2p1_t1,SolarPV,Caatinga,56972.070739384006,1.0
+365,prm15_wcost_re6_c2p1_t1,SolarPV,Cerrado,69527.2,1.0
+366,prm15_wcost_re6_c2p1_t1,SolarPV,Gran Chaco,3841.6,1.0
+367,prm15_wcost_re6_c2p1_t1,SolarPV,Monte Desert,0.0,1.0
+368,prm15_wcost_re6_c2p1_t1,SolarPV,Pampas,4756.395760393116,1.0
+369,prm15_wcost_re6_c2p1_t1,Wind,Caatinga,74304.0,1.0
+370,prm15_wcost_re6_c2p1_t1,Wind,Coastal,0.0,1.0
+371,prm15_wcost_re6_c2p1_t1,Wind,Gran Chaco,1809.3780187943678,1.0
+372,prm15_wcost_re6_c2p1_t1,Wind,Pampas,14572.20628628062,1.0
+373,prm15_wcost_re6_c2p1_t1,Wind,Patagonia,3258.0,1.0
+374,prm15_wcost_re7_c2p1_co2_cut90p_t1,SolarPV,Atacama/Andes,56236.986135326515,3.0
+375,prm15_wcost_re7_c2p1_co2_cut90p_t1,SolarPV,Caatinga,68549.60302572096,3.0
+376,prm15_wcost_re7_c2p1_co2_cut90p_t1,SolarPV,Cerrado,84189.4,3.0
+377,prm15_wcost_re7_c2p1_co2_cut90p_t1,SolarPV,Gran Chaco,10279.702747232897,3.0
+378,prm15_wcost_re7_c2p1_co2_cut90p_t1,SolarPV,Monte Desert,2253.6,3.0
+379,prm15_wcost_re7_c2p1_co2_cut90p_t1,SolarPV,Pampas,5002.104186456867,3.0
+380,prm15_wcost_re7_c2p1_co2_cut90p_t1,Wind,Caatinga,160372.93995426226,3.0
+381,prm15_wcost_re7_c2p1_co2_cut90p_t1,Wind,Coastal,2397.0,3.0
+382,prm15_wcost_re7_c2p1_co2_cut90p_t1,Wind,Gran Chaco,3382.244762046632,3.0
+383,prm15_wcost_re7_c2p1_co2_cut90p_t1,Wind,Pampas,61139.62185937908,3.0
+384,prm15_wcost_re7_c2p1_co2_cut90p_t1,Wind,Patagonia,67282.687408479,3.0
+385,prm15_wcost_re7_c2p1_t1,SolarPV,Atacama/Andes,15759.66629775337,1.0
+386,prm15_wcost_re7_c2p1_t1,SolarPV,Caatinga,66719.3,1.0
+387,prm15_wcost_re7_c2p1_t1,SolarPV,Cerrado,72474.9,1.0
+388,prm15_wcost_re7_c2p1_t1,SolarPV,Gran Chaco,5621.4,1.0
+389,prm15_wcost_re7_c2p1_t1,SolarPV,Monte Desert,0.0,1.0
+390,prm15_wcost_re7_c2p1_t1,SolarPV,Pampas,5094.442012828936,1.0
+391,prm15_wcost_re7_c2p1_t1,Wind,Caatinga,56488.480640774615,1.0
+392,prm15_wcost_re7_c2p1_t1,Wind,Coastal,0.0,1.0
+393,prm15_wcost_re7_c2p1_t1,Wind,Gran Chaco,337.86308518802696,1.0
+394,prm15_wcost_re7_c2p1_t1,Wind,Pampas,14503.20448162634,1.0
+395,prm15_wcost_re7_c2p1_t1,Wind,Patagonia,0.0,1.0
+396,prm15_wcost_re8_c2p1_co2_cut90p_t1,SolarPV,Atacama/Andes,60814.79323791449,3.0
+397,prm15_wcost_re8_c2p1_co2_cut90p_t1,SolarPV,Caatinga,78258.1,3.0
+398,prm15_wcost_re8_c2p1_co2_cut90p_t1,SolarPV,Cerrado,89301.55552757264,3.0
+399,prm15_wcost_re8_c2p1_co2_cut90p_t1,SolarPV,Gran Chaco,11440.865045801102,3.0
+400,prm15_wcost_re8_c2p1_co2_cut90p_t1,SolarPV,Monte Desert,4668.7,3.0
+401,prm15_wcost_re8_c2p1_co2_cut90p_t1,SolarPV,Pampas,5309.378566511508,3.0
+402,prm15_wcost_re8_c2p1_co2_cut90p_t1,Wind,Caatinga,128103.44006544755,3.0
+403,prm15_wcost_re8_c2p1_co2_cut90p_t1,Wind,Coastal,1254.0,3.0
+404,prm15_wcost_re8_c2p1_co2_cut90p_t1,Wind,Gran Chaco,3590.676922561538,3.0
+405,prm15_wcost_re8_c2p1_co2_cut90p_t1,Wind,Pampas,53154.04403742,3.0
+406,prm15_wcost_re8_c2p1_co2_cut90p_t1,Wind,Patagonia,68701.09249075339,3.0
+407,prm15_wcost_re8_c2p1_t1,SolarPV,Atacama/Andes,16681.176903846474,1.0
+408,prm15_wcost_re8_c2p1_t1,SolarPV,Caatinga,75315.8,1.0
+409,prm15_wcost_re8_c2p1_t1,SolarPV,Cerrado,79718.50882745552,1.0
+410,prm15_wcost_re8_c2p1_t1,SolarPV,Gran Chaco,6146.4953248761885,1.0
+411,prm15_wcost_re8_c2p1_t1,SolarPV,Monte Desert,0.0,1.0
+412,prm15_wcost_re8_c2p1_t1,SolarPV,Pampas,5696.6594494721985,1.0
+413,prm15_wcost_re8_c2p1_t1,Wind,Caatinga,33714.0,1.0
+414,prm15_wcost_re8_c2p1_t1,Wind,Coastal,0.0,1.0
+415,prm15_wcost_re8_c2p1_t1,Wind,Gran Chaco,0.0,1.0
+416,prm15_wcost_re8_c2p1_t1,Wind,Pampas,11569.809280838828,1.0
+417,prm15_wcost_re8_c2p1_t1,Wind,Patagonia,0.0,1.0
+418,prm15_wcost_re9_c2p1_co2_cut90p_t1,SolarPV,Atacama/Andes,61290.67373974888,3.0
+419,prm15_wcost_re9_c2p1_co2_cut90p_t1,SolarPV,Caatinga,79196.1278229527,3.0
+420,prm15_wcost_re9_c2p1_co2_cut90p_t1,SolarPV,Cerrado,88776.2,3.0
+421,prm15_wcost_re9_c2p1_co2_cut90p_t1,SolarPV,Gran Chaco,11561.983137729123,3.0
+422,prm15_wcost_re9_c2p1_co2_cut90p_t1,SolarPV,Monte Desert,4801.9,3.0
+423,prm15_wcost_re9_c2p1_co2_cut90p_t1,SolarPV,Pampas,5673.483337917368,3.0
+424,prm15_wcost_re9_c2p1_co2_cut90p_t1,Wind,Caatinga,118459.95563530255,3.0
+425,prm15_wcost_re9_c2p1_co2_cut90p_t1,Wind,Coastal,3057.0,3.0
+426,prm15_wcost_re9_c2p1_co2_cut90p_t1,Wind,Gran Chaco,3542.838521690292,3.0
+427,prm15_wcost_re9_c2p1_co2_cut90p_t1,Wind,Pampas,75445.39424214169,3.0
+428,prm15_wcost_re9_c2p1_co2_cut90p_t1,Wind,Patagonia,69754.83097806376,3.0
+429,prm15_wcost_re9_c2p1_t1,SolarPV,Atacama/Andes,16673.48269966845,1.0
+430,prm15_wcost_re9_c2p1_t1,SolarPV,Caatinga,75315.8,1.0
+431,prm15_wcost_re9_c2p1_t1,SolarPV,Cerrado,79718.5088274554,1.0
+432,prm15_wcost_re9_c2p1_t1,SolarPV,Gran Chaco,6146.4953248761885,1.0
+433,prm15_wcost_re9_c2p1_t1,SolarPV,Monte Desert,0.0,1.0
+434,prm15_wcost_re9_c2p1_t1,SolarPV,Pampas,5906.6100083079,1.0
+435,prm15_wcost_re9_c2p1_t1,Wind,Caatinga,33714.0,1.0
+436,prm15_wcost_re9_c2p1_t1,Wind,Coastal,0.0,1.0
+437,prm15_wcost_re9_c2p1_t1,Wind,Gran Chaco,0.0,1.0
+438,prm15_wcost_re9_c2p1_t1,Wind,Pampas,10989.338202561741,1.0
+439,prm15_wcost_re9_c2p1_t1,Wind,Patagonia,0.0,1.0

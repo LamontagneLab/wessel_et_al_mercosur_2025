@@ -1,0 +1,281 @@
+period,scs,scs_id,emis_policy,exist_trd,fixed_pv,capacity_cost,op_char,turbine,group
+2020,Trade Emission cut 90% Enercon E101 3000 Fixed,prm15_wcost_re20_c2p1_co2_cut90p_t1,True,True,True,4234316001.349315,59360,29680,8.0
+2020,Trade Emission cut 90% Enercon E101 3000 Single-Axis,prm15_wcost_re10_c2p1_co2_cut90p_t1,True,True,False,4234316001.349315,29680,29680,7.0
+2020,Trade Emission cut 90% Enercon E126 7000 Fixed,prm15_wcost_re19_c2p1_co2_cut90p_t1,True,True,True,4234316001.349315,56392,26712,8.0
+2020,Trade Emission cut 90% Enercon E126 7000 Single-Axis,prm15_wcost_re9_c2p1_co2_cut90p_t1,True,True,False,4234316001.349315,26712,26712,7.0
+2020,Trade Emission cut 90% GE 1.5sle Fixed,prm15_wcost_re17_c2p1_co2_cut90p_t1,True,True,True,4234316001.349315,50456,20776,8.0
+2020,Trade Emission cut 90% GE 1.5sle Single-Axis,prm15_wcost_re7_c2p1_co2_cut90p_t1,True,True,False,4234316001.349315,20776,20776,7.0
+2020,Trade Emission cut 90% GE 2.5xl Fixed,prm15_wcost_re16_c2p1_co2_cut90p_t1,True,True,True,4234316001.349315,47488,17808,8.0
+2020,Trade Emission cut 90% GE 2.5xl Single-Axis,prm15_wcost_re6_c2p1_co2_cut90p_t1,True,True,False,4234316001.349315,17808,17808,7.0
+2020,Trade Emission cut 90% Gamesa G80 2000 Fixed,prm15_wcost_re18_c2p1_co2_cut90p_t1,True,True,True,4234316001.349315,53424,23744,8.0
+2020,Trade Emission cut 90% Gamesa G80 2000 Single-Axis,prm15_wcost_re8_c2p1_co2_cut90p_t1,True,True,False,4234316001.349315,23744,23744,7.0
+2020,Trade Emission cut 90% Siemens SWT 2.3 93 Fixed,prm15_wcost_re15_c2p1_co2_cut90p_t1,True,True,True,4234316001.349315,44520,14840,8.0
+2020,Trade Emission cut 90% Siemens SWT 2.3 93 Single-Axis,prm15_wcost_re5_c2p1_co2_cut90p_t1,True,True,False,4234316001.349315,14840,14840,7.0
+2020,Trade Emission cut 90% Siemens SWT 3.6 107 Fixed,prm15_wcost_re14_c2p1_co2_cut90p_t1,True,True,True,4234316001.349315,41552,11872,8.0
+2020,Trade Emission cut 90% Siemens SWT 3.6 107 Single-Axis,prm15_wcost_re4_c2p1_co2_cut90p_t1,True,True,False,4234316001.349315,11872,11872,7.0
+2020,Trade Emission cut 90% Vestas V164 7000 Fixed,prm15_wcost_re12_c2p1_co2_cut90p_t1,True,True,True,4234316001.349315,35616,5936,8.0
+2020,Trade Emission cut 90% Vestas V164 7000 Single-Axis,prm15_wcost_re2_c2p1_co2_cut90p_t1,True,True,False,4234316001.349315,5936,5936,7.0
+2020,Trade Emission cut 90% Vestas V90 2000 Fixed,prm15_wcost_re11_c2p1_co2_cut90p_t1,True,True,True,4234316001.349315,32648,2968,8.0
+2020,Trade Emission cut 90% Vestas V90 2000 Single-Axis,prm15_wcost_re1_c2p1_co2_cut90p_t1,True,True,False,4234316001.349315,2968,2968,7.0
+2020,Trade Emission cut 90% Vestas V90 3000 Fixed,prm15_wcost_re13_c2p1_co2_cut90p_t1,True,True,True,4234316001.349315,38584,8904,8.0
+2020,Trade Emission cut 90% Vestas V90 3000 Single-Axis,prm15_wcost_re3_c2p1_co2_cut90p_t1,True,True,False,4234316001.349315,8904,8904,7.0
+2020,Trade Enercon E101 3000 Fixed,prm15_wcost_re20_c2p1_t1,False,True,True,4234316001.349315,59360,29680,4.0
+2020,Trade Enercon E101 3000 Single-Axis,prm15_wcost_re10_c2p1_t1,False,True,False,4234316001.349315,29680,29680,3.0
+2020,Trade Enercon E126 7000 Fixed,prm15_wcost_re19_c2p1_t1,False,True,True,4234316001.349315,56392,26712,4.0
+2020,Trade Enercon E126 7000 Single-Axis,prm15_wcost_re9_c2p1_t1,False,True,False,4234316001.349315,26712,26712,3.0
+2020,Trade GE 1.5sle Fixed,prm15_wcost_re17_c2p1_t1,False,True,True,4234316001.349315,50456,20776,4.0
+2020,Trade GE 1.5sle Single-Axis,prm15_wcost_re7_c2p1_t1,False,True,False,4234316001.349315,20776,20776,3.0
+2020,Trade GE 2.5xl Fixed,prm15_wcost_re16_c2p1_t1,False,True,True,4234316001.349315,47488,17808,4.0
+2020,Trade GE 2.5xl Single-Axis,prm15_wcost_re6_c2p1_t1,False,True,False,4234316001.349315,17808,17808,3.0
+2020,Trade Gamesa G80 2000 Fixed,prm15_wcost_re18_c2p1_t1,False,True,True,4234316001.349315,53424,23744,4.0
+2020,Trade Gamesa G80 2000 Single-Axis,prm15_wcost_re8_c2p1_t1,False,True,False,4234316001.349315,23744,23744,3.0
+2020,Trade Siemens SWT 2.3 93 Fixed,prm15_wcost_re15_c2p1_t1,False,True,True,4234316001.349315,44520,14840,4.0
+2020,Trade Siemens SWT 2.3 93 Single-Axis,prm15_wcost_re5_c2p1_t1,False,True,False,4234316001.349315,14840,14840,3.0
+2020,Trade Siemens SWT 3.6 107 Fixed,prm15_wcost_re14_c2p1_t1,False,True,True,4234316001.349315,41552,11872,4.0
+2020,Trade Siemens SWT 3.6 107 Single-Axis,prm15_wcost_re4_c2p1_t1,False,True,False,4234316001.349315,11872,11872,3.0
+2020,Trade Vestas V164 7000 Fixed,prm15_wcost_re12_c2p1_t1,False,True,True,4234316001.349315,35616,5936,4.0
+2020,Trade Vestas V164 7000 Single-Axis,prm15_wcost_re2_c2p1_t1,False,True,False,4234316001.349315,5936,5936,3.0
+2020,Trade Vestas V90 2000 Fixed,prm15_wcost_re11_c2p1_t1,False,True,True,4234316001.349315,32648,2968,4.0
+2020,Trade Vestas V90 2000 Single-Axis,prm15_wcost_re1_c2p1_t1,False,True,False,4234316001.349315,2968,2968,3.0
+2020,Trade Vestas V90 3000 Fixed,prm15_wcost_re13_c2p1_t1,False,True,True,4234316001.349315,38584,8904,4.0
+2020,Trade Vestas V90 3000 Single-Axis,prm15_wcost_re3_c2p1_t1,False,True,False,4234316001.349315,8904,8904,3.0
+2025,Trade Emission cut 90% Enercon E101 3000 Fixed,prm15_wcost_re20_c2p1_co2_cut90p_t1,True,True,True,11745143450.89375,59360,29680,8.0
+2025,Trade Emission cut 90% Enercon E101 3000 Single-Axis,prm15_wcost_re10_c2p1_co2_cut90p_t1,True,True,False,11593628941.70523,29680,29680,7.0
+2025,Trade Emission cut 90% Enercon E126 7000 Fixed,prm15_wcost_re19_c2p1_co2_cut90p_t1,True,True,True,12140196493.046717,56392,26712,8.0
+2025,Trade Emission cut 90% Enercon E126 7000 Single-Axis,prm15_wcost_re9_c2p1_co2_cut90p_t1,True,True,False,11569349528.925068,26712,26712,7.0
+2025,Trade Emission cut 90% GE 1.5sle Fixed,prm15_wcost_re17_c2p1_co2_cut90p_t1,True,True,True,11852142815.277819,50456,20776,8.0
+2025,Trade Emission cut 90% GE 1.5sle Single-Axis,prm15_wcost_re7_c2p1_co2_cut90p_t1,True,True,False,11688047059.847338,20776,20776,7.0
+2025,Trade Emission cut 90% GE 2.5xl Fixed,prm15_wcost_re16_c2p1_co2_cut90p_t1,True,True,True,11857512491.215107,47488,17808,8.0
+2025,Trade Emission cut 90% GE 2.5xl Single-Axis,prm15_wcost_re6_c2p1_co2_cut90p_t1,True,True,False,11665269978.517355,17808,17808,7.0
+2025,Trade Emission cut 90% Gamesa G80 2000 Fixed,prm15_wcost_re18_c2p1_co2_cut90p_t1,True,True,True,12131620346.589298,53424,23744,8.0
+2025,Trade Emission cut 90% Gamesa G80 2000 Single-Axis,prm15_wcost_re8_c2p1_co2_cut90p_t1,True,True,False,11611027663.736029,23744,23744,7.0
+2025,Trade Emission cut 90% Siemens SWT 2.3 93 Fixed,prm15_wcost_re15_c2p1_co2_cut90p_t1,True,True,True,11801570316.315556,44520,14840,8.0
+2025,Trade Emission cut 90% Siemens SWT 2.3 93 Single-Axis,prm15_wcost_re5_c2p1_co2_cut90p_t1,True,True,False,11671209113.325129,14840,14840,7.0
+2025,Trade Emission cut 90% Siemens SWT 3.6 107 Fixed,prm15_wcost_re14_c2p1_co2_cut90p_t1,True,True,True,12040440695.453554,41552,11872,8.0
+2025,Trade Emission cut 90% Siemens SWT 3.6 107 Single-Axis,prm15_wcost_re4_c2p1_co2_cut90p_t1,True,True,False,11604437113.571095,11872,11872,7.0
+2025,Trade Emission cut 90% Vestas V164 7000 Fixed,prm15_wcost_re12_c2p1_co2_cut90p_t1,True,True,True,11862587706.717663,35616,5936,8.0
+2025,Trade Emission cut 90% Vestas V164 7000 Single-Axis,prm15_wcost_re2_c2p1_co2_cut90p_t1,True,True,False,11648419880.02114,5936,5936,7.0
+2025,Trade Emission cut 90% Vestas V90 2000 Fixed,prm15_wcost_re11_c2p1_co2_cut90p_t1,True,True,True,11767567204.220432,32648,2968,8.0
+2025,Trade Emission cut 90% Vestas V90 2000 Single-Axis,prm15_wcost_re1_c2p1_co2_cut90p_t1,True,True,False,11643907196.769697,2968,2968,7.0
+2025,Trade Emission cut 90% Vestas V90 3000 Fixed,prm15_wcost_re13_c2p1_co2_cut90p_t1,True,True,True,12174072910.366032,38584,8904,8.0
+2025,Trade Emission cut 90% Vestas V90 3000 Single-Axis,prm15_wcost_re3_c2p1_co2_cut90p_t1,True,True,False,11586725728.01574,8904,8904,7.0
+2025,Trade Enercon E101 3000 Fixed,prm15_wcost_re20_c2p1_t1,False,True,True,10693299999.577515,59360,29680,4.0
+2025,Trade Enercon E101 3000 Single-Axis,prm15_wcost_re10_c2p1_t1,False,True,False,11131788117.792646,29680,29680,3.0
+2025,Trade Enercon E126 7000 Fixed,prm15_wcost_re19_c2p1_t1,False,True,True,8840599292.18321,56392,26712,4.0
+2025,Trade Enercon E126 7000 Single-Axis,prm15_wcost_re9_c2p1_t1,False,True,False,10566382883.685966,26712,26712,3.0
+2025,Trade GE 1.5sle Fixed,prm15_wcost_re17_c2p1_t1,False,True,True,10142669166.181084,50456,20776,4.0
+2025,Trade GE 1.5sle Single-Axis,prm15_wcost_re7_c2p1_t1,False,True,False,10905347250.778341,20776,20776,3.0
+2025,Trade GE 2.5xl Fixed,prm15_wcost_re16_c2p1_t1,False,True,True,10572482402.913465,47488,17808,4.0
+2025,Trade GE 2.5xl Single-Axis,prm15_wcost_re6_c2p1_t1,False,True,False,10893299277.16304,17808,17808,3.0
+2025,Trade Gamesa G80 2000 Fixed,prm15_wcost_re18_c2p1_t1,False,True,True,9183455220.895933,53424,23744,4.0
+2025,Trade Gamesa G80 2000 Single-Axis,prm15_wcost_re8_c2p1_t1,False,True,False,10566382883.685972,23744,23744,3.0
+2025,Trade Siemens SWT 2.3 93 Fixed,prm15_wcost_re15_c2p1_t1,False,True,True,10035981922.9004,44520,14840,4.0
+2025,Trade Siemens SWT 2.3 93 Single-Axis,prm15_wcost_re5_c2p1_t1,False,True,False,10782488985.855646,14840,14840,3.0
+2025,Trade Siemens SWT 3.6 107 Fixed,prm15_wcost_re14_c2p1_t1,False,True,True,9415798311.66244,41552,11872,4.0
+2025,Trade Siemens SWT 3.6 107 Single-Axis,prm15_wcost_re4_c2p1_t1,False,True,False,10612403509.034521,11872,11872,3.0
+2025,Trade Vestas V164 7000 Fixed,prm15_wcost_re12_c2p1_t1,False,True,True,9870080048.33818,35616,5936,4.0
+2025,Trade Vestas V164 7000 Single-Axis,prm15_wcost_re2_c2p1_t1,False,True,False,10648770550.830872,5936,5936,3.0
+2025,Trade Vestas V90 2000 Fixed,prm15_wcost_re11_c2p1_t1,False,True,True,10668222720.80234,32648,2968,4.0
+2025,Trade Vestas V90 2000 Single-Axis,prm15_wcost_re1_c2p1_t1,False,True,False,11094655599.292124,2968,2968,3.0
+2025,Trade Vestas V90 3000 Fixed,prm15_wcost_re13_c2p1_t1,False,True,True,8840599292.18321,38584,8904,4.0
+2025,Trade Vestas V90 3000 Single-Axis,prm15_wcost_re3_c2p1_t1,False,True,False,10566382883.685978,8904,8904,3.0
+2030,Trade Emission cut 90% Enercon E101 3000 Fixed,prm15_wcost_re20_c2p1_co2_cut90p_t1,True,True,True,18337058725.082916,59360,29680,8.0
+2030,Trade Emission cut 90% Enercon E101 3000 Single-Axis,prm15_wcost_re10_c2p1_co2_cut90p_t1,True,True,False,17821834731.663376,29680,29680,7.0
+2030,Trade Emission cut 90% Enercon E126 7000 Fixed,prm15_wcost_re19_c2p1_co2_cut90p_t1,True,True,True,20097797129.981144,56392,26712,8.0
+2030,Trade Emission cut 90% Enercon E126 7000 Single-Axis,prm15_wcost_re9_c2p1_co2_cut90p_t1,True,True,False,18346618463.23482,26712,26712,7.0
+2030,Trade Emission cut 90% GE 1.5sle Fixed,prm15_wcost_re17_c2p1_co2_cut90p_t1,True,True,True,19164605028.54059,50456,20776,8.0
+2030,Trade Emission cut 90% GE 1.5sle Single-Axis,prm15_wcost_re7_c2p1_co2_cut90p_t1,True,True,False,18195150389.40098,20776,20776,7.0
+2030,Trade Emission cut 90% GE 2.5xl Fixed,prm15_wcost_re16_c2p1_co2_cut90p_t1,True,True,True,18789545612.574574,47488,17808,8.0
+2030,Trade Emission cut 90% GE 2.5xl Single-Axis,prm15_wcost_re6_c2p1_co2_cut90p_t1,True,True,False,18047242777.19303,17808,17808,7.0
+2030,Trade Emission cut 90% Gamesa G80 2000 Fixed,prm15_wcost_re18_c2p1_co2_cut90p_t1,True,True,True,20042296836.408928,53424,23744,8.0
+2030,Trade Emission cut 90% Gamesa G80 2000 Single-Axis,prm15_wcost_re8_c2p1_co2_cut90p_t1,True,True,False,18360907594.430702,23744,23744,7.0
+2030,Trade Emission cut 90% Siemens SWT 2.3 93 Fixed,prm15_wcost_re15_c2p1_co2_cut90p_t1,True,True,True,19196708279.3914,44520,14840,8.0
+2030,Trade Emission cut 90% Siemens SWT 2.3 93 Single-Axis,prm15_wcost_re5_c2p1_co2_cut90p_t1,True,True,False,18210065978.054592,14840,14840,7.0
+2030,Trade Emission cut 90% Siemens SWT 3.6 107 Fixed,prm15_wcost_re14_c2p1_co2_cut90p_t1,True,True,True,19695777676.76641,41552,11872,8.0
+2030,Trade Emission cut 90% Siemens SWT 3.6 107 Single-Axis,prm15_wcost_re4_c2p1_co2_cut90p_t1,True,True,False,18290827603.47283,11872,11872,7.0
+2030,Trade Emission cut 90% Vestas V164 7000 Fixed,prm15_wcost_re12_c2p1_co2_cut90p_t1,True,True,True,19392626128.876698,35616,5936,8.0
+2030,Trade Emission cut 90% Vestas V164 7000 Single-Axis,prm15_wcost_re2_c2p1_co2_cut90p_t1,True,True,False,18242285179.978886,5936,5936,7.0
+2030,Trade Emission cut 90% Vestas V90 2000 Fixed,prm15_wcost_re11_c2p1_co2_cut90p_t1,True,True,True,18464474955.969666,32648,2968,8.0
+2030,Trade Emission cut 90% Vestas V90 2000 Single-Axis,prm15_wcost_re1_c2p1_co2_cut90p_t1,True,True,False,17899679944.657524,2968,2968,7.0
+2030,Trade Emission cut 90% Vestas V90 3000 Fixed,prm15_wcost_re13_c2p1_co2_cut90p_t1,True,True,True,20223223309.290607,38584,8904,8.0
+2030,Trade Emission cut 90% Vestas V90 3000 Single-Axis,prm15_wcost_re3_c2p1_co2_cut90p_t1,True,True,False,18371899860.685715,8904,8904,7.0
+2030,Trade Enercon E101 3000 Fixed,prm15_wcost_re20_c2p1_t1,False,True,True,16283776131.737646,59360,29680,4.0
+2030,Trade Enercon E101 3000 Single-Axis,prm15_wcost_re10_c2p1_t1,False,True,False,16423478213.158438,29680,29680,3.0
+2030,Trade Enercon E126 7000 Fixed,prm15_wcost_re19_c2p1_t1,False,True,True,14055934976.252981,56392,26712,4.0
+2030,Trade Enercon E126 7000 Single-Axis,prm15_wcost_re9_c2p1_t1,False,True,False,15763619072.897781,26712,26712,3.0
+2030,Trade GE 1.5sle Fixed,prm15_wcost_re17_c2p1_t1,False,True,True,15081109857.78875,50456,20776,4.0
+2030,Trade GE 1.5sle Single-Axis,prm15_wcost_re7_c2p1_t1,False,True,False,16151358611.521818,20776,20776,3.0
+2030,Trade GE 2.5xl Fixed,prm15_wcost_re16_c2p1_t1,False,True,True,15472760618.714102,47488,17808,4.0
+2030,Trade GE 2.5xl Single-Axis,prm15_wcost_re6_c2p1_t1,False,True,False,16141104466.989965,17808,17808,3.0
+2030,Trade Gamesa G80 2000 Fixed,prm15_wcost_re18_c2p1_t1,False,True,True,14134787227.211697,53424,23744,4.0
+2030,Trade Gamesa G80 2000 Single-Axis,prm15_wcost_re8_c2p1_t1,False,True,False,15763180926.888039,23744,23744,3.0
+2030,Trade Siemens SWT 2.3 93 Fixed,prm15_wcost_re15_c2p1_t1,False,True,True,15204716447.619946,44520,14840,4.0
+2030,Trade Siemens SWT 2.3 93 Single-Axis,prm15_wcost_re5_c2p1_t1,False,True,False,16010737240.963448,14840,14840,3.0
+2030,Trade Siemens SWT 3.6 107 Fixed,prm15_wcost_re14_c2p1_t1,False,True,True,14632064006.88947,41552,11872,4.0
+2030,Trade Siemens SWT 3.6 107 Single-Axis,prm15_wcost_re4_c2p1_t1,False,True,False,15881890862.306528,11872,11872,3.0
+2030,Trade Vestas V164 7000 Fixed,prm15_wcost_re12_c2p1_t1,False,True,True,14997088509.68007,35616,5936,4.0
+2030,Trade Vestas V164 7000 Single-Axis,prm15_wcost_re2_c2p1_t1,False,True,False,15900240697.522245,5936,5936,3.0
+2030,Trade Vestas V90 2000 Fixed,prm15_wcost_re11_c2p1_t1,False,True,True,16211423399.605099,32648,2968,4.0
+2030,Trade Vestas V90 2000 Single-Axis,prm15_wcost_re1_c2p1_t1,False,True,False,16284522462.972084,2968,2968,3.0
+2030,Trade Vestas V90 3000 Fixed,prm15_wcost_re13_c2p1_t1,False,True,True,13891414008.793674,38584,8904,4.0
+2030,Trade Vestas V90 3000 Single-Axis,prm15_wcost_re3_c2p1_t1,False,True,False,15853597904.694454,8904,8904,3.0
+2035,Trade Emission cut 90% Enercon E101 3000 Fixed,prm15_wcost_re20_c2p1_co2_cut90p_t1,True,True,True,28025807021.506985,59360,29680,8.0
+2035,Trade Emission cut 90% Enercon E101 3000 Single-Axis,prm15_wcost_re10_c2p1_co2_cut90p_t1,True,True,False,27410478908.756577,29680,29680,7.0
+2035,Trade Emission cut 90% Enercon E126 7000 Fixed,prm15_wcost_re19_c2p1_co2_cut90p_t1,True,True,True,31102232450.760788,56392,26712,8.0
+2035,Trade Emission cut 90% Enercon E126 7000 Single-Axis,prm15_wcost_re9_c2p1_co2_cut90p_t1,True,True,False,28805946770.558033,26712,26712,7.0
+2035,Trade Emission cut 90% GE 1.5sle Fixed,prm15_wcost_re17_c2p1_co2_cut90p_t1,True,True,True,29509752577.85729,50456,20776,8.0
+2035,Trade Emission cut 90% GE 1.5sle Single-Axis,prm15_wcost_re7_c2p1_co2_cut90p_t1,True,True,False,28679998411.996357,20776,20776,7.0
+2035,Trade Emission cut 90% GE 2.5xl Fixed,prm15_wcost_re16_c2p1_co2_cut90p_t1,True,True,True,28735088093.79701,47488,17808,8.0
+2035,Trade Emission cut 90% GE 2.5xl Single-Axis,prm15_wcost_re6_c2p1_co2_cut90p_t1,True,True,False,28292281081.595833,17808,17808,7.0
+2035,Trade Emission cut 90% Gamesa G80 2000 Fixed,prm15_wcost_re18_c2p1_co2_cut90p_t1,True,True,True,30981360131.96442,53424,23744,8.0
+2035,Trade Emission cut 90% Gamesa G80 2000 Single-Axis,prm15_wcost_re8_c2p1_co2_cut90p_t1,True,True,False,28898193912.076973,23744,23744,7.0
+2035,Trade Emission cut 90% Siemens SWT 2.3 93 Fixed,prm15_wcost_re15_c2p1_co2_cut90p_t1,True,True,True,29683229515.285397,44520,14840,8.0
+2035,Trade Emission cut 90% Siemens SWT 2.3 93 Single-Axis,prm15_wcost_re5_c2p1_co2_cut90p_t1,True,True,False,28242317828.098866,14840,14840,7.0
+2035,Trade Emission cut 90% Siemens SWT 3.6 107 Fixed,prm15_wcost_re14_c2p1_co2_cut90p_t1,True,True,True,30431053892.481525,41552,11872,8.0
+2035,Trade Emission cut 90% Siemens SWT 3.6 107 Single-Axis,prm15_wcost_re4_c2p1_co2_cut90p_t1,True,True,False,28686709407.82155,11872,11872,7.0
+2035,Trade Emission cut 90% Vestas V164 7000 Fixed,prm15_wcost_re12_c2p1_co2_cut90p_t1,True,True,True,30047925514.464275,35616,5936,8.0
+2035,Trade Emission cut 90% Vestas V164 7000 Single-Axis,prm15_wcost_re2_c2p1_co2_cut90p_t1,True,True,False,28309163359.70143,5936,5936,7.0
+2035,Trade Emission cut 90% Vestas V90 2000 Fixed,prm15_wcost_re11_c2p1_co2_cut90p_t1,True,True,True,28216234539.141705,32648,2968,8.0
+2035,Trade Emission cut 90% Vestas V90 2000 Single-Axis,prm15_wcost_re1_c2p1_co2_cut90p_t1,True,True,False,28101598073.96721,2968,2968,7.0
+2035,Trade Emission cut 90% Vestas V90 3000 Fixed,prm15_wcost_re13_c2p1_co2_cut90p_t1,True,True,True,31362296357.94509,38584,8904,8.0
+2035,Trade Emission cut 90% Vestas V90 3000 Single-Axis,prm15_wcost_re3_c2p1_co2_cut90p_t1,True,True,False,28862810238.297222,8904,8904,7.0
+2035,Trade Enercon E101 3000 Fixed,prm15_wcost_re20_c2p1_t1,False,True,True,21506317598.7144,59360,29680,4.0
+2035,Trade Enercon E101 3000 Single-Axis,prm15_wcost_re10_c2p1_t1,False,True,False,21764306183.996002,29680,29680,3.0
+2035,Trade Enercon E126 7000 Fixed,prm15_wcost_re19_c2p1_t1,False,True,True,19656995375.98036,56392,26712,4.0
+2035,Trade Enercon E126 7000 Single-Axis,prm15_wcost_re9_c2p1_t1,False,True,False,20235919486.24809,26712,26712,3.0
+2035,Trade GE 1.5sle Fixed,prm15_wcost_re17_c2p1_t1,False,True,True,20025204751.452263,50456,20776,4.0
+2035,Trade GE 1.5sle Single-Axis,prm15_wcost_re7_c2p1_t1,False,True,False,21098868904.02391,20776,20776,3.0
+2035,Trade GE 2.5xl Fixed,prm15_wcost_re16_c2p1_t1,False,True,True,21522119247.63278,47488,17808,4.0
+2035,Trade GE 2.5xl Single-Axis,prm15_wcost_re6_c2p1_t1,False,True,False,21171275765.273838,17808,17808,3.0
+2035,Trade Gamesa G80 2000 Fixed,prm15_wcost_re18_c2p1_t1,False,True,True,19736957521.629578,53424,23744,4.0
+2035,Trade Gamesa G80 2000 Single-Axis,prm15_wcost_re8_c2p1_t1,False,True,False,20247113801.937225,23744,23744,3.0
+2035,Trade Siemens SWT 2.3 93 Fixed,prm15_wcost_re15_c2p1_t1,False,True,True,20113886445.04814,44520,14840,4.0
+2035,Trade Siemens SWT 2.3 93 Single-Axis,prm15_wcost_re5_c2p1_t1,False,True,False,21019286276.821114,14840,14840,3.0
+2035,Trade Siemens SWT 3.6 107 Fixed,prm15_wcost_re14_c2p1_t1,False,True,True,19612660518.63642,41552,11872,4.0
+2035,Trade Siemens SWT 3.6 107 Single-Axis,prm15_wcost_re4_c2p1_t1,False,True,False,20729768853.227783,11872,11872,3.0
+2035,Trade Vestas V164 7000 Fixed,prm15_wcost_re12_c2p1_t1,False,True,True,19708749747.677223,35616,5936,4.0
+2035,Trade Vestas V164 7000 Single-Axis,prm15_wcost_re2_c2p1_t1,False,True,False,20801507472.931126,5936,5936,3.0
+2035,Trade Vestas V90 2000 Fixed,prm15_wcost_re11_c2p1_t1,False,True,True,21537510177.84895,32648,2968,4.0
+2035,Trade Vestas V90 2000 Single-Axis,prm15_wcost_re1_c2p1_t1,False,True,False,21855715568.1314,2968,2968,3.0
+2035,Trade Vestas V90 3000 Fixed,prm15_wcost_re13_c2p1_t1,False,True,True,19689177727.126263,38584,8904,4.0
+2035,Trade Vestas V90 3000 Single-Axis,prm15_wcost_re3_c2p1_t1,False,True,False,20647445716.109936,8904,8904,3.0
+2040,Trade Emission cut 90% Enercon E101 3000 Fixed,prm15_wcost_re20_c2p1_co2_cut90p_t1,True,True,True,42290663987.2751,59360,29680,8.0
+2040,Trade Emission cut 90% Enercon E101 3000 Single-Axis,prm15_wcost_re10_c2p1_co2_cut90p_t1,True,True,False,40934923717.69275,29680,29680,7.0
+2040,Trade Emission cut 90% Enercon E126 7000 Fixed,prm15_wcost_re19_c2p1_co2_cut90p_t1,True,True,True,47258252192.63488,56392,26712,8.0
+2040,Trade Emission cut 90% Enercon E126 7000 Single-Axis,prm15_wcost_re9_c2p1_co2_cut90p_t1,True,True,False,43533769164.460075,26712,26712,7.0
+2040,Trade Emission cut 90% GE 1.5sle Fixed,prm15_wcost_re17_c2p1_co2_cut90p_t1,True,True,True,44533951210.722145,50456,20776,8.0
+2040,Trade Emission cut 90% GE 1.5sle Single-Axis,prm15_wcost_re7_c2p1_co2_cut90p_t1,True,True,False,42002945975.22383,20776,20776,7.0
+2040,Trade Emission cut 90% GE 2.5xl Fixed,prm15_wcost_re16_c2p1_co2_cut90p_t1,True,True,True,43301160704.23203,47488,17808,8.0
+2040,Trade Emission cut 90% GE 2.5xl Single-Axis,prm15_wcost_re6_c2p1_co2_cut90p_t1,True,True,False,41427368219.71639,17808,17808,7.0
+2040,Trade Emission cut 90% Gamesa G80 2000 Fixed,prm15_wcost_re18_c2p1_co2_cut90p_t1,True,True,True,47041857702.71836,53424,23744,8.0
+2040,Trade Emission cut 90% Gamesa G80 2000 Single-Axis,prm15_wcost_re8_c2p1_co2_cut90p_t1,True,True,False,43377540165.50362,23744,23744,7.0
+2040,Trade Emission cut 90% Siemens SWT 2.3 93 Fixed,prm15_wcost_re15_c2p1_co2_cut90p_t1,True,True,True,44827791341.759964,44520,14840,8.0
+2040,Trade Emission cut 90% Siemens SWT 2.3 93 Single-Axis,prm15_wcost_re5_c2p1_co2_cut90p_t1,True,True,False,42128161528.041,14840,14840,7.0
+2040,Trade Emission cut 90% Siemens SWT 3.6 107 Fixed,prm15_wcost_re14_c2p1_co2_cut90p_t1,True,True,True,46046157537.83924,41552,11872,8.0
+2040,Trade Emission cut 90% Siemens SWT 3.6 107 Single-Axis,prm15_wcost_re4_c2p1_co2_cut90p_t1,True,True,False,42780324954.96918,11872,11872,7.0
+2040,Trade Emission cut 90% Vestas V164 7000 Fixed,prm15_wcost_re12_c2p1_co2_cut90p_t1,True,True,True,45343263037.48952,35616,5936,8.0
+2040,Trade Emission cut 90% Vestas V164 7000 Single-Axis,prm15_wcost_re2_c2p1_co2_cut90p_t1,True,True,False,42404620282.651985,5936,5936,7.0
+2040,Trade Emission cut 90% Vestas V90 2000 Fixed,prm15_wcost_re11_c2p1_co2_cut90p_t1,True,True,True,42582189668.45798,32648,2968,8.0
+2040,Trade Emission cut 90% Vestas V90 2000 Single-Axis,prm15_wcost_re1_c2p1_co2_cut90p_t1,True,True,False,41100541407.752174,2968,2968,7.0
+2040,Trade Emission cut 90% Vestas V90 3000 Fixed,prm15_wcost_re13_c2p1_co2_cut90p_t1,True,True,True,47702518310.37255,38584,8904,8.0
+2040,Trade Emission cut 90% Vestas V90 3000 Single-Axis,prm15_wcost_re3_c2p1_co2_cut90p_t1,True,True,False,43778335706.43667,8904,8904,7.0
+2040,Trade Enercon E101 3000 Fixed,prm15_wcost_re20_c2p1_t1,False,True,True,28132767108.419094,59360,29680,4.0
+2040,Trade Enercon E101 3000 Single-Axis,prm15_wcost_re10_c2p1_t1,False,True,False,29083870991.605267,29680,29680,3.0
+2040,Trade Enercon E126 7000 Fixed,prm15_wcost_re19_c2p1_t1,False,True,True,25037009933.428406,56392,26712,4.0
+2040,Trade Enercon E126 7000 Single-Axis,prm15_wcost_re9_c2p1_t1,False,True,False,26705221413.6343,26712,26712,3.0
+2040,Trade GE 1.5sle Fixed,prm15_wcost_re17_c2p1_t1,False,True,True,25270108555.17354,50456,20776,4.0
+2040,Trade GE 1.5sle Single-Axis,prm15_wcost_re7_c2p1_t1,False,True,False,27597141149.352528,20776,20776,3.0
+2040,Trade GE 2.5xl Fixed,prm15_wcost_re16_c2p1_t1,False,True,True,28094916388.465405,47488,17808,4.0
+2040,Trade GE 2.5xl Single-Axis,prm15_wcost_re6_c2p1_t1,False,True,False,27966465788.122387,17808,17808,3.0
+2040,Trade Gamesa G80 2000 Fixed,prm15_wcost_re18_c2p1_t1,False,True,True,25121830294.09951,53424,23744,4.0
+2040,Trade Gamesa G80 2000 Single-Axis,prm15_wcost_re8_c2p1_t1,False,True,False,26708831522.103188,23744,23744,3.0
+2040,Trade Siemens SWT 2.3 93 Fixed,prm15_wcost_re15_c2p1_t1,False,True,True,25362087239.36044,44520,14840,4.0
+2040,Trade Siemens SWT 2.3 93 Single-Axis,prm15_wcost_re5_c2p1_t1,False,True,False,27178902703.766895,14840,14840,3.0
+2040,Trade Siemens SWT 3.6 107 Fixed,prm15_wcost_re14_c2p1_t1,False,True,True,25118082047.64331,41552,11872,4.0
+2040,Trade Siemens SWT 3.6 107 Single-Axis,prm15_wcost_re4_c2p1_t1,False,True,False,26770120975.850555,11872,11872,3.0
+2040,Trade Vestas V164 7000 Fixed,prm15_wcost_re12_c2p1_t1,False,True,True,25036924758.961407,35616,5936,4.0
+2040,Trade Vestas V164 7000 Single-Axis,prm15_wcost_re2_c2p1_t1,False,True,False,26837939281.923225,5936,5936,3.0
+2040,Trade Vestas V90 2000 Fixed,prm15_wcost_re11_c2p1_t1,False,True,True,28102139714.981384,32648,2968,4.0
+2040,Trade Vestas V90 2000 Single-Axis,prm15_wcost_re1_c2p1_t1,False,True,False,29127609844.855995,2968,2968,3.0
+2040,Trade Vestas V90 3000 Fixed,prm15_wcost_re13_c2p1_t1,False,True,True,24996176057.09162,38584,8904,4.0
+2040,Trade Vestas V90 3000 Single-Axis,prm15_wcost_re3_c2p1_t1,False,True,False,26678168409.76484,8904,8904,3.0
+2045,Trade Emission cut 90% Enercon E101 3000 Fixed,prm15_wcost_re20_c2p1_co2_cut90p_t1,True,True,True,61272865795.83111,59360,29680,8.0
+2045,Trade Emission cut 90% Enercon E101 3000 Single-Axis,prm15_wcost_re10_c2p1_co2_cut90p_t1,True,True,False,58857625173.05302,29680,29680,7.0
+2045,Trade Emission cut 90% Enercon E126 7000 Fixed,prm15_wcost_re19_c2p1_co2_cut90p_t1,True,True,True,69880599564.44797,56392,26712,8.0
+2045,Trade Emission cut 90% Enercon E126 7000 Single-Axis,prm15_wcost_re9_c2p1_co2_cut90p_t1,True,True,False,65318278729.97216,26712,26712,7.0
+2045,Trade Emission cut 90% GE 1.5sle Fixed,prm15_wcost_re17_c2p1_co2_cut90p_t1,True,True,True,64745259695.197296,50456,20776,8.0
+2045,Trade Emission cut 90% GE 1.5sle Single-Axis,prm15_wcost_re7_c2p1_co2_cut90p_t1,True,True,False,61602055812.72457,20776,20776,7.0
+2045,Trade Emission cut 90% GE 2.5xl Fixed,prm15_wcost_re16_c2p1_co2_cut90p_t1,True,True,True,62847708705.35919,47488,17808,8.0
+2045,Trade Emission cut 90% GE 2.5xl Single-Axis,prm15_wcost_re6_c2p1_co2_cut90p_t1,True,True,False,60105309392.30936,17808,17808,7.0
+2045,Trade Emission cut 90% Gamesa G80 2000 Fixed,prm15_wcost_re18_c2p1_co2_cut90p_t1,True,True,True,69671052774.75305,53424,23744,8.0
+2045,Trade Emission cut 90% Gamesa G80 2000 Single-Axis,prm15_wcost_re8_c2p1_co2_cut90p_t1,True,True,False,65076076216.95993,23744,23744,7.0
+2045,Trade Emission cut 90% Siemens SWT 2.3 93 Fixed,prm15_wcost_re15_c2p1_co2_cut90p_t1,True,True,True,65259601144.49966,44520,14840,8.0
+2045,Trade Emission cut 90% Siemens SWT 2.3 93 Single-Axis,prm15_wcost_re5_c2p1_co2_cut90p_t1,True,True,False,61874178285.17497,14840,14840,7.0
+2045,Trade Emission cut 90% Siemens SWT 3.6 107 Fixed,prm15_wcost_re14_c2p1_co2_cut90p_t1,True,True,True,67465721862.589745,41552,11872,8.0
+2045,Trade Emission cut 90% Siemens SWT 3.6 107 Single-Axis,prm15_wcost_re4_c2p1_co2_cut90p_t1,True,True,False,63482855220.47045,11872,11872,7.0
+2045,Trade Emission cut 90% Vestas V164 7000 Fixed,prm15_wcost_re12_c2p1_co2_cut90p_t1,True,True,True,66176209625.761856,35616,5936,8.0
+2045,Trade Emission cut 90% Vestas V164 7000 Single-Axis,prm15_wcost_re2_c2p1_co2_cut90p_t1,True,True,False,62544772244.66942,5936,5936,7.0
+2045,Trade Emission cut 90% Vestas V90 2000 Fixed,prm15_wcost_re11_c2p1_co2_cut90p_t1,True,True,True,61733065721.36565,32648,2968,8.0
+2045,Trade Emission cut 90% Vestas V90 2000 Single-Axis,prm15_wcost_re1_c2p1_co2_cut90p_t1,True,True,False,59238906668.73771,2968,2968,7.0
+2045,Trade Emission cut 90% Vestas V90 3000 Fixed,prm15_wcost_re13_c2p1_co2_cut90p_t1,True,True,True,71118408410.47466,38584,8904,8.0
+2045,Trade Emission cut 90% Vestas V90 3000 Single-Axis,prm15_wcost_re3_c2p1_co2_cut90p_t1,True,True,False,66187515775.965515,8904,8904,7.0
+2045,Trade Enercon E101 3000 Fixed,prm15_wcost_re20_c2p1_t1,False,True,True,36526542583.66113,59360,29680,4.0
+2045,Trade Enercon E101 3000 Single-Axis,prm15_wcost_re10_c2p1_t1,False,True,False,38692607756.69161,29680,29680,3.0
+2045,Trade Enercon E126 7000 Fixed,prm15_wcost_re19_c2p1_t1,False,True,True,34708721273.10038,56392,26712,4.0
+2045,Trade Enercon E126 7000 Single-Axis,prm15_wcost_re9_c2p1_t1,False,True,False,35976385296.27499,26712,26712,3.0
+2045,Trade GE 1.5sle Fixed,prm15_wcost_re17_c2p1_t1,False,True,True,35393256821.87725,50456,20776,4.0
+2045,Trade GE 1.5sle Single-Axis,prm15_wcost_re7_c2p1_t1,False,True,False,36697467544.18608,20776,20776,3.0
+2045,Trade GE 2.5xl Fixed,prm15_wcost_re16_c2p1_t1,False,True,True,36160949586.949905,47488,17808,4.0
+2045,Trade GE 2.5xl Single-Axis,prm15_wcost_re6_c2p1_t1,False,True,False,38092361993.09983,17808,17808,3.0
+2045,Trade Gamesa G80 2000 Fixed,prm15_wcost_re18_c2p1_t1,False,True,True,35180619635.644356,53424,23744,4.0
+2045,Trade Gamesa G80 2000 Single-Axis,prm15_wcost_re8_c2p1_t1,False,True,False,36002397439.52967,23744,23744,3.0
+2045,Trade Siemens SWT 2.3 93 Fixed,prm15_wcost_re15_c2p1_t1,False,True,True,35364473179.24212,44520,14840,4.0
+2045,Trade Siemens SWT 2.3 93 Single-Axis,prm15_wcost_re5_c2p1_t1,False,True,False,36748392775.65532,14840,14840,3.0
+2045,Trade Siemens SWT 3.6 107 Fixed,prm15_wcost_re14_c2p1_t1,False,True,True,35859739064.55447,41552,11872,4.0
+2045,Trade Siemens SWT 3.6 107 Single-Axis,prm15_wcost_re4_c2p1_t1,False,True,False,36998712995.599266,11872,11872,3.0
+2045,Trade Vestas V164 7000 Fixed,prm15_wcost_re12_c2p1_t1,False,True,True,35422780498.107315,35616,5936,4.0
+2045,Trade Vestas V164 7000 Single-Axis,prm15_wcost_re2_c2p1_t1,False,True,False,36850645278.56345,5936,5936,3.0
+2045,Trade Vestas V90 2000 Fixed,prm15_wcost_re11_c2p1_t1,False,True,True,35855727876.511444,32648,2968,4.0
+2045,Trade Vestas V90 2000 Single-Axis,prm15_wcost_re1_c2p1_t1,False,True,False,38550221170.6604,2968,2968,3.0
+2045,Trade Vestas V90 3000 Fixed,prm15_wcost_re13_c2p1_t1,False,True,True,34565334204.92964,38584,8904,4.0
+2045,Trade Vestas V90 3000 Single-Axis,prm15_wcost_re3_c2p1_t1,False,True,False,35832092938.89595,8904,8904,3.0
+2050,Trade Emission cut 90% Enercon E101 3000 Fixed,prm15_wcost_re20_c2p1_co2_cut90p_t1,True,True,True,87150639219.10678,59360,29680,8.0
+2050,Trade Emission cut 90% Enercon E101 3000 Single-Axis,prm15_wcost_re10_c2p1_co2_cut90p_t1,True,True,False,83324162687.5253,29680,29680,7.0
+2050,Trade Emission cut 90% Enercon E126 7000 Fixed,prm15_wcost_re19_c2p1_co2_cut90p_t1,True,True,True,98938153396.0278,56392,26712,8.0
+2050,Trade Emission cut 90% Enercon E126 7000 Single-Axis,prm15_wcost_re9_c2p1_co2_cut90p_t1,True,True,False,93556785376.88188,26712,26712,7.0
+2050,Trade Emission cut 90% GE 1.5sle Fixed,prm15_wcost_re17_c2p1_co2_cut90p_t1,True,True,True,93498125245.33005,50456,20776,8.0
+2050,Trade Emission cut 90% GE 1.5sle Single-Axis,prm15_wcost_re7_c2p1_co2_cut90p_t1,True,True,False,88958673459.24263,20776,20776,7.0
+2050,Trade Emission cut 90% GE 2.5xl Fixed,prm15_wcost_re16_c2p1_co2_cut90p_t1,True,True,True,90353383581.80167,47488,17808,8.0
+2050,Trade Emission cut 90% GE 2.5xl Single-Axis,prm15_wcost_re6_c2p1_co2_cut90p_t1,True,True,False,85934118702.04362,17808,17808,7.0
+2050,Trade Emission cut 90% Gamesa G80 2000 Fixed,prm15_wcost_re18_c2p1_co2_cut90p_t1,True,True,True,98226176728.93462,53424,23744,8.0
+2050,Trade Emission cut 90% Gamesa G80 2000 Single-Axis,prm15_wcost_re8_c2p1_co2_cut90p_t1,True,True,False,92980692207.55275,23744,23744,7.0
+2050,Trade Emission cut 90% Siemens SWT 2.3 93 Fixed,prm15_wcost_re15_c2p1_co2_cut90p_t1,True,True,True,93964359983.1163,44520,14840,8.0
+2050,Trade Emission cut 90% Siemens SWT 2.3 93 Single-Axis,prm15_wcost_re5_c2p1_co2_cut90p_t1,True,True,False,89656785107.53474,14840,14840,7.0
+2050,Trade Emission cut 90% Siemens SWT 3.6 107 Fixed,prm15_wcost_re14_c2p1_co2_cut90p_t1,True,True,True,96268197560.8001,41552,11872,8.0
+2050,Trade Emission cut 90% Siemens SWT 3.6 107 Single-Axis,prm15_wcost_re4_c2p1_co2_cut90p_t1,True,True,False,91661432185.09291,11872,11872,7.0
+2050,Trade Emission cut 90% Vestas V164 7000 Fixed,prm15_wcost_re12_c2p1_co2_cut90p_t1,True,True,True,95223510353.05933,35616,5936,8.0
+2050,Trade Emission cut 90% Vestas V164 7000 Single-Axis,prm15_wcost_re2_c2p1_co2_cut90p_t1,True,True,False,90760496510.88414,5936,5936,7.0
+2050,Trade Emission cut 90% Vestas V90 2000 Fixed,prm15_wcost_re11_c2p1_co2_cut90p_t1,True,True,True,88258451481.13754,32648,2968,8.0
+2050,Trade Emission cut 90% Vestas V90 2000 Single-Axis,prm15_wcost_re1_c2p1_co2_cut90p_t1,True,True,False,84158436196.652,2968,2968,7.0
+2050,Trade Emission cut 90% Vestas V90 3000 Fixed,prm15_wcost_re13_c2p1_co2_cut90p_t1,True,True,True,100150826884.21466,38584,8904,8.0
+2050,Trade Emission cut 90% Vestas V90 3000 Single-Axis,prm15_wcost_re3_c2p1_co2_cut90p_t1,True,True,False,94218349707.61029,8904,8904,7.0
+2050,Trade Enercon E101 3000 Fixed,prm15_wcost_re20_c2p1_t1,False,True,True,50332403749.95613,59360,29680,4.0
+2050,Trade Enercon E101 3000 Single-Axis,prm15_wcost_re10_c2p1_t1,False,True,False,54047433581.66139,29680,29680,3.0
+2050,Trade Enercon E126 7000 Fixed,prm15_wcost_re19_c2p1_t1,False,True,True,47208905248.00423,56392,26712,4.0
+2050,Trade Enercon E126 7000 Single-Axis,prm15_wcost_re9_c2p1_t1,False,True,False,48100196210.0759,26712,26712,3.0
+2050,Trade GE 1.5sle Fixed,prm15_wcost_re17_c2p1_t1,False,True,True,49623276194.55831,50456,20776,4.0
+2050,Trade GE 1.5sle Single-Axis,prm15_wcost_re7_c2p1_t1,False,True,False,49624543441.44151,20776,20776,3.0
+2050,Trade GE 2.5xl Fixed,prm15_wcost_re16_c2p1_t1,False,True,True,49830137386.74662,47488,17808,4.0
+2050,Trade GE 2.5xl Single-Axis,prm15_wcost_re6_c2p1_t1,False,True,False,51434593880.26886,17808,17808,3.0
+2050,Trade Gamesa G80 2000 Fixed,prm15_wcost_re18_c2p1_t1,False,True,True,47347244115.653946,53424,23744,4.0
+2050,Trade Gamesa G80 2000 Single-Axis,prm15_wcost_re8_c2p1_t1,False,True,False,48164459316.7094,23744,23744,3.0
+2050,Trade Siemens SWT 2.3 93 Fixed,prm15_wcost_re15_c2p1_t1,False,True,True,48559124792.45704,44520,14840,4.0
+2050,Trade Siemens SWT 2.3 93 Single-Axis,prm15_wcost_re5_c2p1_t1,False,True,False,49109045611.934746,14840,14840,3.0
+2050,Trade Siemens SWT 3.6 107 Fixed,prm15_wcost_re14_c2p1_t1,False,True,True,48850726898.94784,41552,11872,4.0
+2050,Trade Siemens SWT 3.6 107 Single-Axis,prm15_wcost_re4_c2p1_t1,False,True,False,49283954249.06601,11872,11872,3.0
+2050,Trade Vestas V164 7000 Fixed,prm15_wcost_re12_c2p1_t1,False,True,True,48191416769.44387,35616,5936,4.0
+2050,Trade Vestas V164 7000 Single-Axis,prm15_wcost_re2_c2p1_t1,False,True,False,49381969782.21118,5936,5936,3.0
+2050,Trade Vestas V90 2000 Fixed,prm15_wcost_re11_c2p1_t1,False,True,True,48845969081.90107,32648,2968,4.0
+2050,Trade Vestas V90 2000 Single-Axis,prm15_wcost_re1_c2p1_t1,False,True,False,53302838742.75336,2968,2968,3.0
+2050,Trade Vestas V90 3000 Fixed,prm15_wcost_re13_c2p1_t1,False,True,True,46817207650.112785,38584,8904,4.0
+2050,Trade Vestas V90 3000 Single-Axis,prm15_wcost_re3_c2p1_t1,False,True,False,46814184031.01943,8904,8904,3.0
