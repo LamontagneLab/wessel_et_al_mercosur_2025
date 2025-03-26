@@ -11,12 +11,10 @@ import numpy as np
 import pyarrow
 
 ### GENERAL INFORMATION / VARIABLES ###
-main_path = '../' # SET main_path TO NAVIGATE TO gplac/results/ DIRECTORY
-respath = main_path + 'outputs/paper2_supp/' # ASSUMES DATA CAN BE FOUND IN outputs/ BY SCENARIO NAME
-respath1 = main_path + 'outputs/'
-figpath = '../paper2_figures/paper_figures/'
+respath = 'outputs/lim_coord/' # ASSUMES DATA CAN BE FOUND IN outputs/ BY SCENARIO NAME
+respath1 = 'outputs/full_coord/'
 datapath = 'figure_data/'
-sc_names = pd.read_csv('processed_data/scenario_names.csv')
+sc_names = pd.read_csv(datapath + 'scenario_names.csv')
 mercosur = ['Argentina','Brazil','Chile','Paraguay','Uruguay']
 periods = [2020,2025,2030,2035,2040,2045,2050]
 
@@ -331,8 +329,8 @@ tech_mapper = {'Coal_Sub':'Coal','Coal_Sup':'Coal','Coal_IGCC':'Coal','Gas_CCGT'
 #%% VRE PREFERENCE
 
 # # read in list of possible projects
-# solar_projects = pd.read_csv('processed_data/projdata_mercosur_solar_planned.csv').drop(columns=['index'])
-# wind_projects = pd.read_csv('processed_data/projdata_mercosur_wind_planned.csv').drop(columns=['index'])
+# solar_projects = pd.read_csv(datapath+'projdata_mercosur_solar_planned.csv').drop(columns=['index'])
+# wind_projects = pd.read_csv(datapath+'projdata_mercosur_wind_planned.csv').drop(columns=['index'])
 # #update capacity factors to specific data used
 # solar_projects = solar_projects.rename(columns={'ann_cfs_ninja_solar_1axis':'cf'})
 # wind_projects = wind_projects.rename(columns={'ann_cfs_ninja_wind_vestas_v90_2mw_100m':'cf'})
