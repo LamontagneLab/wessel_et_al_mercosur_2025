@@ -1,5 +1,5 @@
 # GridPath-Mercosur Regional Coordination 2025
-Data and code for forthcoming work "Regional coordination can broadly alleviate the cost burden of a low-carbon electricity system".
+Data and code for forthcoming work "Regional coordination can alleviate the cost burden of a low-carbon electricity system".
 
 This repository contains model input data, processed model output data, and all original code for data processing, analysis, and figure generation.
 
