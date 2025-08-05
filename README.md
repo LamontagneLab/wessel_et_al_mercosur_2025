@@ -17,15 +17,17 @@ The GridPath model is open source and is accessible at https://doi.org/10.5281/z
 | figure_data/  | Post-processed model outputs necessary to generate the figures presented in this analysis. For full, raw model outputs, see the associated Zenodo repository. |
 | stranded_coord_appendix/  | Self-contained set of extra model inputs, post-processed output data, and figure generation scripts necessary to reproduce the Stranded Coordination sensitivity analysis. |
 | main_data_prep.py  | Python code necessary to reproduce the analysis. This script takes the model output available in Zenodo and processes it into the data contained in figure_data/ for figure generation. |
-| main_figures  | Python code to generate figures shown in this study. |
+| main_figures.py  | Python code to generate figures shown in this study. |
 
 ## Running the model and reproducing the experiment
 
-The files and scripts presented in the model_inputs/ and model_run_scripts/ folder, along with a compatible version of GridPath can be used to reproduce the experiment. See above for the model version used in this paper.
+The files and scripts presented in the model_inputs/ and model_run_scripts/ folder, along with a compatible version of GridPath can be used to fully reproduce the experiment. See above for the model version used in this paper.
 
 For first time users of GridPath, extensive documentation and setup guides are available on [Github](https://github.com/blue-marble/gridpath) and [Read the Docs](https://gridpath.readthedocs.io/). Reference this documentation for necessary software dependencies.
 
 GridPath may take 30-60 minutes to install. The GridPath scenarios used in this experiment generally require the use of large computing resources to fully reproduce, but the model includes several [example problems](https://gridpath.readthedocs.io/en/latest/usage.html#examples) which can be run on an average desktop computer. Depending on the sample problem tested, this can be run in seconds to minutes.
+
+Note also that a mathematical solver is required to run GridPath. There are many commercial solvers available; in this study, Gurobi v10.0.1 is used. Gurobi is freely available for academic use. Although more powerful solvers are generally recommended for reproducing this experiment, the demo problems referenced above may be solved with simpler methods.
 
 Generally, running GridPath consists of: 
 1. preparing scenario-specific input data and formatting to match the "csvs" folder. Here, the "csvs_12day_p2" contains experiment-specific data.
