@@ -763,8 +763,8 @@ plt.show()
 
 ### GEN ###
 gms = gen_mix[(gen_mix.load_zone=='Region-wide')&(gen_mix.period>=2050)].copy(deep=True)
-gms['tech'] = gms['technology'].map({'Biomass':'Biomass','Coal':'Fossil','Curtailment':'Other','Battery':'Battery','Diesel':'Fossil',
-                            'Gas':'Fossil','Geothermal':'Other','Hydro':'Hydro','Nuclear':'Nuclear','Solar':'Solar','Wind':'Wind'})
+gms['tech'] = gms['technology'].map({'Biomass':'Biomass','Coal':'Coal','Curtailment':'Other','Battery':'Battery','Diesel':'Diesel',
+                            'Gas':'Gas','Geothermal':'Other','Hydro':'Hydro','Nuclear':'Nuclear','Solar':'Solar','Wind':'Wind'})
 gms = gms[gms.tech != 'Other']
 gms['twh'] = np.abs(gms['twh'])
 gms['emis'] = gms['scs'].str.contains('cut90p')
@@ -775,6 +775,8 @@ gmsm=gms[gms.trd==0].merge(gms[gms.trd==1],on=['rscen','emis','tech'],
 gmsm['diff'] = gmsm['twh_t1'] - gmsm['twh_tn']
 gmsm = gmsm[['rscen','tech','emis','diff']].copy(deep=True)
 gmsm['emis'] = gmsm['emis'].map({True:'cut90p',False:'nocut'})
+gmsm['tech'] = gmsm['tech'].map({'Biomass':'Biomass','Coal':'Fossil','Battery':'Battery','Diesel':'Fossil',
+                            'Gas':'Fossil','Hydro':'Hydro','Nuclear':'Nuclear','Solar':'Solar','Wind':'Wind'})
 
 difforder=CategoricalDtype(['Wind','Solar','Fossil','Hydro','Battery','Nuclear','Biomass'], ordered=True)
 gmsm['tech'] = gmsm['tech'].astype(difforder)
@@ -800,7 +802,12 @@ bcap_clr = ['#4069ff', '#e87b00', '#9d0000', '#cadae5', '#cac5b2', '#b8adc2', '#
 bcap_med_clr = ['#79d4ff','#bb4a00','#d63434','#166296','#84722b','#5e4f6c','#4a7542']
 ctsm['diff'] *= -1
 gmsm['diff'] *= -1
-
+ctsm = ctsm[ctsm.emis=='cut90p'].copy(deep=True).drop(columns='emis')
+gmsm = gmsm[gmsm.emis=='cut90p'].copy(deep=True).drop(columns='emis')
+fossil_agg = gmsm[gmsm.tech=='Fossil'].copy(deep=True)
+fossil_agg = fossil_agg.groupby(['rscen','tech'], observed=True).sum().reset_index()
+gmsm = pd.concat([gmsm[gmsm.tech != 'Fossil'], fossil_agg])
+gmsm.to_csv('sd/fig3b.csv',index=False)
 
 plt.rcParams.update(plt.rcParamsDefault)
 font = FontProperties()
@@ -815,7 +822,7 @@ ytk = [['-$8B','-$6B','-$4B','-$2B','$0','$2B','$4B','$6B','$8B'],['','-150 TWh'
 
 for i in range(len(axs)):
     
-    g = sns.boxplot(data=metdfs[i][metdfs[i].emis=='cut90p'],y='diff',x='tech',ax=axs[i],saturation=1,width=0.8,
+    g = sns.boxplot(data=metdfs[i],y='diff',x='tech',ax=axs[i],saturation=1,width=0.8,
                     medianprops={"linewidth": .9,'color':'k','label':'_median_','solid_capstyle':'butt'},
                     boxprops={"linewidth": .3,'edgecolor':'k'},whiskerprops={"linewidth": 2,'color':'k','solid_capstyle':'butt'},
                     flierprops={"marker": "d",'markerfacecolor':'none','markeredgecolor':'k','markersize':3},
@@ -2080,7 +2087,7 @@ for y in range(3):
     ax_hr.tick_params(axis='y', pad=2)
     ax_lg.annotate(panel_labels[y],xy=(0.5,0.5), xycoords='axes fraction', fontsize=14, fontweight='bold',ha='center',va='center')
 
-plt.savefig(figpath + 'figure_S11.png',facecolor='w',bbox_inches='tight',dpi=800)
+plt.savefig(figpath + 'figure_S9.png',facecolor='w',bbox_inches='tight',dpi=800)
 plt.show()
 
 #%%
