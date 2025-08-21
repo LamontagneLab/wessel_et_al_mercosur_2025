@@ -26,7 +26,7 @@ import os
 from pandas.api.types import CategoricalDtype
 from matplotlib.ticker import PercentFormatter
 import itertools
-import pyarrow
+import fastparquet, pyarrow
 
 ### GENERAL INFORMATION / VARIABLES ###
 figpath = './'
@@ -1346,18 +1346,18 @@ for i in range(len(cap_tech)):
             ax.tick_params(axis='y',pad=2)
         ax.set_xlabel('')
 pa1 = Patch(facecolor=my_colours[0], edgecolor=med_colours[0],linewidth=0.5)
-pa2 = Patch(facecolor=my_colours[2], edgecolor=med_colours[2],linewidth=0.5)
-pa3 = Patch(facecolor=my_colours[4], edgecolor=med_colours[4],linewidth=0.5)
-pa4 = Patch(facecolor=my_colours[6], edgecolor=med_colours[6],linewidth=0.5)
-pb1 = Patch(facecolor=my_colours[1], edgecolor=med_colours[1],linewidth=0.5)
-pb2 = Patch(facecolor=my_colours[3], edgecolor=med_colours[3],linewidth=0.5)
-pb3 = Patch(facecolor=my_colours[5], edgecolor=med_colours[5],linewidth=0.5)
+pa2 = Patch(facecolor=my_colours[1], edgecolor=med_colours[1],linewidth=0.5)
+pa3 = Patch(facecolor=my_colours[2], edgecolor=med_colours[2],linewidth=0.5)
+pa4 = Patch(facecolor=my_colours[3], edgecolor=med_colours[3],linewidth=0.5)
+pb1 = Patch(facecolor=my_colours[4], edgecolor=med_colours[4],linewidth=0.5)
+pb2 = Patch(facecolor=my_colours[5], edgecolor=med_colours[5],linewidth=0.5)
+pb3 = Patch(facecolor=my_colours[6], edgecolor=med_colours[6],linewidth=0.5)
 pb4 = Patch(facecolor=my_colours[7], edgecolor=med_colours[7],linewidth=0.5)
 ax.legend(handles=[pa1, pb1, pa2, pb2, pa3, pb3, pa4, pb4],
           labels=['', '', '', '', '', '', '1-Axis Solar', 'Fixed Solar'],
           ncol=4, handletextpad=0.5, handlelength=1.2, columnspacing=-0.5,
           loc='center', fontsize=9,frameon=False,bbox_to_anchor=(-2.63,-0.8))
-fig.savefig(figpath + 'figureS1.png', bbox_inches='tight', dpi=600)
+fig.savefig(figpath + 'figure_S1.png', bbox_inches='tight', dpi=600)
 plt.show()
 
 #%% GENERATION SHARE BAND PLOTS (For SI)
@@ -1486,12 +1486,12 @@ for i in range(len(cost_cols)):
         ax.set_xlabel('')
         ax.set_ylim(ylims[i][j])
 pa1 = Patch(facecolor=my_colours[0], edgecolor=med_colours[0],linewidth=0.5)
-pa2 = Patch(facecolor=my_colours[2], edgecolor=med_colours[2],linewidth=0.5)
-pa3 = Patch(facecolor=my_colours[4], edgecolor=med_colours[4],linewidth=0.5)
-pa4 = Patch(facecolor=my_colours[6], edgecolor=med_colours[6],linewidth=0.5)
-pb1 = Patch(facecolor=my_colours[1], edgecolor=med_colours[1],linewidth=0.5)
-pb2 = Patch(facecolor=my_colours[3], edgecolor=med_colours[3],linewidth=0.5)
-pb3 = Patch(facecolor=my_colours[5], edgecolor=med_colours[5],linewidth=0.5)
+pa2 = Patch(facecolor=my_colours[1], edgecolor=med_colours[1],linewidth=0.5)
+pa3 = Patch(facecolor=my_colours[2], edgecolor=med_colours[2],linewidth=0.5)
+pa4 = Patch(facecolor=my_colours[3], edgecolor=med_colours[3],linewidth=0.5)
+pb1 = Patch(facecolor=my_colours[4], edgecolor=med_colours[4],linewidth=0.5)
+pb2 = Patch(facecolor=my_colours[5], edgecolor=med_colours[5],linewidth=0.5)
+pb3 = Patch(facecolor=my_colours[6], edgecolor=med_colours[6],linewidth=0.5)
 pb4 = Patch(facecolor=my_colours[7], edgecolor=med_colours[7],linewidth=0.5)
 ax.legend(handles=[pa1, pb1, pa2, pb2, pa3, pb3, pa4, pb4],
           labels=['', '', '', '', '', '', '1-Axis Solar', 'Fixed Solar'],
@@ -1550,518 +1550,537 @@ plt.show()
 
 #%% BATTERY, CURTAILMENT, EMISSIONS BY COUNTRY (For SI)
 
-# plt.rcParams.update(plt.rcParamsDefault)
-# font = FontProperties()
-# font.set_name('Open Sans')
-# plt.rcParams["font.family"] = "Arial"
-# fig = plt.figure(constrained_layout=False, figsize = (14,15))
-# gs = fig.add_gridspec(4,6, height_ratios=[1,1,1,1], width_ratios=[1,1,1,1,1,1], hspace=.11, wspace=0.25)
-# location_legend = [-1.15,-0.42]
-# ylims = [[(-0.05,20),(-0.003,1),(-0.003,1),(-0.01,10.4),(-0.01,10.4),(-0.003,1)],
-#           [(-5,400),(-1.5,200),(-1.5,200),(-0.5,40),(-0.5,40),(-0.01,6)],
-#           [(0,1700),(0,600),(0,800),(0,300),(-0.01,10),(-0.01,6)]]
-# decarb_labels = ['Battery Storage Requirement $(GW)$','Cumulative VRE Curtailment $(TWh)$',r'Cumulative $CO_{2}$ Emissions $(MtCO_{2})$']
+plt.rcParams.update(plt.rcParamsDefault)
+font = FontProperties()
+font.set_name('Open Sans')
+plt.rcParams["font.family"] = "Arial"
+my_colours = ['#7DF5E0','#FF96BC','#FFCB31','#84C5FF','#008770','#CA1658','#AD8200','#0074DA']
+med_colours = ['#008770','#CA1658','#AD8200','#0074DA','#7DF5E0','#FF96BC','#FFCB31','#84C5FF']
+fig = plt.figure(constrained_layout=False, figsize = (14,15))
+gs = fig.add_gridspec(4,6, height_ratios=[1,1,1,1], width_ratios=[1,1,1,1,1,1], hspace=.11, wspace=0.25)
+location_legend = [-1.15,-0.42]
+ylims = [[(-0.05,20),(-0.003,1),(-0.003,1),(-0.01,10.4),(-0.01,10.4),(-0.003,1)],
+          [(-5,400),(-1.5,200),(-1.5,200),(-0.5,40),(-0.5,40),(-0.01,6)],
+          [(0,1700),(0,600),(0,800),(0,300),(-0.01,10),(-0.01,6)]]
+decarb_labels = ['Battery Storage Requirement (GW)','Cumulative VRE Curtailment (TWh)','Cumulative $\mathrm{CO_{2}}$ Emissions (Mt$\mathrm{CO_{2}}$)']
 
-# # plot capacities
-# for i in range(len(decarb_cols)):
-#     for j in range(len(panels)):
-#         ax = fig.add_subplot(gs[i,j])
-#         g = sns.boxplot(data=decarb[decarb.load_zone==panels[j]],x='pol',y=decarb_cols[i],hue='fixed_pv', width=0.7,
-#                         medianprops={"linewidth": .7,'color':'k','label':'_median_','solid_capstyle':'butt'},saturation=1,
-#                         flierprops={"marker": "o",'markerfacecolor':'none','markeredgecolor':'k','markersize':2},
-#                         boxprops={"linewidth": .3,'edgecolor':'k'})#,whiskerprops={"linewidth": .7,'color':'k'},capprops={"linewidth": .7,'color':'k'})
-#         ax.legend([],frameon=False)
-#         boxes = ax.findobj(matplotlib.patches.PathPatch)
-#         for color, box in zip(my_colours, boxes):
-#             box.set_facecolor(color)
-#         box_patches = [patch for patch in ax.patches if type(patch) == matplotlib.patches.PathPatch]
-#         if len(box_patches) == 0:
-#             box_patches = ax.artists
-#         num_patches = len(box_patches)
-#         if num_patches > 0:
-#             lines_per_boxplot = len(ax.lines) // num_patches
-#             for k, patch in enumerate(box_patches):
-#                 col = patch.get_facecolor()
-#                 patch.set_edgecolor(col)
-#                 for line in ax.lines[k * lines_per_boxplot: (k + 1) * lines_per_boxplot]:
-#                     line.set_color(col)
-#                     line.set_mfc(col)  # facecolor of fliers
-#                     line.set_mec(col)  # edgecolor of fliers
-#             median_lines = [line for line in ax.get_lines() if line.get_label() == '_median_']
-#             for k, line in enumerate(median_lines):
-#                 line.set_color(med_colours[k])
-#         if i==0:
-#             ax.set_title(panels[j],fontsize=14)
-#             if j==0:
-#                 ax.set_title(panels[j],fontsize=14,fontweight='bold')
-#         if j==0:
-#             [x.set_linewidth(1.5) for x in ax.spines.values()]
-#             ax.set_ylabel(decarb_labels[i],fontsize=9)
-#         else:
-#             ax.set_ylabel('')
-#         if i<2:
-#             ax.set_xticks([])
-#             ax.set_xticklabels([])
-#         else:
-#             ax.set_xticklabels([r"${No\ CO_{2}\ Target}$"+'\n'+'$\it{Limited\ Coord.}$',r"${No\ CO_{2}\ Target}$"+'\n'+'$\it{Full\ Coord.}$',
-#                                 r"$90\%\ CO_{2}\ Cut$"+'\n'+'$\it{Limited\ Coord.}$',r"$90\%\ CO_{2}\ Cut$"+'\n'+'$\it{Full\ Coord.}$'],
-#                                 fontsize=8,rotation=90,linespacing=1)
-#         ax.set_ylim(ylims[i][j])
-#         ax.tick_params(axis='y',pad=2)
-#         ax.set_xlabel('')
-# pa1 = Patch(facecolor=my_colours[0], edgecolor=med_colours[0],linewidth=0.5)
-# pa2 = Patch(facecolor=my_colours[2], edgecolor=med_colours[2],linewidth=0.5)
-# pa3 = Patch(facecolor=my_colours[4], edgecolor=med_colours[4],linewidth=0.5)
-# pa4 = Patch(facecolor=my_colours[6], edgecolor=med_colours[6],linewidth=0.5)
-# pb1 = Patch(facecolor=my_colours[1], edgecolor=med_colours[1],linewidth=0.5)
-# pb2 = Patch(facecolor=my_colours[3], edgecolor=med_colours[3],linewidth=0.5)
-# pb3 = Patch(facecolor=my_colours[5], edgecolor=med_colours[5],linewidth=0.5)
-# pb4 = Patch(facecolor=my_colours[7], edgecolor=med_colours[7],linewidth=0.5)
-# ax.legend(handles=[pa1, pb1, pa2, pb2, pa3, pb3, pa4, pb4],
-#           labels=['', '', '', '', '', '', '1-Axis Solar', 'Fixed Solar'],
-#           ncol=4, handletextpad=0.5, handlelength=1.2, columnspacing=-0.5,
-#           loc='center', fontsize=9,frameon=False,bbox_to_anchor=(-2.6,-0.52))
-# fig.savefig(figpath + 'figure_S4.png', bbox_inches='tight', dpi=600)
-# plt.show()
+# plot capacities
+for i in range(len(decarb_cols)):
+    for j in range(len(panels)):
+        ax = fig.add_subplot(gs[i,j])
+        g = sns.boxplot(data=decarb[decarb.load_zone==panels[j]],x='pol',y=decarb_cols[i],hue='fixed_pv', width=0.7,
+                        medianprops={"linewidth": .7,'color':'k','label':'_median_','solid_capstyle':'butt'},saturation=1,
+                        flierprops={"marker": "o",'markerfacecolor':'none','markeredgecolor':'k','markersize':2},
+                        boxprops={"linewidth": .3,'edgecolor':'k'})#,whiskerprops={"linewidth": .7,'color':'k'},capprops={"linewidth": .7,'color':'k'})
+        ax.legend([],frameon=False)
+        boxes = ax.findobj(matplotlib.patches.PathPatch)
+        for color, box in zip(my_colours, boxes):
+            box.set_facecolor(color)
+        box_patches = [patch for patch in ax.patches if type(patch) == matplotlib.patches.PathPatch]
+        if len(box_patches) == 0:
+            box_patches = ax.artists
+        num_patches = len(box_patches)
+        if num_patches > 0:
+            lines_per_boxplot = len(ax.lines) // num_patches
+            for k, patch in enumerate(box_patches):
+                col = patch.get_facecolor()
+                patch.set_edgecolor(col)
+                for line in ax.lines[k * lines_per_boxplot: (k + 1) * lines_per_boxplot]:
+                    line.set_color(col)
+                    line.set_mfc(col)  # facecolor of fliers
+                    line.set_mec(col)  # edgecolor of fliers
+            median_lines = [line for line in ax.get_lines() if line.get_label() == '_median_']
+            for k, line in enumerate(median_lines):
+                line.set_color(med_colours[k])
+        if i==0:
+            ax.set_title(panels[j],fontsize=14)
+            # if j==0:
+            #     ax.set_title(panels[j],fontsize=14,fontweight='bold')
+        if j==0:
+            [x.set_linewidth(1.5) for x in ax.spines.values()]
+            ax.set_ylabel(decarb_labels[i],fontsize=9)
+        else:
+            ax.set_ylabel('')
+        if i<2:
+            ax.set_xticks([])
+            ax.set_xticklabels([])
+        else:
+            ax.set_xticklabels(["No $\mathrm{CO_{2}}$ Target"+'\nLimited Coord.',"No $\mathrm{CO_{2}}$ Target"+'\nFull Coord.',
+                                  "90% $\mathrm{CO_{2}}$ Cut"+' \nLimited Coord.',"90% $\mathrm{CO_{2}}$ Cut"+'\nFull Coord.'],
+                                fontsize=8,rotation=90,linespacing=1)
+        ax.set_ylim(ylims[i][j])
+        ax.tick_params(axis='y',pad=2)
+        ax.set_xlabel('')
+pa1 = Patch(facecolor=my_colours[0], edgecolor=med_colours[0],linewidth=0.5)
+pa2 = Patch(facecolor=my_colours[1], edgecolor=med_colours[1],linewidth=0.5)
+pa3 = Patch(facecolor=my_colours[2], edgecolor=med_colours[2],linewidth=0.5)
+pa4 = Patch(facecolor=my_colours[3], edgecolor=med_colours[3],linewidth=0.5)
+pb1 = Patch(facecolor=my_colours[4], edgecolor=med_colours[4],linewidth=0.5)
+pb2 = Patch(facecolor=my_colours[5], edgecolor=med_colours[5],linewidth=0.5)
+pb3 = Patch(facecolor=my_colours[6], edgecolor=med_colours[6],linewidth=0.5)
+pb4 = Patch(facecolor=my_colours[7], edgecolor=med_colours[7],linewidth=0.5)
+ax.legend(handles=[pa1, pb1, pa2, pb2, pa3, pb3, pa4, pb4],
+          labels=['', '', '', '', '', '', '1-Axis Solar', 'Fixed Solar'],
+          ncol=4, handletextpad=0.5, handlelength=1.2, columnspacing=-0.5,
+          loc='center', fontsize=9,frameon=False,bbox_to_anchor=(-2.6,-0.52))
+fig.savefig(figpath + 'figure_S4.png', bbox_inches='tight', dpi=600)
+plt.show()
 
 #%% VRE PREFERENCE PARALLEL AXIS MULTI-PANEL (For SI)
 
-# plt.rcParams.update(plt.rcParamsDefault)
-# fig, axs = plt.subplots(2,2,figsize = (11,10))
-# plt.subplots_adjust(wspace=0.5)
-# #plt.subplots_adjust(wspace=0.3)
-# color4 = ['#004D40','#D81B60','#1E88E5','#FFC107']
-# pols = ['NoCut,Full','NoCut,Lim','90%Cut,Full','90%Cut,Lim']
+plt.rcParams.update(plt.rcParamsDefault)
+fig, axs = plt.subplots(2,2,figsize = (11,10))
+plt.subplots_adjust(wspace=0.5)
+#plt.subplots_adjust(wspace=0.3)
+color4 = ['#004D40','#D81B60','#1E88E5','#FFC107']
+pols = ['NoCut,Full','NoCut,Lim','90%Cut,Full','90%Cut,Lim']
 
-# parallel_coordinates(pref_vre_pt[pref_vre_pt.pol==pols[0]],'pol',linewidth=0,ax=axs[0,1],color=color4[1],alpha=1,axvlines_kwds={'color':'k','alpha':0.5,'linewidth':0.5},zorder=1)
-# parallel_coordinates(df_f[df_f.pol==pols[0]],'pol',ax=axs[0,1],color=color4[1],alpha=0.75,linestyle='--',axvlines=False,linewidth=1.4,zorder=7)
-# parallel_coordinates(df_s[df_s.pol==pols[0]],'pol',ax=axs[0,1],color=color4[1],alpha=0.75,linestyle='-',axvlines=False,linewidth=1.4,zorder=6)
+parallel_coordinates(pref_vre_pt[pref_vre_pt.pol==pols[0]],'pol',linewidth=0,ax=axs[0,1],color=color4[1],alpha=1,axvlines_kwds={'color':'k','alpha':0.5,'linewidth':0.5},zorder=1)
+parallel_coordinates(df_f[df_f.pol==pols[0]],'pol',ax=axs[0,1],color=color4[1],alpha=0.75,linestyle='--',axvlines=False,linewidth=1.4,zorder=7)
+parallel_coordinates(df_s[df_s.pol==pols[0]],'pol',ax=axs[0,1],color=color4[1],alpha=0.75,linestyle='-',axvlines=False,linewidth=1.4,zorder=6)
 
-# parallel_coordinates(pref_vre_pt[pref_vre_pt.pol==pols[1]],'pol',linewidth=0,ax=axs[0,0],color=color4[0],alpha=1,axvlines_kwds={'color':'k','alpha':0.5,'linewidth':0.5},zorder=1)
-# parallel_coordinates(df_f[df_f.pol==pols[1]],'pol',ax=axs[0,0],color=color4[0],alpha=0.75,linestyle='--',axvlines=False,linewidth=1.4,zorder=7)
-# parallel_coordinates(df_s[df_s.pol==pols[1]],'pol',ax=axs[0,0],color=color4[0],alpha=0.75,linestyle='-',axvlines=False,linewidth=1.4,zorder=6)
+parallel_coordinates(pref_vre_pt[pref_vre_pt.pol==pols[1]],'pol',linewidth=0,ax=axs[0,0],color=color4[0],alpha=1,axvlines_kwds={'color':'k','alpha':0.5,'linewidth':0.5},zorder=1)
+parallel_coordinates(df_f[df_f.pol==pols[1]],'pol',ax=axs[0,0],color=color4[0],alpha=0.75,linestyle='--',axvlines=False,linewidth=1.4,zorder=7)
+parallel_coordinates(df_s[df_s.pol==pols[1]],'pol',ax=axs[0,0],color=color4[0],alpha=0.75,linestyle='-',axvlines=False,linewidth=1.4,zorder=6)
 
-# parallel_coordinates(pref_vre_pt[pref_vre_pt.pol==pols[2]],'pol',linewidth=0,ax=axs[1,1],color=color4[2],alpha=1,axvlines_kwds={'color':'k','alpha':0.5,'linewidth':0.5},zorder=1)
-# parallel_coordinates(df_f[df_f.pol==pols[2]],'pol',ax=axs[1,1],color=color4[2],alpha=0.75,linestyle='--',axvlines=False,linewidth=1.4,zorder=7)
-# parallel_coordinates(df_s[df_s.pol==pols[2]],'pol',ax=axs[1,1],color=color4[2],alpha=0.75,linestyle='-',axvlines=False,linewidth=1.4,zorder=6)
+parallel_coordinates(pref_vre_pt[pref_vre_pt.pol==pols[2]],'pol',linewidth=0,ax=axs[1,1],color=color4[2],alpha=1,axvlines_kwds={'color':'k','alpha':0.5,'linewidth':0.5},zorder=1)
+parallel_coordinates(df_f[df_f.pol==pols[2]],'pol',ax=axs[1,1],color=color4[2],alpha=0.75,linestyle='--',axvlines=False,linewidth=1.4,zorder=7)
+parallel_coordinates(df_s[df_s.pol==pols[2]],'pol',ax=axs[1,1],color=color4[2],alpha=0.75,linestyle='-',axvlines=False,linewidth=1.4,zorder=6)
 
-# parallel_coordinates(pref_vre_pt[pref_vre_pt.pol==pols[3]],'pol',linewidth=0,ax=axs[1,0],color=color4[3],alpha=1,axvlines_kwds={'color':'k','alpha':0.5,'linewidth':0.5},zorder=1)
-# parallel_coordinates(df_f[df_f.pol==pols[3]],'pol',ax=axs[1,0],color=color4[3],alpha=0.75,linestyle='--',axvlines=False,linewidth=1.4,zorder=7)
-# parallel_coordinates(df_s[df_s.pol==pols[3]],'pol',ax=axs[1,0],color=color4[3],alpha=0.75,linestyle='-',axvlines=False,linewidth=1.4,zorder=6)
+parallel_coordinates(pref_vre_pt[pref_vre_pt.pol==pols[3]],'pol',linewidth=0,ax=axs[1,0],color=color4[3],alpha=1,axvlines_kwds={'color':'k','alpha':0.5,'linewidth':0.5},zorder=1)
+parallel_coordinates(df_f[df_f.pol==pols[3]],'pol',ax=axs[1,0],color=color4[3],alpha=0.75,linestyle='--',axvlines=False,linewidth=1.4,zorder=7)
+parallel_coordinates(df_s[df_s.pol==pols[3]],'pol',ax=axs[1,0],color=color4[3],alpha=0.75,linestyle='-',axvlines=False,linewidth=1.4,zorder=6)
 
-# lg, dg, ddg = '#E0C9FF', '#B986FF', '#8125FF'
-# g = sns.boxplot(data=wsdf[wsdf.pol=='NoCut,Lim'].loc[:,'Argentina':'Chile'],ax=axs[0,0],width=0.4,whis=(0,100),color=lg,
-#                         medianprops={"linewidth": 1,'color':dg,'label':'_median_','solid_capstyle':'butt','zorder':4},saturation=1,
-#                         boxprops={'zorder':3,"linewidth":1,'edgecolor':lg},whiskerprops={"linewidth":5,'color':lg},capprops={"linewidth": 0})
+lg, dg, ddg = '#E0C9FF', '#B986FF', '#8125FF'
+g = sns.boxplot(data=wsdf[wsdf.pol=='NoCut,Lim'].loc[:,'Argentina':'Chile'],ax=axs[0,0],width=0.4,whis=(0,100),color=lg,
+                        medianprops={"linewidth": 1,'color':dg,'label':'_median_','solid_capstyle':'butt','zorder':4},saturation=1,
+                        boxprops={'zorder':3,"linewidth":1,'edgecolor':lg},whiskerprops={"linewidth":5,'color':lg},capprops={"linewidth": 0})
 
-# g = sns.boxplot(data=wsdf[wsdf.pol=='NoCut,Full'].loc[:,'Argentina':'Chile'],ax=axs[0,1],width=0.4,whis=(0,100),color=lg,
-#                         medianprops={"linewidth": 1,'color':dg,'label':'_median_','solid_capstyle':'butt','zorder':4},saturation=1,
-#                         boxprops={'zorder':3,"linewidth":1,'edgecolor':lg},whiskerprops={"linewidth":5,'color':lg},capprops={"linewidth": 0})
+g = sns.boxplot(data=wsdf[wsdf.pol=='NoCut,Full'].loc[:,'Argentina':'Chile'],ax=axs[0,1],width=0.4,whis=(0,100),color=lg,
+                        medianprops={"linewidth": 1,'color':dg,'label':'_median_','solid_capstyle':'butt','zorder':4},saturation=1,
+                        boxprops={'zorder':3,"linewidth":1,'edgecolor':lg},whiskerprops={"linewidth":5,'color':lg},capprops={"linewidth": 0})
 
-# g = sns.boxplot(data=wsdf[wsdf.pol=='90%Cut,Lim'].loc[:,'Argentina':'Chile'],ax=axs[1,0],width=0.4,whis=(0,100),color=lg,
-#                         medianprops={"linewidth": 1,'color':dg,'label':'_median_','solid_capstyle':'butt','zorder':4},saturation=1,
-#                         boxprops={'zorder':3,"linewidth":1,'edgecolor':lg},whiskerprops={"linewidth":5,'color':lg},capprops={"linewidth": 0})
+g = sns.boxplot(data=wsdf[wsdf.pol=='90%Cut,Lim'].loc[:,'Argentina':'Chile'],ax=axs[1,0],width=0.4,whis=(0,100),color=lg,
+                        medianprops={"linewidth": 1,'color':dg,'label':'_median_','solid_capstyle':'butt','zorder':4},saturation=1,
+                        boxprops={'zorder':3,"linewidth":1,'edgecolor':lg},whiskerprops={"linewidth":5,'color':lg},capprops={"linewidth": 0})
 
-# g = sns.boxplot(data=wsdf[wsdf.pol=='90%Cut,Full'].loc[:,'Argentina':'Chile'],ax=axs[1,1],width=0.4,whis=(0,100),color=lg,
-#                         medianprops={"linewidth": 1,'color':dg,'label':'_median_','solid_capstyle':'butt','zorder':4},saturation=1,
-#                         boxprops={'zorder':3,"linewidth":1,'edgecolor':lg},whiskerprops={"linewidth":5,'color':lg},capprops={"linewidth": 0})
+g = sns.boxplot(data=wsdf[wsdf.pol=='90%Cut,Full'].loc[:,'Argentina':'Chile'],ax=axs[1,1],width=0.4,whis=(0,100),color=lg,
+                        medianprops={"linewidth": 1,'color':dg,'label':'_median_','solid_capstyle':'butt','zorder':4},saturation=1,
+                        boxprops={'zorder':3,"linewidth":1,'edgecolor':lg},whiskerprops={"linewidth":5,'color':lg},capprops={"linewidth": 0})
 
-# for ax in [axs[0,0],axs[0,1],axs[1,0],axs[1,1]]:
-#     plt.sca(ax)
-#     plt.legend([],bbox_to_anchor=(1,0.97),frameon=False)
-#     ax.axhline(y=0.5,color='k',linewidth=1,linestyle='--')
-#     ax.set_ylabel('← Preference for Solar          Preference for Wind →',labelpad=7,fontsize=9)
-#     vals = ax.get_yticks()
-#     ax.set_yticks([0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1])
-#     ax.set_yticklabels(['{:,.0%}'.format(x) for x in [1,.9,.8,.7,.6,.5,.6,.7,.8,.9,1]])
-#     ax.set_ylim(-0.003,1.004)
-#     ax.set_xlim(-0.25,4.25)
-#     ax.set_xlabel('')
+for ax in [axs[0,0],axs[0,1],axs[1,0],axs[1,1]]:
+    plt.sca(ax)
+    plt.legend([],bbox_to_anchor=(1,0.97),frameon=False)
+    ax.axhline(y=0.5,color='k',linewidth=1,linestyle='--')
+    ax.set_ylabel('← Preference for Solar          Preference for Wind →',labelpad=7,fontsize=9)
+    vals = ax.get_yticks()
+    ax.set_yticks([0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1])
+    ax.set_yticklabels(['{:,.0%}'.format(x) for x in [1,.9,.8,.7,.6,.5,.6,.7,.8,.9,1]])
+    ax.set_ylim(-0.003,1.004)
+    ax.set_xlim(-0.25,4.25)
+    ax.set_xlabel('')
 
-# axs[0,1].set_title(r"${No\ CO_{2}\ Target}$"+' + '+'$\it{Full\ Coordination}$')
-# axs[0,0].set_title(r"${No\ CO_{2}\ Target}$"+' + '+'$\it{Limited\ Coordination}$')
-# axs[1,1].set_title(r"$90\%\ CO_{2}\ Cut$"+' + '+'$\it{Full\ Coordination}$')
-# axs[1,0].set_title(r"$90\%\ CO_{2}\ Cut$"+' + '+'$\it{Limited\ Coordination}$')
+axs[0,1].set_title('No $\mathrm{CO_{2}}$ Target + Full Coordination')
+axs[0,0].set_title('No $\mathrm{CO_{2}}$ Target + Limited Coordination')
+axs[1,1].set_title('90% $\mathrm{CO_{2}}$ Cut + Full Coordination')
+axs[1,0].set_title('90% $\mathrm{CO_{2}}$ Cut + Limited Coordination')
 
-# axs[0,0].annotate('(a)',(0.9,0.94),xycoords='axes fraction',fontsize=12,ha='center',va='center')
-# axs[0,1].annotate('(b)',(0.9,0.94),xycoords='axes fraction',fontsize=12,ha='center',va='center')
-# axs[1,0].annotate('(c)',(0.9,0.94),xycoords='axes fraction',fontsize=12,ha='center',va='center')
-# axs[1,1].annotate('(d)',(0.9,0.94),xycoords='axes fraction',fontsize=12,ha='center',va='center')
+axs[0,0].annotate('a',(0.89,0.94),xycoords='axes fraction',fontsize=12,ha='center',va='center', fontweight='bold')
+axs[0,1].annotate('b',(0.89,0.94),xycoords='axes fraction',fontsize=12,ha='center',va='center', fontweight='bold')
+axs[1,0].annotate('c',(0.89,0.94),xycoords='axes fraction',fontsize=12,ha='center',va='center', fontweight='bold')
+axs[1,1].annotate('d',(0.89,0.94),xycoords='axes fraction',fontsize=12,ha='center',va='center', fontweight='bold')
 
-# ax5, ax6, ax7, ax8 = axs[0,0].twinx(), axs[0,1].twinx(), axs[1,0].twinx(), axs[1,1].twinx()
-# for ax in [ax5,ax6,ax7,ax8]:
-#     ax.set_yticks([0,.2,.4,.6,.8,1])
-#     ax.set_yticklabels(['0 GW','75 GW','150 GW','225 GW','300 GW','375 GW'])
-#     ax.set_ylim(-0.003,1.004)
-#     ax.set_xlim(-0.25,4.25)
-#     ax.set_xlabel('')
-#     ax.tick_params(axis='y', colors=ddg)
+ax5, ax6, ax7, ax8 = axs[0,0].twinx(), axs[0,1].twinx(), axs[1,0].twinx(), axs[1,1].twinx()
+for ax in [ax5,ax6,ax7,ax8]:
+    ax.set_yticks([0,.2,.4,.6,.8,1])
+    ax.set_yticklabels(['0 GW','75 GW','150 GW','225 GW','300 GW','375 GW'])
+    ax.set_ylim(-0.003,1.004)
+    ax.set_xlim(-0.25,4.25)
+    ax.set_xlabel('')
+    ax.tick_params(axis='y', colors=ddg)
 
-# lw, location_legend = 2, (1.2,-0.18)
-# custom_lines = [Line2D([0], [0], color='k', lw=lw, alpha=0.9),
-#                 Line2D([0], [0], color='k', lw=lw-0.15, alpha=0.9, linestyle='--')]
-# plt.sca(axs[1,0])
-# l1 = plt.legend(custom_lines, ['Fixed PV','1-axis PV'][::-1],handlelength=3,\
-#                               loc='center', bbox_to_anchor=location_legend, fontsize=9, frameon=False, ncol=2)
-# axs[1,0].add_artist(l1)
+lw, location_legend = 2, (1.2,-0.18)
+custom_lines = [Line2D([0], [0], color='k', lw=lw, alpha=0.9),
+                Line2D([0], [0], color='k', lw=lw-0.15, alpha=0.9, linestyle='--')]
+plt.sca(axs[1,0])
+l1 = plt.legend(custom_lines, ['Fixed PV','1-axis PV'][::-1],handlelength=3,\
+                              loc='center', bbox_to_anchor=location_legend, fontsize=9, frameon=False, ncol=2)
+axs[1,0].add_artist(l1)
 
-# plt.show()
-# #plt.savefig(figpath + 'multi_panel_preference_parallel_axis.png',bbox_inches='tight',dpi=600)
+plt.savefig(figpath + 'figure_S13.png',bbox_inches='tight',dpi=600)
+plt.show()
 
 #%% TRANSMISSION DISTANCE MAPS (For SI - NEED GEOPANDAS)
 
-# plt.rcParams.update(plt.rcParamsDefault)
-# fig = plt.figure(constrained_layout=False)#, figsize = (6,4))
-# gs = fig.add_gridspec(1,2, width_ratios=[1,1], wspace=-0.06)
-# axm1 = fig.add_subplot(gs[0])
-# axm2 = fig.add_subplot(gs[1])
-# cmin, cmax, wmin, wmax = 0, 300, 0, 300
-# countries.plot(ax=axm1, color='none',zorder=0,edgecolor='k',linewidth=.15)
-# cmap = plt.get_cmap('viridis')
-# w_cmap=truncate_colormap(cmap,(wind_cf['d_trans_km'].min()-wmin)/(wmax-wmin),0.9)
-# g1 = axm1.scatter(x=wind_cf['Longitude'],y=wind_cf['Latitude'],c=wind_cf['d_trans_km'],marker=path,cmap=w_cmap,s=17,vmin=wmin,vmax=wmax,edgecolors='none')
-# plt.sca(axm1)
-# plt.xlim(-77,-30)
-# plt.ylim(-57,6)
-# plt.legend('',frameon=False)
-# countries.plot(ax=axm1, color='none',zorder=10,edgecolor='k',linewidth=.15,linestyle='--',alpha=1)
-# plt.axis('off')
+import geopandas
+from mpl_toolkits.axes_grid1 import make_axes_locatable
+from matplotlib.path import Path
+import matplotlib as mpl
+countries = geopandas.read_file(datapath + 'map_data/Countries_five.shp')
 
-# divider1 = make_axes_locatable(g1.axes)
-# ax1 = axm1.inset_axes([0.66,0,0.05,0.45],zorder=3)
-# cbar1 = plt.colorbar(plt.cm.ScalarMappable(cmap=w_cmap,norm=mpl.colors.Normalize(wmin,wmax)),
-#               cax=ax1)
-# cbar1.ax.tick_params(labelsize=9)
-# cbar1.ax.set_yticklabels(['0','50','100','150','200','250','>300'])
-# countries.plot(ax=axm2, color='none',zorder=0,edgecolor='k',linewidth=.15)
-# g2 = axm2.scatter(x=solar_cf['Longitude'],y=solar_cf['Latitude'],c=solar_cf['d_trans_km'],marker=path,cmap='plasma',s=17,vmin=cmin,vmax=solar_cf['d_trans_km'].max(),edgecolors='none')
-# plt.sca(axm2)
-# plt.xlim(-77,-30)
-# plt.ylim(-57,6)
-# plt.legend('',frameon=False)
-# countries.plot(ax=axm2, color='none',zorder=10,edgecolor='k',linewidth=.15,linestyle='--',alpha=1)
-# plt.axis('off')
-# cmap = plt.get_cmap('plasma')
-# s_cmap=truncate_colormap(cmap,(solar_cf['d_trans_km'].min()-cmin)/(cmax-cmin),(solar_cf['d_trans_km'].max()-cmin)/(cmax-cmin))
-# divider = make_axes_locatable(g2.axes)
-# ax2 = axm2.inset_axes([0.66,0,0.05,0.45],zorder=3)
-# cbar2 = plt.colorbar(plt.cm.ScalarMappable(cmap=s_cmap,norm=mpl.colors.Normalize(vmin=cmin,vmax=solar_cf['d_trans_km'].max())),cax=ax2)
-# cbar2.ax.tick_params(labelsize=9)
-# plt.suptitle('Transmission Distance (km)',y=0.91)
-# plt.show()
-# #plt.savefig(figpath + 'figures/tx_dist_maps.png',bbox_inches='tight',dpi=1200)
+plt.rcParams.update(plt.rcParamsDefault)
+fig = plt.figure(constrained_layout=False)#, figsize = (6,4))
+gs = fig.add_gridspec(1,2, width_ratios=[1,1], wspace=-0.06)
+axm1 = fig.add_subplot(gs[0])
+axm2 = fig.add_subplot(gs[1])
+cmin, cmax, wmin, wmax = 0, 300, 0, 300
+countries.plot(ax=axm1, color='none',zorder=0,edgecolor='k',linewidth=.15)
+cmap = plt.get_cmap('viridis')
+w_cmap=truncate_colormap(cmap,(wind_cf['d_trans_km'].min()-wmin)/(wmax-wmin),0.9)
+g1 = axm1.scatter(x=wind_cf['Longitude'],y=wind_cf['Latitude'],c=wind_cf['d_trans_km'],marker=path,cmap=w_cmap,s=17,vmin=wmin,vmax=wmax,edgecolors='none')
+plt.sca(axm1)
+plt.xlim(-77,-30)
+plt.ylim(-57,6)
+plt.legend('',frameon=False)
+countries.plot(ax=axm1, color='none',zorder=10,edgecolor='k',linewidth=.15,linestyle='--',alpha=1)
+plt.axis('off')
+
+divider1 = make_axes_locatable(g1.axes)
+ax1 = axm1.inset_axes([0.66,0,0.05,0.45],zorder=3)
+cbar1 = plt.colorbar(plt.cm.ScalarMappable(cmap=w_cmap,norm=mpl.colors.Normalize(wmin,wmax)),
+              cax=ax1)
+cbar1.ax.tick_params(labelsize=9)
+cbar1.ax.set_yticklabels(['0km','50km','100km','150km','200km','250km','>300km'])
+countries.plot(ax=axm2, color='none',zorder=0,edgecolor='k',linewidth=.15)
+g2 = axm2.scatter(x=solar_cf['Longitude'],y=solar_cf['Latitude'],c=solar_cf['d_trans_km'],marker=path,cmap='plasma',s=17,vmin=cmin,vmax=solar_cf['d_trans_km'].max(),edgecolors='none')
+plt.sca(axm2)
+plt.xlim(-77,-30)
+plt.ylim(-57,6)
+plt.legend('',frameon=False)
+countries.plot(ax=axm2, color='none',zorder=10,edgecolor='k',linewidth=.15,linestyle='--',alpha=1)
+plt.axis('off')
+cmap = plt.get_cmap('plasma')
+s_cmap=truncate_colormap(cmap,(solar_cf['d_trans_km'].min()-cmin)/(cmax-cmin),(solar_cf['d_trans_km'].max()-cmin)/(cmax-cmin))
+divider = make_axes_locatable(g2.axes)
+ax2 = axm2.inset_axes([0.66,0,0.05,0.45],zorder=3)
+cbar2 = plt.colorbar(plt.cm.ScalarMappable(cmap=s_cmap,norm=mpl.colors.Normalize(vmin=cmin,vmax=solar_cf['d_trans_km'].max())),cax=ax2)
+cbar2.ax.tick_params(labelsize=9)
+cbar2.ax.set_yticklabels(['0km','50km','100km','150km','200km','250km'])
+
+axm1.annotate('a',(0,0.94),xycoords='axes fraction',fontsize=12,ha='center',va='center', fontweight='bold')
+axm2.annotate('b',(0,0.94),xycoords='axes fraction',fontsize=12,ha='center',va='center', fontweight='bold')
+
+plt.savefig(figpath + 'figure_S14.png',bbox_inches='tight',dpi=1200)
+plt.show()
 
 #%% HEATMAP OF BATTERY DISPATCH / CURTAILMENT (For SI)
 
-# # hard-coded limits for plotting
-# monthly_lims, moticks, day_lims, dayticks, colorbar_maxes = [75,75,600], [75,75,600], [75,75,250], [75,75,250], [7,7,50]
-# hr, wr, ws, hs = [1,4.5], [8,1], 0.032, 0.045
-# labs = ['Battery Discharge (MW)','Battery Discharge (MW)','Battery Charge (MW)','Battery Charge (MW)','Curtailment (MW)','Curtailment (MW)']
+# hard-coded limits for plotting
+monthly_lims, moticks, day_lims, dayticks, colorbar_maxes = [75,75,600], [75,75,600], [75,75,250], [75,75,250], [7,7,50]
+hr, wr, ws, hs = [1,4.5], [8,1], 0.032, 0.045
+labs = ['Battery Discharge (MW)','Battery Discharge (MW)','Battery Charge (MW)','Battery Charge (MW)','Curtailment (MW)','Curtailment (MW)']
 
-# plt.rcParams.update(plt.rcParamsDefault)
-# plt.style.use('seaborn-white')
-# fig = plt.figure(constrained_layout=False, figsize = (12,9))
-# gs = fig.add_gridspec(3,4, width_ratios=[1,0.05,1,0.04], height_ratios=[1,1,1], wspace = .13, hspace= .27)
-# gs00 = gs[0,0].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
-# gs01 = gs[0,2].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
-# gs10 = gs[1,0].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
-# gs11 = gs[1,2].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
-# gs20 = gs[2,0].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
-# gs21 = gs[2,2].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
-# gslist = [gs00,gs01,gs10,gs11,gs20,gs21]
-# ax_cb1,ax_cb2,ax_cb3=fig.add_subplot(gs[0,3]),fig.add_subplot(gs[1,3]),fig.add_subplot(gs[2,3])
-# cb_list = [ax_cb1,ax_cb2,ax_cb3]
-# panel_labels = ['(a)','(b)','(c)','(d)','(e)','(f)']
-# for y in range(6):
-#     df = df_list[y]
-#     hourly_values = df.sum(axis=0).reset_index().rename(columns={'Hour':'Hour',0:'Sum'})
-#     monthly_values = df.sum(axis=1).reset_index().rename(columns={'Month':'Month',0:'Sum'})
-#     ax_hm = fig.add_subplot(gslist[y][1,0])   #axes for heatmap
-#     ax_hr = fig.add_subplot(gslist[y][0,0])   #axes for hour bars
-#     ax_mo = fig.add_subplot(gslist[y][1,1])   #axes for month bars
-#     ax_lg = fig.add_subplot(gslist[y][0,1])
-#     ax_lg.axis('off')
-#     heatmap = sns.heatmap(df, ax=ax_hm, cbar_ax=cb_list[y//2], annot=False, vmin=0, vmax=colorbar_maxes[y//2], fmt='.0f',\
-#                           xticklabels=np.arange(1,25),yticklabels=np.arange(1,13))
-#     hour_bars = sns.barplot(x='Hour', y='Sum',data=hourly_values, ax=ax_hr, color='#88CCEE', edgecolor='k', orient='v')
-#     month_bars = sns.barplot(x='Sum', y='Month',data=monthly_values, ax=ax_mo, color='#88CCEE', edgecolor='k', orient='h')
+plt.rcParams.update(plt.rcParamsDefault)
+#plt.style.use('seaborn-white')
+fig = plt.figure(constrained_layout=False, figsize = (12,9))
+gs = fig.add_gridspec(3,4, width_ratios=[1,0.05,1,0.04], height_ratios=[1,1,1], wspace = .13, hspace= .29)
+gs00 = gs[0,0].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
+gs01 = gs[0,2].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
+gs10 = gs[1,0].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
+gs11 = gs[1,2].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
+gs20 = gs[2,0].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
+gs21 = gs[2,2].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
+gslist = [gs00,gs01,gs10,gs11,gs20,gs21]
+ax_cb1,ax_cb2,ax_cb3=fig.add_subplot(gs[0,3]),fig.add_subplot(gs[1,3]),fig.add_subplot(gs[2,3])
+cb_list = [ax_cb1,ax_cb2,ax_cb3]
+panel_labels = ['a','b','c','d','e','f']
+for y in range(6):
+    df = df_list[y]
+    hourly_values = df.sum(axis=0).reset_index().rename(columns={'Hour':'Hour',0:'Sum'})
+    monthly_values = df.sum(axis=1).reset_index().rename(columns={'Month':'Month',0:'Sum'})
+    ax_hm = fig.add_subplot(gslist[y][1,0])   #axes for heatmap
+    ax_hr = fig.add_subplot(gslist[y][0,0])   #axes for hour bars
+    ax_mo = fig.add_subplot(gslist[y][1,1])   #axes for month bars
+    ax_lg = fig.add_subplot(gslist[y][0,1])
+    ax_lg.axis('off')
+    heatmap = sns.heatmap(df, ax=ax_hm, cbar_ax=cb_list[y//2], annot=False, vmin=0, vmax=colorbar_maxes[y//2], fmt='.0f',\
+                          xticklabels=np.arange(1,25),yticklabels=np.arange(1,13))
+    hour_bars = sns.barplot(x='Hour', y='Sum',data=hourly_values, ax=ax_hr, color='#88CCEE', edgecolor='k', orient='v')
+    month_bars = sns.barplot(x='Sum', y='Month',data=monthly_values, ax=ax_mo, color='#88CCEE', edgecolor='k', orient='h')
     
-#     heatmap.set_xticklabels(heatmap.get_xmajorticklabels(), fontsize = 8, fontweight='bold')
-#     heatmap.set_yticklabels(heatmap.get_ymajorticklabels(), fontsize = 8, fontweight='bold')
-#     heatmap.set_xlabel('Hour of Day', fontsize=10, fontweight='bold',labelpad=6)
-#     heatmap.set_ylabel('Month', fontsize=10, fontweight='bold',labelpad=3)
-#     cbar = heatmap.collections[0].colorbar
-#     cbar.ax.tick_params(labelsize=10)
-#     t = cbar.get_ticks().tolist()
-#     cbar.ax.set_yticks(t,labels=["{:.0f} MW".format(i) for i in t],fontweight='bold')
-#     ax_hr.get_xaxis().set_visible(False)
-#     ax_hr.set_ylim(0,day_lims[y//2])
-#     ax_hr.set_yticks([dayticks[y//2]], fontsize=8, fontweight='bold')
-#     ax_hr.set_yticklabels([str(dayticks[y//2])], fontsize=8, fontweight='bold')
-#     ax_hr.set_ylabel('Sum', fontsize=8, fontweight='bold',labelpad=2)
-#     ax_mo.get_yaxis().set_visible(False)
-#     ax_mo.set_xlim(0,monthly_lims[y//2])
-#     ax_mo.set_xticks([moticks[y//2]], fontsize=8, fontweight='bold')
-#     ax_mo.set_xticklabels([str(moticks[y//2])], fontsize=8, fontweight='bold')
-#     ax_mo.set_xlabel('Sum', fontsize=8, fontweight='bold',labelpad=2)
-#     ax_hr.annotate(str(labs[y]),(.02,.74),xycoords='axes fraction',annotation_clip=False,
-#                         fontweight='bold',ha='left',va='center',fontsize=8)
-#     ax_lg.annotate(panel_labels[y],(.5,.5),xycoords='axes fraction',annotation_clip=False,
-#                         fontweight='bold',ha='center',va='center',fontsize=16)
-#     if y==0:
-#         ax_hr.set_title('          Average of Limited Coordination Scenarios (2050)',fontweight='bold',fontsize=12,y=1.14)
-#     elif y==1:
-#         ax_hr.set_title('   Average of Full Coordination Scenarios (2050)',fontweight='bold',fontsize=12,y=1.14)
+    heatmap.set_xticklabels(heatmap.get_xmajorticklabels(), fontsize = 8)
+    heatmap.set_yticklabels(heatmap.get_ymajorticklabels(), fontsize = 8)
+    heatmap.set_xlabel('Hour of Day', fontsize=10, labelpad=6)
+    heatmap.set_ylabel('Month', fontsize=10, labelpad=3)
+    cbar = heatmap.collections[0].colorbar
+    cbar.ax.tick_params(labelsize=10)
+    t = cbar.get_ticks().tolist()
+    if y<5:
+        t = [0,1,2,3,4,5,6,7]
+    cbar.ax.set_yticks(t,labels=["{:.0f} MW".format(i) for i in t])
+    ax_hr.get_xaxis().set_visible(False)
+    ax_hr.set_ylim(0,day_lims[y//2])
+    ax_hr.set_yticks([dayticks[y//2]])
+    ax_hr.set_yticklabels([str(dayticks[y//2])], fontsize=8)
+    ax_hr.set_ylabel('Sum', fontsize=8, labelpad=2)
+    ax_mo.get_yaxis().set_visible(False)
+    ax_mo.set_xlim(0,monthly_lims[y//2])
+    ax_mo.set_xticks([moticks[y//2]])
+    ax_mo.set_xticklabels([str(moticks[y//2])], fontsize=8)
+    ax_mo.set_xlabel('Sum', fontsize=8, labelpad=2)
+    ax_hr.annotate(str(labs[y]),(.02,.74),xycoords='axes fraction',annotation_clip=False,
+                        ha='left',va='center',fontsize=8)
+    ax_lg.annotate(panel_labels[y],(.5,.5),xycoords='axes fraction',annotation_clip=False,
+                        fontweight='bold',ha='center',va='center',fontsize=14)
+    if y==0:
+        ax_hr.set_title('           Average of Limited Coordination Scenarios (2050)',fontsize=12,y=1.14)
+    elif y==1:
+        ax_hr.set_title('    Average of Full Coordination Scenarios (2050)',fontsize=12,y=1.14)
 
-# plt.show()
-# #plt.savefig(figpath + 'heatmap_battery_curt.png',facecolor='w',bbox_inches='tight',dpi=600)
+plt.savefig(figpath + 'figure_S5.png',facecolor='w',bbox_inches='tight',dpi=600)
+plt.show()
 
 #%% HOURLY DISPATCH PLOTS (For SI)
 
-# nrow,ncol=4,3
-# yrs = ['2035','2050']
-# for yr in yrs:
-#     fig, axs = plt.subplots(nrows=nrow, ncols=ncol, figsize=(ncol*3.4,nrow*2.2), facecolor='white')
-#     fig.subplots_adjust(hspace=0.09,wspace=0.17)
-#     dfl = [[np.nan for i in range(ncol)] for j in range(nrow)]
-#     year,months,hours = yr,['04','08','12'],['01','24']
-#     mo_labs = ['April','August','December']
-#     grp_labs = [r"$90\%\ CO_{2}\ Cut$" + '\n' + r'$\bf{Limited}$' + r'$\ Coordination$' + '\n' + r'$1-axis\ Solar$',
-#                 r"$90\%\ CO_{2}\ Cut$" + '\n' + r'$\bf{Limited}$' + r'$\ Coordination$' + '\n' + r'$Fixed\ Solar$',
-#                 r"$90\%\ CO_{2}\ Cut$" + '\n' + r'$\bf{Full}$' + r'$\ Coordination$' + '\n' + r'$1-axis\ Solar$',
-#                 r"$90\%\ CO_{2}\ Cut$" + '\n' + r'$\bf{Full}$' + r'$\ Coordination$' + '\n' + r'$Fixed\ Solar$',]
-#     clr1 = [coal_color, gas_color, diesel_color, nuclear_color, geothermal_color, biomass_color,
-#             hydro_color, solar_color, wind_color, battery_color, curtailment_color]
-#     clr2 = [battery_color]
+plt.rcParams.update(plt.rcParamsDefault)
+font = FontProperties()
+font.set_name('Open Sans')
+plt.rcParams["font.family"] = "Arial"
+nrow,ncol=4,3
+yrs = ['2035','2050']
+fignum = {'2035':'S6','2050':'S7'}
+for yr in yrs:
+    fig, axs = plt.subplots(nrows=nrow, ncols=ncol, figsize=(ncol*3.4,nrow*2.2), facecolor='white')
+    fig.subplots_adjust(hspace=0.09,wspace=0.17)
+    dfl = [[np.nan for i in range(ncol)] for j in range(nrow)]
+    year,months,hours = yr,['04','08','12'],['01','24']
+    mo_labs = ['April','August','December']
+    grp_labs = ["90% $\mathrm{CO_{2}}$ Cut" + '\nLimited Coordination\n1-axis Solar',
+                "90% $\mathrm{CO_{2}}$ Cut" + '\nLimited Coordination\nFixed Solar',
+                "90% $\mathrm{CO_{2}}$ Cut" + '\nFull Coordination\n1-axis Solar',
+                "90% $\mathrm{CO_{2}}$ Cut" + '\nFull Coordination\nFixed Solar']
+    clr1 = [coal_color, gas_color, diesel_color, nuclear_color, geothermal_color, biomass_color,
+            hydro_color, solar_color, wind_color, battery_color, curtailment_color]
+    clr2 = [battery_color]
     
-#     for i in range(nrow):
-#         for j in range(ncol):
-#             start_time, end_time = int(yr+months[j]+hours[0]), int(yr+months[j]+hours[1])
-#             dfl[i][j] = mean_disp[(mean_disp.group==i+1) & (mean_disp.index>=start_time) & (mean_disp.index<=end_time)].copy()
+    for i in range(nrow):
+        for j in range(ncol):
+            start_time, end_time = int(yr+months[j]+hours[0]), int(yr+months[j]+hours[1])
+            dfl[i][j] = mean_disp[(mean_disp.group==i+1) & (mean_disp.index>=start_time) & (mean_disp.index<=end_time)].copy()
     
-#             # plot stackplot
-#             axs[i,j].stackplot(dfl[i][j].index,dfl[i][j].Coal,dfl[i][j].Gas,dfl[i][j].Diesel,dfl[i][j].Nuclear,
-#                                 dfl[i][j].Geothermal,dfl[i][j].Biomass,dfl[i][j].Hydro,dfl[i][j].Solar,dfl[i][j].Wind,
-#                                 dfl[i][j].Battery_discharge,dfl[i][j].curt,labels=['Coal','Gas','Diesel','Nuclear',
-#                                 'Geothermal','Biomass','Hydro', 'Solar', 'Wind', 'Battery','Curtailment'],colors=clr1,alpha=1.0)
-#             axs[i,j].stackplot(dfl[i][j].index, dfl[i][j].Battery_charge, colors=clr2, alpha=1.0)
-#             axs[i,j].plot(dfl[i][j].index, dfl[i][j].load, '--k', lw=1, alpha=1.0, label='Load')
+            # plot stackplot
+            axs[i,j].stackplot(dfl[i][j].index,dfl[i][j].Coal,dfl[i][j].Gas,dfl[i][j].Diesel,dfl[i][j].Nuclear,
+                                dfl[i][j].Geothermal,dfl[i][j].Biomass,dfl[i][j].Hydro,dfl[i][j].Solar,dfl[i][j].Wind,
+                                dfl[i][j].Battery_discharge,dfl[i][j].curt,labels=['Coal','Gas','Diesel','Nuclear',
+                                'Geothermal','Biomass','Hydro', 'Solar', 'Wind', 'Battery','Curtailment'],colors=clr1,alpha=1.0)
+            axs[i,j].stackplot(dfl[i][j].index, dfl[i][j].Battery_charge, colors=clr2, alpha=1.0)
+            axs[i,j].plot(dfl[i][j].index, dfl[i][j].load, '--k', lw=1, alpha=1.0, label='Load')
     
-#             axs[i,j].spines['top'].set_visible(False)
-#             axs[i,j].spines['right'].set_visible(False)
-#             axs[i,j].spines['bottom'].set_visible(False)
-#             axs[i,j].spines['left'].set_visible(False)
-#             axs[i,j].tick_params(axis='both', which='major', labelsize=9)
+            axs[i,j].spines['top'].set_visible(False)
+            axs[i,j].spines['right'].set_visible(False)
+            axs[i,j].spines['bottom'].set_visible(False)
+            axs[i,j].spines['left'].set_visible(False)
+            axs[i,j].tick_params(axis='both', which='major', labelsize=9)
     
-#             axs[i,j].set_ylim(-20,380)
-#             axs[i,j].set_xlim(start_time,end_time)
-#             axs[i,j].set_yticks([0,100,200,300])
+            axs[i,j].set_ylim(-20,380)
+            axs[i,j].set_xlim(start_time,end_time)
+            axs[i,j].set_yticks([0,100,200,300])
     
-#             if i < nrow-1:
-#                 axs[i,j].set_xticks([])
-#             else:
-#                 axs[i,j].set_xticks([start_time,start_time+5,start_time+11,start_time+17,start_time+23])
-#                 axs[i,j].set_xticklabels(['0h', '6h', '12h', '18h', '24h'])
-#             if j == 0:
-#                 axs[i,j].set_ylabel('Power (GW)', fontsize=13)
-#             if i == 0:
-#                 axs[i,j].text(0.5, 1.1, mo_labs[j], size=13, rotation=0., ha='center', va='center', transform=axs[i,j].transAxes)
-#             if j == ncol-1:
-#                 axs[i,j].text(1.15,0.5,grp_labs[i],size=10,rotation=90,ha='center',va='center',transform=axs[i,j].transAxes)
+            if i < nrow-1:
+                axs[i,j].set_xticks([])
+            else:
+                axs[i,j].set_xticks([start_time,start_time+5,start_time+11,start_time+17,start_time+23])
+                axs[i,j].set_xticklabels(['0h', '6h', '12h', '18h', '24h'])
+            if j == 0:
+                axs[i,j].set_ylabel('Power (GW)', fontsize=13)
+            if i == 0:
+                axs[i,j].text(0.5, 1.1, mo_labs[j], size=13, rotation=0., ha='center', va='center', transform=axs[i,j].transAxes)
+            if j == ncol-1:
+                axs[i,j].text(1.15,0.5,grp_labs[i],size=10,rotation=90,ha='center',va='center',transform=axs[i,j].transAxes)
     
-#     handles, labels = axs[0,0].get_legend_handles_labels()
-#     axs[nrow-1,(ncol//2)-3].legend(handles[1:]+handles[0:1],labels[1:]+labels[0:1],loc='center',bbox_to_anchor=[0.2,-0.4],ncol=6,frameon=False)
-#     axs[nrow-1,(ncol//2)-1].annotate('Year: '+yr,xy=(2.97,-0.44),xycoords='axes fraction',annotation_clip=False,fontsize=16,fontweight='bold')
+    handles, labels = axs[0,0].get_legend_handles_labels()
+    axs[nrow-1,(ncol//2)-3].legend(handles[1:]+handles[0:1],labels[1:]+labels[0:1],loc='center',bbox_to_anchor=[0.2,-0.4],ncol=6,frameon=False)
+    axs[nrow-1,(ncol//2)-1].annotate('Year: '+yr,xy=(2.97,-0.44),xycoords='axes fraction',annotation_clip=False,fontsize=16)
     
-#     plt.show()
-#     #fig.savefig(figpath + 'hourly_mean_dispatch_{}.png'.format(yr),bbox_inches='tight',dpi=600)
+    fig.savefig(figpath + 'figure_{}.png'.format(fignum[yr]),bbox_inches='tight',dpi=600)
+    plt.show()
 
 
 #%% HEATMAP OF HOURLY TRADE (BY LINE - For SI)
 
-# # HEATMAP OF HOURLY TRADE (BY LINE) (90% emissions cut + full coordination only)
-# tp_trade = pd.read_parquet(datapath + 'total_trade_by_timepoint_net.parquet')
-# tp50 = tp_trade[tp_trade.period==2050].groupby(['timepoint','tx_line','scenario']).sum().reset_index().drop(columns='period')
-# df_tn = tp50[tp50.scenario.str.contains('cut90p_tn')][['timepoint','tx_line','scenario','net_flow_twh']]
-# df_tn.timepoint = df_tn.timepoint.astype(str)
-# df_tn['Year'] = df_tn['timepoint'].str[:4].astype(int)
-# df_tn['Month'] = df_tn['timepoint'].str[4:6].astype(int)
-# df_tn['Hour'] = df_tn['timepoint'].str[6:].astype(int)
-# df_tn_avg = df_tn.groupby(['tx_line','Year','Month','Hour']).mean().reset_index()
-# df_tn_avg_list = []
-# lines = df_tn_avg.tx_line.unique().tolist()
-# line_labs = ['Argentina → Brazil','Argentina → Chile','Argentina → Paraguay','Argentina → Uruguay','Paraguay → Brazil','Uruguay → Brazil']
-# bar_labs = ['← To Argentina      To Brazil →      ','← To Argentina      To Chile →        ','← To Argentina     To Paraguay →',
-#             '← To Argentina     To Uruguay →  ','← To Paraguay      To Brazil →      ','← To Uruguay      To Brazil →    ']
-# for i in range(len(lines)):
-#     df_tn_avg_pt = df_tn_avg[df_tn_avg.tx_line==lines[i]].pivot('Month','Hour','net_flow_twh')*(10**3) #units now in GW
-#     if i > 3:
-#         df_tn_avg_pt *=-1
-#     df_tn_avg_list.append(df_tn_avg_pt)
+# HEATMAP OF HOURLY TRADE (BY LINE) (90% emissions cut + full coordination only)
+tp_trade = pd.read_parquet(datapath + 'total_trade_by_timepoint_net.parquet')
+tp50 = tp_trade[tp_trade.period==2050].groupby(['timepoint','tx_line','scenario']).sum().reset_index().drop(columns='period')
+df_tn = tp50[tp50.scenario.str.contains('cut90p_tn')][['timepoint','tx_line','scenario','net_flow_twh']]
+df_tn.timepoint = df_tn.timepoint.astype(str)
+df_tn['Year'] = df_tn['timepoint'].str[:4].astype(int)
+df_tn['Month'] = df_tn['timepoint'].str[4:6].astype(int)
+df_tn['Hour'] = df_tn['timepoint'].str[6:].astype(int)
+df_tn_avg = df_tn.drop(columns=['scenario','timepoint']).groupby(['tx_line','Year','Month','Hour']).mean().reset_index()
+df_tn_avg_list = []
+lines = df_tn_avg.tx_line.unique().tolist()
+line_labs = ['Argentina → Brazil','Argentina → Chile','Argentina → Paraguay','Argentina → Uruguay','Paraguay → Brazil','Uruguay → Brazil']
+bar_labs = ['← To Argentina      To Brazil →      ','← To Argentina      To Chile →        ','← To Argentina     To Paraguay →',
+            '← To Argentina     To Uruguay →  ','← To Paraguay      To Brazil →      ','← To Uruguay      To Brazil →    ']
+for i in range(len(lines)):
+    df_tn_avg_pt = df_tn_avg[df_tn_avg.tx_line==lines[i]].pivot(columns='Hour',index='Month',values='net_flow_twh')*(10**3) #units now in GW
+    if i > 3:
+        df_tn_avg_pt *=-1
+    df_tn_avg_list.append(df_tn_avg_pt)
 
-# # hard-coded limits for plotting
-# monthly_lims,moticks = [(-225,225),(0,275),(-1.5,1.5),(0,12),(0,150),(-15,15)], [[0,225],[0,275],[0,1.5],[0,12],[0,150],[0,15]]
-# day_lims, dayticks = [(0,30),(-75,200),(0,0.5),(0,3),(0,80),(-1,4)], [[0,30],[0,200],[0,0.5],[0,3],[0,80],[0,4]]
-# cb_mins, colorbar_maxes = [-7.5,-15,-0.06,-.5,-6,-0.5], [7.5,15,0.06,.5,6,0.5]
-# hr, wr, ws, hs = [1,4.5], [8,1], 0.045, 0.065
+for i in range(len(lines)):
+    df_tn_avg_list[i].to_csv('figS10_{}.csv'.format(panel_labels[i]), index=False)
 
-# plt.rcParams.update(plt.rcParamsDefault)
-# plt.style.use('seaborn-white')
-# fig = plt.figure(constrained_layout=False, figsize = (12.5,9))
-# gs = fig.add_gridspec(3,6, width_ratios=[1,0.04,0.11,0.11,1,0.04], height_ratios=[1,1,1], wspace = .13, hspace= .29)
-# gs00 = gs[0,0].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
-# gs01 = gs[0,4].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
-# gs10 = gs[1,0].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
-# gs11 = gs[1,4].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
-# gs20 = gs[2,0].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
-# gs21 = gs[2,4].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
-# gslist = [gs00,gs01,gs10,gs11,gs20,gs21]
-# ax_cb1,ax_cb2,ax_cb3,ax_cb4,ax_cb5,ax_cb6=fig.add_subplot(gs[0,1]),fig.add_subplot(gs[0,5]),fig.add_subplot(gs[1,1]),\
-#                                             fig.add_subplot(gs[1,5]),fig.add_subplot(gs[2,1]),fig.add_subplot(gs[2,5])
-# cb_list = [ax_cb1,ax_cb2,ax_cb3,ax_cb4,ax_cb5,ax_cb6]
-# panel_labels = ['(a)','(b)','(c)','(d)','(e)','(f)']
-# cbar_formats = ["{:.1f} GW","{:.0f} GW","{:.2f} GW","{:.2f} GW","{:.0f} GW","{:.2f} GW"]
-# ts = [[-7.5,-5,-2.5,0,2.5,5,7.5],[-15,-10,-5,0,5,10,15],[-.06,-.03,0,.03,.06],[-.5,-.25,0,.25,.5],[-6,-3,0,3,6],[-.5,-.25,0,.25,.5]]
-# for y in range(6):
-#     df = df_tn_avg_list[y]
-#     hourly_values = df.sum(axis=0).reset_index().rename(columns={'Hour':'Hour',0:'Sum'})
-#     monthly_values = df.sum(axis=1).reset_index().rename(columns={'Month':'Month',0:'Sum'})
-#     ax_hm = fig.add_subplot(gslist[y][1,0])   #axes for heatmap
-#     ax_hr = fig.add_subplot(gslist[y][0,0])   #axes for hour bars
-#     ax_mo = fig.add_subplot(gslist[y][1,1])   #axes for month bars
-#     ax_lg = fig.add_subplot(gslist[y][0,1])
-#     ax_lg.axis('off')
-#     heatmap = sns.heatmap(df, ax=ax_hm, cbar_ax=cb_list[y], annot=False, fmt='.0f', vmin=cb_mins[y], vmax=colorbar_maxes[y],\
-#                           xticklabels=np.arange(1,25),yticklabels=np.arange(1,13),cmap='coolwarm')
-#     hour_bars = sns.barplot(x='Hour', y='Sum',data=hourly_values, ax=ax_hr, color='#1E88E5', edgecolor='k', orient='v')
-#     month_bars = sns.barplot(x='Sum', y='Month',data=monthly_values, ax=ax_mo, color='#1E88E5', edgecolor='k', orient='h')
+# hard-coded limits for plotting
+monthly_lims,moticks = [(-225,225),(0,275),(-1.5,1.5),(0,12),(0,150),(-15,15)], [[0,225],[0,275],[0,1.5],[0,12],[0,150],[0,15]]
+day_lims, dayticks = [(0,30),(-75,200),(0,0.5),(0,3),(0,80),(-1,4)], [[0,30],[0,200],[0,0.5],[0,3],[0,80],[0,4]]
+cb_mins, colorbar_maxes = [-7.5,-15,-0.06,-.5,-6,-0.5], [7.5,15,0.06,.5,6,0.5]
+hr, wr, ws, hs = [1,4.5], [8,1], 0.045, 0.065
+
+plt.rcParams.update(plt.rcParamsDefault)
+font = FontProperties()
+font.set_name('Open Sans')
+plt.rcParams["font.family"] = "Arial"
+fig = plt.figure(constrained_layout=False, figsize = (12.5,9))
+gs = fig.add_gridspec(3,6, width_ratios=[1,0.04,0.11,0.11,1,0.04], height_ratios=[1,1,1], wspace = .13, hspace= .31)
+gs00 = gs[0,0].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
+gs01 = gs[0,4].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
+gs10 = gs[1,0].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
+gs11 = gs[1,4].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
+gs20 = gs[2,0].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
+gs21 = gs[2,4].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
+gslist = [gs00,gs01,gs10,gs11,gs20,gs21]
+ax_cb1,ax_cb2,ax_cb3,ax_cb4,ax_cb5,ax_cb6=fig.add_subplot(gs[0,1]),fig.add_subplot(gs[0,5]),fig.add_subplot(gs[1,1]),\
+                                            fig.add_subplot(gs[1,5]),fig.add_subplot(gs[2,1]),fig.add_subplot(gs[2,5])
+cb_list = [ax_cb1,ax_cb2,ax_cb3,ax_cb4,ax_cb5,ax_cb6]
+panel_labels = ['a','b','c','d','e','f']
+cbar_formats = ["{:.1f} GW","{:.0f} GW","{:.2f} GW","{:.2f} GW","{:.0f} GW","{:.2f} GW"]
+ts = [[-7.5,-5,-2.5,0,2.5,5,7.5],[-15,-10,-5,0,5,10,15],[-.06,-.03,0,.03,.06],[-.5,-.25,0,.25,.5],[-6,-3,0,3,6],[-.5,-.25,0,.25,.5]]
+for y in range(6):
+    df = df_tn_avg_list[y]
+    hourly_values = df.sum(axis=0).reset_index().rename(columns={'Hour':'Hour',0:'Sum'})
+    monthly_values = df.sum(axis=1).reset_index().rename(columns={'Month':'Month',0:'Sum'})
+    ax_hm = fig.add_subplot(gslist[y][1,0])   #axes for heatmap
+    ax_hr = fig.add_subplot(gslist[y][0,0])   #axes for hour bars
+    ax_mo = fig.add_subplot(gslist[y][1,1])   #axes for month bars
+    ax_lg = fig.add_subplot(gslist[y][0,1])
+    ax_lg.axis('off')
+    heatmap = sns.heatmap(df, ax=ax_hm, cbar_ax=cb_list[y], annot=False, fmt='.0f', vmin=cb_mins[y], vmax=colorbar_maxes[y],\
+                          xticklabels=np.arange(1,25),yticklabels=np.arange(1,13),cmap='coolwarm')
+    hour_bars = sns.barplot(x='Hour', y='Sum',data=hourly_values, ax=ax_hr, color='#1E88E5', edgecolor='k', orient='v')
+    month_bars = sns.barplot(x='Sum', y='Month',data=monthly_values, ax=ax_mo, color='#1E88E5', edgecolor='k', orient='h')
     
-#     heatmap.set_xticklabels(heatmap.get_xmajorticklabels(), fontsize = 8, fontweight='bold')
-#     heatmap.set_yticklabels(heatmap.get_ymajorticklabels(), fontsize = 8, fontweight='bold')
-#     heatmap.set_xlabel('Hour of Day', fontsize=9, labelpad=4)
-#     heatmap.set_ylabel('Month', fontsize=9, labelpad=1)
-#     cbar = heatmap.collections[0].colorbar
-#     cbar.ax.tick_params(labelsize=9)
-#     cbar.ax.set_yticks(ts[y],labels=[cbar_formats[y].format(i) for i in ts[y]],fontweight='bold',fontsize=9)
-#     cbar.ax.set_ylabel(bar_labs[y], fontsize=9, labelpad=6)
-#     ax_hr.get_xaxis().set_visible(False)
-#     ax_hr.set_ylim(day_lims[y])
-#     ax_hr.set_yticks(dayticks[y])
-#     ax_hr.set_yticklabels([str(l) for l in dayticks[y]], fontsize=7)
-#     ax_hr.set_ylabel('Sum', fontsize=8, labelpad=2)
-#     ax_mo.get_yaxis().set_visible(False)
-#     ax_mo.set_xlim(monthly_lims[y])
-#     ax_mo.set_xticks(moticks[y])
-#     ax_mo.set_xticklabels([str(l) for l in moticks[y]], fontsize=7)
-#     ax_mo.set_xlabel('Sum', fontsize=8, labelpad=2)
-#     ax_mo.tick_params(axis='x', pad=2)
-#     ax_hr.tick_params(axis='y', pad=2)
-#     ax_hr.annotate(str(line_labs[y]),(.02,1.25),xycoords='axes fraction',annotation_clip=False,
-#                         fontweight='bold',ha='left',va='center',fontsize=8)
-#     ax_lg.annotate(panel_labels[y],(.5,.5),xycoords='axes fraction',annotation_clip=False,
-#                         fontweight='bold',ha='center',va='center',fontsize=16)
-# plt.show()
-# #plt.savefig(figpath + 'heatmap_tx_lines_tn_cut90p.png',facecolor='w',bbox_inches='tight',dpi=600)
+    heatmap.set_xticklabels(heatmap.get_xmajorticklabels(), fontsize = 8)
+    heatmap.set_yticklabels(heatmap.get_ymajorticklabels(), fontsize = 8)
+    heatmap.set_xlabel('Hour of Day', fontsize=9, labelpad=4)
+    heatmap.set_ylabel('Month', fontsize=9, labelpad=1)
+    cbar = heatmap.collections[0].colorbar
+    cbar.ax.tick_params(labelsize=9)
+    cbar.ax.set_yticks(ts[y],labels=[cbar_formats[y].format(i) for i in ts[y]],fontsize=9)
+    cbar.ax.set_ylabel(bar_labs[y], fontsize=9, labelpad=6)
+    ax_hr.get_xaxis().set_visible(False)
+    ax_hr.set_ylim(day_lims[y])
+    ax_hr.set_yticks(dayticks[y])
+    ax_hr.set_yticklabels([str(l) for l in dayticks[y]], fontsize=7)
+    ax_hr.set_ylabel('Sum', fontsize=8, labelpad=2)
+    ax_mo.get_yaxis().set_visible(False)
+    ax_mo.set_xlim(monthly_lims[y])
+    ax_mo.set_xticks(moticks[y])
+    ax_mo.set_xticklabels([str(l) for l in moticks[y]], fontsize=7)
+    ax_mo.set_xlabel('Sum', fontsize=8, labelpad=2)
+    ax_mo.tick_params(axis='x', pad=2)
+    ax_hr.tick_params(axis='y', pad=2)
+    ax_hr.annotate(str(line_labs[y]),(.02,1.25),xycoords='axes fraction',annotation_clip=False,
+                        ha='left',va='center',fontsize=8)
+    ax_lg.annotate(panel_labels[y],(.5,.5),xycoords='axes fraction',annotation_clip=False,
+                        fontweight='bold',ha='center',va='center',fontsize=14)
+plt.savefig(figpath + 'figure_S10.png',facecolor='w',bbox_inches='tight',dpi=600)
+plt.show()
 
 #%% HEATMAP OF HOURLY TRADE SYSTEM-WIDE FOR PAIRED REF. SCENARIOS (For SI)
 
-# #(THREE-PANEL INCLUDING DIFFERENCE BETWEEN FIRST TWO) 2/18/25
+#(THREE-PANEL INCLUDING DIFFERENCE BETWEEN FIRST TWO) 2/18/25
 
-# tp_trade = pd.read_parquet(datapath + 'total_trade_by_timepoint.parquet')
-# tp50 = tp_trade[tp_trade.period==2050].groupby(['timepoint','scenario']).sum().reset_index().drop(columns='period')
-# ts1 = tp50[tp50.scenario=='prm15_wcost_re11_c2p1_t1'].copy(deep=True)
-# ts2 = tp50[tp50.scenario=='prm15_wcost_re11_c2p1_tn'].copy(deep=True)
-# ts3 = tp50[tp50.scenario=='prm15_wcost_re11_c2p1_co2_cut90p_t1'].copy(deep=True)
-# ts4 = tp50[tp50.scenario=='prm15_wcost_re11_c2p1_co2_cut90p_tn'].copy(deep=True)
-# tsref = ts1.merge(ts2,on='timepoint', suffixes=['_t1','_tn'])
-# tscut = ts3.merge(ts4,on='timepoint', suffixes=['_t1','_tn'])
-# tsref['diff'] = tsref['net_flow_twh_tn'] - tsref['net_flow_twh_t1']
-# tscut['diff'] = tscut['net_flow_twh_tn'] - tscut['net_flow_twh_t1']
-# tsref = tsref[['timepoint','diff']]
-# tscut = tscut[['timepoint','diff']]
-# tsref.timepoint = tsref.timepoint.astype(str)
-# tsref['Year'] = tsref['timepoint'].str[:4].astype(int)
-# tsref['Month'] = tsref['timepoint'].str[4:6].astype(int)
-# tsref['Hour'] = tsref['timepoint'].str[6:].astype(int)
-# tscut.timepoint = tscut.timepoint.astype(str)
-# tscut['Year'] = tscut['timepoint'].str[:4].astype(int)
-# tscut['Month'] = tscut['timepoint'].str[4:6].astype(int)
-# tscut['Hour'] = tscut['timepoint'].str[6:].astype(int)
-# tsref_pt = tsref.pivot(index='Month',columns='Hour',values='diff')*1000
-# tscut_pt = tscut.pivot(index='Month',columns='Hour',values='diff')*1000
+tp_trade = pd.read_parquet(datapath + 'total_trade_by_timepoint.parquet')
+tp50 = tp_trade[tp_trade.period==2050].groupby(['timepoint','scenario']).sum().reset_index().drop(columns='period')
+ts1 = tp50[tp50.scenario=='prm15_wcost_re11_c2p1_t1'].copy(deep=True)
+ts2 = tp50[tp50.scenario=='prm15_wcost_re11_c2p1_tn'].copy(deep=True)
+ts3 = tp50[tp50.scenario=='prm15_wcost_re11_c2p1_co2_cut90p_t1'].copy(deep=True)
+ts4 = tp50[tp50.scenario=='prm15_wcost_re11_c2p1_co2_cut90p_tn'].copy(deep=True)
+tsref = ts1.merge(ts2,on='timepoint', suffixes=['_t1','_tn'])
+tscut = ts3.merge(ts4,on='timepoint', suffixes=['_t1','_tn'])
+tsref['diff'] = tsref['net_flow_twh_tn'] - tsref['net_flow_twh_t1']
+tscut['diff'] = tscut['net_flow_twh_tn'] - tscut['net_flow_twh_t1']
+tsref = tsref[['timepoint','diff']]
+tscut = tscut[['timepoint','diff']]
+tsref.timepoint = tsref.timepoint.astype(str)
+tsref['Year'] = tsref['timepoint'].str[:4].astype(int)
+tsref['Month'] = tsref['timepoint'].str[4:6].astype(int)
+tsref['Hour'] = tsref['timepoint'].str[6:].astype(int)
+tscut.timepoint = tscut.timepoint.astype(str)
+tscut['Year'] = tscut['timepoint'].str[:4].astype(int)
+tscut['Month'] = tscut['timepoint'].str[4:6].astype(int)
+tscut['Hour'] = tscut['timepoint'].str[6:].astype(int)
+tsref_pt = tsref.pivot(index='Month',columns='Hour',values='diff')*1000
+tscut_pt = tscut.pivot(index='Month',columns='Hour',values='diff')*1000
 
-# ts3 = tscut_pt-tsref_pt
-# ts3df = [tsref_pt,tscut_pt,ts3]
-# hr, wr, ws, hs = [1,4.5], [8,1], 0.032, 0.045
-# monthly_lims,moticks = [(0,175),(0,700),(0,700)], [[0,175],[0,700],[0,700]]
-# day_lims, dayticks = [(0,100),(0,400),(0,400)], [[0,100],[0,400],[0,400]]
-# cb_mins, colorbar_maxes = [0,0,-5], [7.5,30,30]
+ts3 = tscut_pt-tsref_pt
+ts3df = [tsref_pt,tscut_pt,ts3]
+hr, wr, ws, hs = [1,4.5], [8,1], 0.032, 0.045
+monthly_lims,moticks = [(0,175),(0,700),(0,700)], [[0,175],[0,700],[0,700]]
+day_lims, dayticks = [(0,100),(0,400),(0,400)], [[0,100],[0,400],[0,400]]
+cb_mins, colorbar_maxes = [0,0,-5], [7.5,30,30]
 
-# cmap = plt.get_cmap('seismic')
-# new_cmap = truncate_colormap(cmap, .417, 1)
-# # fig, ax = plt.subplots(1,2)
-# # ax[0].imshow(arr, interpolation='nearest', cmap=cmap)
-# # ax[1].imshow(arr, interpolation='nearest', cmap=new_cmap)
-# # plt.show()
+cmap = plt.get_cmap('seismic')
+new_cmap = truncate_colormap(cmap, .417, 1)
 
-# plt.rcParams.update(plt.rcParamsDefault)
-# try:
-#     plt.style.use('seaborn-v0_8-white')
-# except:
-#     plt.style.use('seaborn-white')
-# fig = plt.figure(constrained_layout=False, figsize = (6,9.75))
-# gs = fig.add_gridspec(3,2, height_ratios=[1,1,1], width_ratios=[1,0.035], hspace=.24, wspace=0.08)
-# gs0 = gs[0,0].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
-# gs1 = gs[1,0].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
-# gs2 = gs[2,0].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
-# ax_cb1, ax_cb2, ax_cb3 = fig.add_subplot(gs[0,1]), fig.add_subplot(gs[1,1]), fig.add_subplot(gs[2,1])
-# gslist, cblist = [gs0,gs1,gs2], [ax_cb1,ax_cb2,ax_cb3]
-# panel_labels = ['(a)','(b)','(c)']
-# cbar_formats = ["{:.1f} GW","{:.1f} GW","{:.1f} GW"]
-# cbl = ['Increase in Net Electricity Trade\n'+"${Reference\ (No\ CO_{2}\ Target)}$",
-#         'Increase in Net Electricity Trade\n'+"${Mitigation\ (90\%\ CO_{2}\ Cut)}$",
-#         'Difference between (b) and (a)']
-# ts, lp = [[0,2.5,5,0,7.5],[0,7.5,15,22.5,30],[-5,0,10,20,30]], [15.5,11,11]
-# clmp, barc, barec = ['RdPu','YlGnBu',new_cmap], ['#EC417F','#429DED','#000000'], ['#ff84b1','#0074DA','#000000']
+plt.rcParams.update(plt.rcParamsDefault)
+font = FontProperties()
+font.set_name('Open Sans')
+plt.rcParams["font.family"] = "Arial"
+fig = plt.figure(constrained_layout=False, figsize = (6,9.75))
+gs = fig.add_gridspec(3,2, height_ratios=[1,1,1], width_ratios=[1,0.035], hspace=.24, wspace=0.08)
+gs0 = gs[0,0].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
+gs1 = gs[1,0].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
+gs2 = gs[2,0].subgridspec(2,2, height_ratios=hr, width_ratios=wr, wspace=ws,hspace=hs)
+ax_cb1, ax_cb2, ax_cb3 = fig.add_subplot(gs[0,1]), fig.add_subplot(gs[1,1]), fig.add_subplot(gs[2,1])
+gslist, cblist = [gs0,gs1,gs2], [ax_cb1,ax_cb2,ax_cb3]
+panel_labels = ['a','b','c']
+cbar_formats = ["{:.1f} GW","{:.1f} GW","{:.1f} GW"]
+cbl = ['Increase in Net Electricity Trade\nReference (No $\mathrm{CO_{2}}$ Target)',
+        'Increase in Net Electricity Trade\nMitigation (90% $\mathrm{CO_{2}}$ Cut)',
+        'Difference between (b) and (a)']
+ts, lp = [[0,2.5,5,0,7.5],[0,7.5,15,22.5,30],[-5,0,10,20,30]], [15.5,11,11]
+clmp, barc, barec = ['RdPu','YlGnBu',new_cmap], ['#EC417F','#429DED','#000000'], ['#ff84b1','#0074DA','#000000']
 
-# for y in range(3):
-#     df = ts3df[y].copy(deep=True)
-#     hourly_values = df.sum(axis=0).reset_index().rename(columns={'Hour':'Hour',0:'Sum'})
-#     monthly_values = df.sum(axis=1).reset_index().rename(columns={'Month':'Month',0:'Sum'})
-#     ax_hm = fig.add_subplot(gslist[y][1,0])   #axes for heatmap
-#     ax_hr = fig.add_subplot(gslist[y][0,0])   #axes for hour bars
-#     ax_mo = fig.add_subplot(gslist[y][1,1])   #axes for month bars
-#     ax_lg = fig.add_subplot(gslist[y][0,1])
-#     ax_lg.axis('off')
+for y in range(3):
+    df = ts3df[y].copy(deep=True)
+    hourly_values = df.sum(axis=0).reset_index().rename(columns={'Hour':'Hour',0:'Sum'})
+    monthly_values = df.sum(axis=1).reset_index().rename(columns={'Month':'Month',0:'Sum'})
+    ax_hm = fig.add_subplot(gslist[y][1,0])   #axes for heatmap
+    ax_hr = fig.add_subplot(gslist[y][0,0])   #axes for hour bars
+    ax_mo = fig.add_subplot(gslist[y][1,1])   #axes for month bars
+    ax_lg = fig.add_subplot(gslist[y][0,1])
+    ax_lg.axis('off')
 
-#     heatmap = sns.heatmap(df, ax=ax_hm, cbar_ax=cblist[y], annot=False, fmt='.0f', vmin=cb_mins[y], vmax=colorbar_maxes[y],\
-#                           xticklabels=np.arange(1,25),yticklabels=np.arange(1,13),cmap=clmp[y])
-#     hour_bars = sns.barplot(x='Hour', y='Sum',data=hourly_values, ax=ax_hr, color=barc[y], edgecolor=barec[y], orient='v',alpha=0.7)
-#     month_bars = sns.barplot(x='Sum', y='Month',data=monthly_values, ax=ax_mo, color=barc[y], edgecolor=barec[y], orient='h',alpha=0.7)
+    heatmap = sns.heatmap(df, ax=ax_hm, cbar_ax=cblist[y], annot=False, fmt='.0f', vmin=cb_mins[y], vmax=colorbar_maxes[y],\
+                          xticklabels=np.arange(1,25),yticklabels=np.arange(1,13),cmap=clmp[y])
+    hour_bars = sns.barplot(x='Hour', y='Sum',data=hourly_values, ax=ax_hr, color=barc[y], edgecolor=barec[y], orient='v',alpha=0.7)
+    month_bars = sns.barplot(x='Sum', y='Month',data=monthly_values, ax=ax_mo, color=barc[y], edgecolor=barec[y], orient='h',alpha=0.7)
     
-#     heatmap.set_xticklabels(heatmap.get_xmajorticklabels(), fontsize=8, fontweight='bold')
-#     heatmap.set_yticklabels(heatmap.get_ymajorticklabels(), fontsize=8, fontweight='bold')
-#     heatmap.set_xlabel('Hour of Day', fontsize=9, labelpad=5)
-#     heatmap.set_ylabel('Month', fontsize=9, labelpad=1)
-#     cbar = heatmap.collections[0].colorbar
-#     cbar.ax.tick_params(labelsize=9)
-#     cbar.ax.set_yticks(ts[y],labels=[cbar_formats[y].format(i) for i in ts[y]],fontweight='bold',fontsize=9)
-#     cbar.ax.set_ylabel(cbl[y],fontsize=10,labelpad=lp[y])
-#     ax_hr.get_xaxis().set_visible(False)
-#     ax_hr.set_ylim(day_lims[y])
-#     ax_hr.set_yticks(dayticks[y])
-#     ax_hr.set_yticklabels([str(l) for l in dayticks[y]], fontsize=7)
-#     ax_hr.set_ylabel('Sum', fontsize=8, labelpad=2)
-#     ax_mo.get_yaxis().set_visible(False)
-#     ax_mo.set_xlim(monthly_lims[y])
-#     ax_mo.set_xticks(moticks[y])
-#     ax_mo.set_xticklabels([str(l) for l in moticks[y]], fontsize=7)
-#     ax_mo.set_xlabel('Sum', fontsize=8, labelpad=2)
-#     ax_mo.tick_params(axis='x', pad=2)
-#     ax_hr.tick_params(axis='y', pad=2)
-#     ax_lg.annotate(panel_labels[y],xy=(0.5,0.5), xycoords='axes fraction', fontsize=16, fontweight='bold',ha='center',va='center')
+    heatmap.set_xticklabels(heatmap.get_xmajorticklabels(), fontsize=8)
+    heatmap.set_yticklabels(heatmap.get_ymajorticklabels(), fontsize=8)
+    heatmap.set_xlabel('Hour of Day', fontsize=9, labelpad=5)
+    heatmap.set_ylabel('Month', fontsize=9, labelpad=1)
+    cbar = heatmap.collections[0].colorbar
+    cbar.ax.tick_params(labelsize=9)
+    cbar.ax.set_yticks(ts[y],labels=[cbar_formats[y].format(i) for i in ts[y]],fontsize=9)
+    cbar.ax.set_ylabel(cbl[y],fontsize=10,labelpad=lp[y])
+    ax_hr.get_xaxis().set_visible(False)
+    ax_hr.set_ylim(day_lims[y])
+    ax_hr.set_yticks(dayticks[y])
+    ax_hr.set_yticklabels([str(l) for l in dayticks[y]], fontsize=7)
+    ax_hr.set_ylabel('Sum', fontsize=8, labelpad=2)
+    ax_mo.get_yaxis().set_visible(False)
+    ax_mo.set_xlim(monthly_lims[y])
+    ax_mo.set_xticks(moticks[y])
+    ax_mo.set_xticklabels([str(l) for l in moticks[y]], fontsize=7)
+    ax_mo.set_xlabel('Sum', fontsize=8, labelpad=2)
+    ax_mo.tick_params(axis='x', pad=2)
+    ax_hr.tick_params(axis='y', pad=2)
+    ax_lg.annotate(panel_labels[y],xy=(0.5,0.5), xycoords='axes fraction', fontsize=14, fontweight='bold',ha='center',va='center')
 
-# plt.show()
-# #plt.savefig(figpath + 'heatmap_total_trade_refscs_3panel.png',facecolor='w',bbox_inches='tight',dpi=800)
+plt.savefig(figpath + 'figure_S11.png',facecolor='w',bbox_inches='tight',dpi=800)
+plt.show()
 
 #%%
