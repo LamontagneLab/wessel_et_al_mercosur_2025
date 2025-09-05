@@ -960,7 +960,7 @@ x2rat = x2[['load_zone','coord','IQRR_solar','IQRR_wind','IQRR_hydro','IQRR_foss
 x2rat['size'] = [10,10,7,7,8.2,8.2,6.2,6.2,5,5,5,5]
 ss, pp, ec = (80,350), {'Limited':'#429DED','Full':'#E4B321'}, ['#0074DA','#AD8200']*6
 labs, panlab = ['a','b','c','d'], ['Solar','Wind','Hydro','Fossil']
-yaxlab = 'Capacity Mix Uncertainty Ratio\n'+'$\mathrm{IQR_{Mitigation}}$ / $\mathrm{IQR_{Reference}}$'
+yaxlab = 'Capacity mix uncertainty ratio\n'+'$\mathrm{IQR_{Mitigation}}$ / $\mathrm{IQR_{Reference}}$'
 
 plt.rcParams.update(plt.rcParamsDefault)
 font = FontProperties()
@@ -1020,7 +1020,7 @@ xrat = x1[['load_zone','emis','IQRR_solar','IQRR_wind','IQRR_hydro','IQRR_fossil
 xrat['size'] = [10,10,7,7,8.2,8.2,6.2,6.2,5,5,5,5]
 ss, pp, ec = (80,350), {'Reference':'#429DED','Mitigation':'#E4B321'}, ['#0074DA','#AD8200']*6
 labs, panlab = ['a','b','c','d'], ['Solar','Wind','Hydro','Fossil']
-yaxlab = 'Capacity Mix Uncertainty Ratio\n'+'$\mathrm{IQR_{FullCoord}}$ / $\mathrm{IQR_{LimCoord}}$'
+yaxlab = 'Capacity mix uncertainty ratio\n'+'$\mathrm{IQR_{FullCoord}}$ / $\mathrm{IQR_{LimCoord}}$'
 
 plt.rcParams.update(plt.rcParamsDefault)
 font = FontProperties()
@@ -1096,7 +1096,7 @@ plt.sca(axm1)
 plt.xlim(-77,-30)
 plt.ylim(-57,6)
 plt.legend('',frameon=False)
-plt.title('Mean Wind\nCapacity Factor', fontsize=11)
+plt.title('Mean wind\ncapacity factor', fontsize=11)
 countries.plot(ax=axm1, color='none',zorder=10,edgecolor='k',linewidth=.15,linestyle='--',alpha=0.5)
 plt.axis('off')
 cmap = plt.get_cmap('viridis')
@@ -1113,7 +1113,7 @@ plt.sca(axm3)
 plt.xlim(-77,-30)
 plt.ylim(-57,6)
 plt.legend('',frameon=False)
-plt.title('Mean Solar PV\nCapacity Factor', fontsize=11)
+plt.title('Mean solar PV\ncapacity factor', fontsize=11)
 countries.plot(ax=axm3, color='none',zorder=10,edgecolor='k',linewidth=.15,linestyle='--',alpha=0.5)
 plt.axis('off')
 cmap = plt.get_cmap('plasma')
@@ -1157,7 +1157,7 @@ if num_patches > 0:
 plt.legend([],frameon=False)
 axp.set_xlim(0,1)
 axp.set_ylabel('')
-axp.set_xlabel('← Preference for Solar                     Preference for Wind →',labelpad=12,fontsize=13)
+axp.set_xlabel('← Preference for solar                     Preference for wind →',labelpad=12,fontsize=13)
 axp.axvline(x=0.5,color='#A0A0A0',linewidth=0.8,linestyle='--')
 axp.set_xticks(np.linspace(0,1,11))
 axp.set_xticklabels(['100%','90%','80%','70%','60%','50%','60%','70%','80%','90%','100%'],fontsize=10.5)
@@ -1191,7 +1191,7 @@ ax3.set_xlim(-1.5,3.4)
 ax3.set_ylim(110,370)
 plt.sca(ax3)
 plt.axis('off')
-ax3.annotate('Variability due to Turbine Type',(1.14,-18),ha='left',fontsize=9.5, annotation_clip=False)
+ax3.annotate('Variability due to turbine type',(1.14,-18),ha='left',fontsize=9.5, annotation_clip=False)
 
 plt.savefig(figpath + 'figure_S12.png', bbox_inches='tight',dpi=1200)
 plt.show()
@@ -1204,6 +1204,7 @@ fig = plt.figure(constrained_layout=False, figsize = (12,7))
 gs = fig.add_gridspec(2,5, width_ratios=[1,1,1,1,1], height_ratios=[1,1], wspace=-0.1)
 turb_cols=['cf_vestas_2','cf_vestas_7','cf_vestas_3','cf_siemens_36','cf_siemens_23','cf_GE_25','cf_GE_15','cf_gamesa_2','cf_enercon_7','cf_enercon_3']
 cmin, cmax, clmap, cb_ticks = 0, 0.75, 'viridis', np.linspace(0.1,0.7,7) # actual min/max = 0.06175, 0.6972
+lb = ['a','b','c','d','e','f','g','h','i','j']
 for i in range(len(turb_cols)):
     ax = fig.add_subplot(gs[i])
     countries.plot(ax=ax, color='none',zorder=0,edgecolor='k',linewidth=.15)
@@ -1212,9 +1213,10 @@ for i in range(len(turb_cols)):
     plt.xlim(-77,-30)
     plt.ylim(-57,6)
     plt.legend('',frameon=False)
-    plt.title('Turbine #{}'.format(str(i+1)), fontsize=13)
+    plt.title('Turbine T{}'.format(str(i+1)), fontsize=10)
     countries.plot(ax=ax, color='none',zorder=10,edgecolor='k',linewidth=.15,linestyle='--',alpha=0.5)
     plt.axis('off')
+    plt.annotate(lb[i],(0.01,0.95),xycoords='axes fraction', ha='left',fontsize=10,fontweight='bold', annotation_clip=False)
     
     divider = make_axes_locatable(g.axes)
     cax = divider.append_axes("right", size="7%", pad=0.15)
@@ -1223,7 +1225,7 @@ for i in range(len(turb_cols)):
     cbar=plt.colorbar(plt.cm.ScalarMappable(cmap=clmap,norm=mpl.colors.Normalize(vmin=wind_cf[turb_cols].min().min(),
                                                 vmax=wind_cf[turb_cols].max().max())),ticks=cb_ticks,cax=cax)
     cbar.ax.tick_params(labelsize=10)
-    cbar.ax.set_ylabel('Mean Annual Capacity Factor',labelpad=13)
+    cbar.ax.set_ylabel('Mean annual capacity factor',labelpad=13)
     if i != 4:
         plt.axis('off')
         cbar.ax.set_visible(False)
@@ -1245,7 +1247,8 @@ plt.sca(axm1)
 plt.xlim(-77,-30)
 plt.ylim(-57,6)
 plt.legend('',frameon=False)
-plt.title('1-axis PV Project Sites', fontsize=13)
+plt.title('1-axis PV project sites', fontsize=10)
+plt.annotate('a',(0.01,0.95),xycoords='axes fraction', ha='left',fontsize=10,fontweight='bold', annotation_clip=False)
 countries.plot(ax=axm1, color='none',zorder=10,edgecolor='k',linewidth=.15,linestyle='--',alpha=0.5)
 plt.axis('off')
 
@@ -1255,7 +1258,8 @@ plt.sca(axm2)
 plt.xlim(-77,-30)
 plt.ylim(-57,6)
 plt.legend('',frameon=False)
-plt.title('Fixed PV Project Sites', fontsize=13)
+plt.title('Fixed PV project sites', fontsize=10)
+plt.annotate('b',(0.01,0.95),xycoords='axes fraction', ha='left',fontsize=10,fontweight='bold', annotation_clip=False)
 countries.plot(ax=axm2, color='none',zorder=10,edgecolor='k',linewidth=.15,linestyle='--',alpha=0.5)
 plt.axis('off')
 
@@ -1272,7 +1276,7 @@ cax = divider.append_axes("right", size="7%", pad=0.15)
 cbar2 = plt.colorbar(plt.cm.ScalarMappable(cmap=s_cmap,norm=mpl.colors.Normalize(vmin=solar_cf[['cf_1axis','cf_fixed']].min().min(),\
                                                     vmax=solar_cf[['cf_1axis','cf_fixed']].max().max())),ticks=np.linspace(0.15,0.4,6),cax=cax)
 cbar2.ax.tick_params(labelsize=10)
-cbar2.ax.set_ylabel('Mean Annual Capacity Factor',labelpad=13)
+cbar2.ax.set_ylabel('Mean annual capacity factor',labelpad=13)
 
 plt.savefig(figpath + 'figure_S16.png', bbox_inches='tight',dpi=1000)
 plt.show()
@@ -1288,6 +1292,7 @@ gs = fig.add_gridspec(4,6, height_ratios=[1,1,1,1], width_ratios=[1,1,1,1,1,1], 
 location_legend = [-1.15,-0.42]
 my_colours = ['#7DF5E0','#FF96BC','#FFCB31','#84C5FF','#008770','#CA1658','#AD8200','#0074DA']
 med_colours = ['#008770','#CA1658','#AD8200','#0074DA','#7DF5E0','#FF96BC','#FFCB31','#84C5FF']
+lb = [['a','b','c','d','e','f'],['g','h','i','j','k','l'],['m','n','o','p','q','r'],['s','t','u','v','w','x']]
 
 # plot capacities
 for i in range(len(cap_tech)):
@@ -1322,7 +1327,7 @@ for i in range(len(cap_tech)):
             ax.set_title(panels[j],fontsize=14)
         if j==0:
             [x.set_linewidth(1.5) for x in ax.spines.values()]
-            ax.set_ylabel('New ' + cap_tech[i] + ' Capacity (GW)',fontsize=9)
+            ax.set_ylabel('New ' + cap_tech[i] + ' capacity (GW)',fontsize=9)
         if j==0:
             ax.set_ylim(0,331.59)
         if j==1:
@@ -1352,6 +1357,10 @@ for i in range(len(cap_tech)):
         if j<3:
             ax.tick_params(axis='y',pad=2)
         ax.set_xlabel('')
+        if (i==3) and (j==3):
+            ax.annotate(lb[i][j],(0.04,0.05),xycoords='axes fraction', ha='left',fontsize=10,fontweight='bold', annotation_clip=False)
+        else:
+            ax.annotate(lb[i][j],(0.04,0.9),xycoords='axes fraction', ha='left',fontsize=10,fontweight='bold', annotation_clip=False)
 pa1 = Patch(facecolor=my_colours[0], edgecolor=med_colours[0],linewidth=0.5)
 pa2 = Patch(facecolor=my_colours[1], edgecolor=med_colours[1],linewidth=0.5)
 pa3 = Patch(facecolor=my_colours[2], edgecolor=med_colours[2],linewidth=0.5)
@@ -1381,6 +1390,7 @@ order = [0,2,3,1]
 cdict = dict(zip(sc_groups,['#004D40', '#D81B60', '#FFC107', '#1E88E5']))
 z = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,
       21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80]
+lb = [['a','g','m','s'],['b','h','n','t'],['c','i','o','u'],['d','j','p','v'],['e','k','q','w'],['f','l','r','x']]
 # plot generation shares
 for i in range(len(gen_share_co_list)):
     for j in range(len(f5_techs)):
@@ -1391,7 +1401,7 @@ for i in range(len(gen_share_co_list)):
                                 color=style_df_4color.loc[scs80[k]]['2color'],label=style_df_4color.loc[scs80[k]].real_name, zorder = z[k])
         ax.set_yticks([])
         if i == 0:
-            ax.set_ylabel('{} Gen. Share'.format(f5_techs[j]),fontsize=12)
+            ax.set_ylabel('{} gen. share'.format(f5_techs[j]),fontsize=12)
             plt.sca(ax)
             plt.yticks((0,25,50,75,100),('0%','25%','50%','75%','100%'))
             [x.set_linewidth(1.5) for x in ax.spines.values()]
@@ -1417,6 +1427,7 @@ for i in range(len(gen_share_co_list)):
                                 color=cdict[sc_groups[l]], zorder = 41)
             ax.fill_between(np.arange(7),mins_co[i].loc[(cap_tech[j],sc_groups[l])].tolist()[1:8],maxes_co[i].loc[(cap_tech[j],sc_groups[l])].tolist()[1:8],
                                 alpha=0.4,color=cdict[sc_groups[l]], zorder=85*(order[l]+1))
+        ax.annotate(lb[i][j],(0.04,0.9),xycoords='axes fraction', ha='left',fontsize=10,fontweight='bold', annotation_clip=False)
 custom_lines = [Line2D([0], [0], color=color4[1], lw=10, alpha=0.6),
                 Line2D([0], [0], color=color4[0], lw=10, alpha=0.6),
                 Line2D([], [], color='black', lw=1, linestyle='-'),
@@ -1438,11 +1449,12 @@ plt.rcParams["font.family"] = "Arial"
 fig = plt.figure(constrained_layout=False, figsize = (13.5,15))
 gs = fig.add_gridspec(4,6, height_ratios=[1,1,1,1], width_ratios=[1,1,1,1,1,1], hspace=.1, wspace=0.25)
 cost_cols = ['capacity_cost','operations_cost_total','split_tx_cost','new_total_cost']
-cost_labels = ['Gen. Capacity Costs ($B)','Grid Operations Costs ($B)','Transmission Costs ($B)','Total Costs ($B)']
+cost_labels = ['Gen. capacity costs ($B)','Grid operations costs ($B)','Transmission costs ($B)','Total costs ($B)']
 ylims = [[(100,300),(0,60),(0,200),(0,40),(0,10),(0,10)],
           [(0,200),(0,60),(0,200),(0,40),(0,10),(0,10)],
           [(-0.03,10),(-0.03,10),(-0.03,10),(-0.03,10),(-0.03,10),(-0.03,10)],
           [(280,370),(45,75),(190,252),(25,41),(0,10),(0,10)]]
+lb = [['a','b','c','d','e','f'],['g','h','i','j','k','l'],['m','n','o','p','q','r'],['s','t','u','v','w','x']]
 
 # plot capacities
 for i in range(len(cost_cols)):
@@ -1492,6 +1504,7 @@ for i in range(len(cost_cols)):
             ax.tick_params(axis='y',pad=2)
         ax.set_xlabel('')
         ax.set_ylim(ylims[i][j])
+        ax.annotate(lb[i][j],(0.04,0.92),xycoords='axes fraction', ha='left',fontsize=12,fontweight='bold', annotation_clip=False)
 pa1 = Patch(facecolor=my_colours[0], edgecolor=med_colours[0],linewidth=0.5)
 pa2 = Patch(facecolor=my_colours[1], edgecolor=med_colours[1],linewidth=0.5)
 pa3 = Patch(facecolor=my_colours[2], edgecolor=med_colours[2],linewidth=0.5)
@@ -1541,7 +1554,7 @@ median_lines = [line for line in ax.get_lines() if line.get_label() == '_median_
 for i, line in enumerate(median_lines):
     line.set_color(new_med_c[i])
 
-ax.set_ylabel('Total New Transmission Capacity (GW)',labelpad=10,fontsize=12)
+ax.set_ylabel('Total new transmission capacity (GW)',labelpad=10,fontsize=12)
 ax.set_xticklabels(['Argentina{}Uruguay'.format(u"\u2212"),'Argentina{}Brazil'.format(u"\u2212"),'Argentina{}Chile'.format(u"\u2212")])
 ax.set_xlabel('')
 
@@ -1569,7 +1582,8 @@ location_legend = [-1.15,-0.42]
 ylims = [[(-0.05,20),(-0.003,1),(-0.003,1),(-0.01,10.4),(-0.01,10.4),(-0.003,1)],
           [(-5,400),(-1.5,200),(-1.5,200),(-0.5,40),(-0.5,40),(-0.01,6)],
           [(0,1700),(0,600),(0,800),(0,300),(-0.01,10),(-0.01,6)]]
-decarb_labels = ['Battery Storage Requirement (GW)','Cumulative VRE Curtailment (TWh)','Cumulative $\mathrm{CO_{2}}$ Emissions (Mt$\mathrm{CO_{2}}$)']
+decarb_labels = ['Battery storage requirement (GW)','Cumulative VRE curtailment (TWh)','Cumulative $\mathrm{CO_{2}}$ emissions (Mt$\mathrm{CO_{2}}$)']
+lb = [['a','b','c','d','e','f'],['g','h','i','j','k','l'],['m','n','o','p','q','r'],['s','t','u','v','w','x']]
 
 # plot capacities
 for i in range(len(decarb_cols)):
@@ -1618,6 +1632,7 @@ for i in range(len(decarb_cols)):
         ax.set_ylim(ylims[i][j])
         ax.tick_params(axis='y',pad=2)
         ax.set_xlabel('')
+        ax.annotate(lb[i][j],(0.03,0.94),xycoords='axes fraction', ha='left',fontsize=9,fontweight='bold', annotation_clip=False)
 pa1 = Patch(facecolor=my_colours[0], edgecolor=med_colours[0],linewidth=0.5)
 pa2 = Patch(facecolor=my_colours[1], edgecolor=med_colours[1],linewidth=0.5)
 pa3 = Patch(facecolor=my_colours[2], edgecolor=med_colours[2],linewidth=0.5)
@@ -1679,7 +1694,7 @@ for ax in [axs[0,0],axs[0,1],axs[1,0],axs[1,1]]:
     plt.sca(ax)
     plt.legend([],bbox_to_anchor=(1,0.97),frameon=False)
     ax.axhline(y=0.5,color='k',linewidth=1,linestyle='--')
-    ax.set_ylabel('← Preference for Solar          Preference for Wind →',labelpad=7,fontsize=9)
+    ax.set_ylabel('← Preference for solar          Preference for wind →',labelpad=7,fontsize=9)
     vals = ax.get_yticks()
     ax.set_yticks([0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1])
     ax.set_yticklabels(['{:,.0%}'.format(x) for x in [1,.9,.8,.7,.6,.5,.6,.7,.8,.9,1]])
@@ -1747,7 +1762,7 @@ ax1 = axm1.inset_axes([0.66,0,0.05,0.45],zorder=3)
 cbar1 = plt.colorbar(plt.cm.ScalarMappable(cmap=w_cmap,norm=mpl.colors.Normalize(wmin,wmax)),
               cax=ax1)
 cbar1.ax.tick_params(labelsize=9)
-cbar1.ax.set_yticklabels(['0km','50km','100km','150km','200km','250km','>300km'])
+cbar1.ax.set_yticklabels(['0 km','50 km','100 km','150 km','200 km','250 km','>300 km'])
 countries.plot(ax=axm2, color='none',zorder=0,edgecolor='k',linewidth=.15)
 g2 = axm2.scatter(x=solar_cf['Longitude'],y=solar_cf['Latitude'],c=solar_cf['d_trans_km'],marker=path,cmap='plasma',s=17,vmin=cmin,vmax=solar_cf['d_trans_km'].max(),edgecolors='none')
 plt.sca(axm2)
@@ -1762,7 +1777,7 @@ divider = make_axes_locatable(g2.axes)
 ax2 = axm2.inset_axes([0.66,0,0.05,0.45],zorder=3)
 cbar2 = plt.colorbar(plt.cm.ScalarMappable(cmap=s_cmap,norm=mpl.colors.Normalize(vmin=cmin,vmax=solar_cf['d_trans_km'].max())),cax=ax2)
 cbar2.ax.tick_params(labelsize=9)
-cbar2.ax.set_yticklabels(['0km','50km','100km','150km','200km','250km'])
+cbar2.ax.set_yticklabels(['0 km','50 km','100 km','150 km','200 km','250 km'])
 
 axm1.annotate('a',(0,0.94),xycoords='axes fraction',fontsize=12,ha='center',va='center', fontweight='bold')
 axm2.annotate('b',(0,0.94),xycoords='axes fraction',fontsize=12,ha='center',va='center', fontweight='bold')
@@ -1775,7 +1790,7 @@ plt.show()
 # hard-coded limits for plotting
 monthly_lims, moticks, day_lims, dayticks, colorbar_maxes = [75,75,600], [75,75,600], [75,75,250], [75,75,250], [7,7,50]
 hr, wr, ws, hs = [1,4.5], [8,1], 0.032, 0.045
-labs = ['Battery Discharge (MW)','Battery Discharge (MW)','Battery Charge (MW)','Battery Charge (MW)','Curtailment (MW)','Curtailment (MW)']
+labs = ['Battery discharge (MW)','Battery discharge (MW)','Battery charge (MW)','Battery charge (MW)','Curtailment (MW)','Curtailment (MW)']
 
 plt.rcParams.update(plt.rcParamsDefault)
 #plt.style.use('seaborn-white')
@@ -1807,7 +1822,7 @@ for y in range(6):
     
     heatmap.set_xticklabels(heatmap.get_xmajorticklabels(), fontsize = 8)
     heatmap.set_yticklabels(heatmap.get_ymajorticklabels(), fontsize = 8)
-    heatmap.set_xlabel('Hour of Day', fontsize=10, labelpad=6)
+    heatmap.set_xlabel('Hour of day', fontsize=10, labelpad=6)
     heatmap.set_ylabel('Month', fontsize=10, labelpad=3)
     cbar = heatmap.collections[0].colorbar
     cbar.ax.tick_params(labelsize=10)
@@ -1828,11 +1843,11 @@ for y in range(6):
     ax_hr.annotate(str(labs[y]),(.02,.74),xycoords='axes fraction',annotation_clip=False,
                         ha='left',va='center',fontsize=8)
     ax_lg.annotate(panel_labels[y],(.5,.5),xycoords='axes fraction',annotation_clip=False,
-                        fontweight='bold',ha='center',va='center',fontsize=14)
+                        fontweight='bold',ha='center',va='center',fontsize=9)
     if y==0:
-        ax_hr.set_title('           Average of Limited Coordination Scenarios (2050)',fontsize=12,y=1.14)
+        ax_hr.set_title('Average of Limited Coordination scenarios (2050)',fontsize=10,y=1.14)
     elif y==1:
-        ax_hr.set_title('    Average of Full Coordination Scenarios (2050)',fontsize=12,y=1.14)
+        ax_hr.set_title('Average of Full Coordination scenarios (2050)',fontsize=10,y=1.14)
 
 plt.savefig(figpath + 'figure_S5.png',facecolor='w',bbox_inches='tight',dpi=600)
 plt.show()
@@ -1846,6 +1861,8 @@ plt.rcParams["font.family"] = "Arial"
 nrow,ncol=4,3
 yrs = ['2035','2050']
 fignum = {'2035':'S6','2050':'S7'}
+lb = [['a','b','c'],['d','e','f'],['g','h','i'],['j','k','l']]
+
 for yr in yrs:
     fig, axs = plt.subplots(nrows=nrow, ncols=ncol, figsize=(ncol*3.4,nrow*2.2), facecolor='white')
     fig.subplots_adjust(hspace=0.09,wspace=0.17)
@@ -1894,7 +1911,7 @@ for yr in yrs:
                 axs[i,j].text(0.5, 1.1, mo_labs[j], size=13, rotation=0., ha='center', va='center', transform=axs[i,j].transAxes)
             if j == ncol-1:
                 axs[i,j].text(1.15,0.5,grp_labs[i],size=10,rotation=90,ha='center',va='center',transform=axs[i,j].transAxes)
-    
+            axs[i,j].annotate(lb[i][j],(0.03,0.89),xycoords='axes fraction', ha='left',fontsize=9,fontweight='bold', annotation_clip=False)
     handles, labels = axs[0,0].get_legend_handles_labels()
     axs[nrow-1,(ncol//2)-3].legend(handles[1:]+handles[0:1],labels[1:]+labels[0:1],loc='center',bbox_to_anchor=[0.2,-0.4],ncol=6,frameon=False)
     axs[nrow-1,(ncol//2)-1].annotate('Year: '+yr,xy=(2.97,-0.44),xycoords='axes fraction',annotation_clip=False,fontsize=16)
@@ -1924,9 +1941,6 @@ for i in range(len(lines)):
     if i > 3:
         df_tn_avg_pt *=-1
     df_tn_avg_list.append(df_tn_avg_pt)
-
-for i in range(len(lines)):
-    df_tn_avg_list[i].to_csv('figS10_{}.csv'.format(panel_labels[i]), index=False)
 
 # hard-coded limits for plotting
 monthly_lims,moticks = [(-225,225),(0,275),(-1.5,1.5),(0,12),(0,150),(-15,15)], [[0,225],[0,275],[0,1.5],[0,12],[0,150],[0,15]]
@@ -1969,7 +1983,7 @@ for y in range(6):
     
     heatmap.set_xticklabels(heatmap.get_xmajorticklabels(), fontsize = 8)
     heatmap.set_yticklabels(heatmap.get_ymajorticklabels(), fontsize = 8)
-    heatmap.set_xlabel('Hour of Day', fontsize=9, labelpad=4)
+    heatmap.set_xlabel('Hour of day', fontsize=9, labelpad=4)
     heatmap.set_ylabel('Month', fontsize=9, labelpad=1)
     cbar = heatmap.collections[0].colorbar
     cbar.ax.tick_params(labelsize=9)
@@ -1990,7 +2004,7 @@ for y in range(6):
     ax_hr.annotate(str(line_labs[y]),(.02,1.25),xycoords='axes fraction',annotation_clip=False,
                         ha='left',va='center',fontsize=8)
     ax_lg.annotate(panel_labels[y],(.5,.5),xycoords='axes fraction',annotation_clip=False,
-                        fontweight='bold',ha='center',va='center',fontsize=14)
+                        fontweight='bold',ha='center',va='center',fontsize=9)
 plt.savefig(figpath + 'figure_S10.png',facecolor='w',bbox_inches='tight',dpi=600)
 plt.show()
 
@@ -2044,8 +2058,8 @@ ax_cb1, ax_cb2, ax_cb3 = fig.add_subplot(gs[0,1]), fig.add_subplot(gs[1,1]), fig
 gslist, cblist = [gs0,gs1,gs2], [ax_cb1,ax_cb2,ax_cb3]
 panel_labels = ['a','b','c']
 cbar_formats = ["{:.1f} GW","{:.1f} GW","{:.1f} GW"]
-cbl = ['Increase in Net Electricity Trade\nReference (No $\mathrm{CO_{2}}$ Target)',
-        'Increase in Net Electricity Trade\nMitigation (90% $\mathrm{CO_{2}}$ Cut)',
+cbl = ['Increase in net electricity trade\nReference (No $\mathrm{CO_{2}}$ Target)',
+        'Increase in net electricity trade\nMitigation (90% $\mathrm{CO_{2}}$ Cut)',
         'Difference between (b) and (a)']
 ts, lp = [[0,2.5,5,0,7.5],[0,7.5,15,22.5,30],[-5,0,10,20,30]], [15.5,11,11]
 clmp, barc, barec = ['RdPu','YlGnBu',new_cmap], ['#EC417F','#429DED','#000000'], ['#ff84b1','#0074DA','#000000']
@@ -2067,7 +2081,7 @@ for y in range(3):
     
     heatmap.set_xticklabels(heatmap.get_xmajorticklabels(), fontsize=8)
     heatmap.set_yticklabels(heatmap.get_ymajorticklabels(), fontsize=8)
-    heatmap.set_xlabel('Hour of Day', fontsize=9, labelpad=5)
+    heatmap.set_xlabel('Hour of day', fontsize=9, labelpad=5)
     heatmap.set_ylabel('Month', fontsize=9, labelpad=1)
     cbar = heatmap.collections[0].colorbar
     cbar.ax.tick_params(labelsize=9)
@@ -2085,7 +2099,7 @@ for y in range(3):
     ax_mo.set_xlabel('Sum', fontsize=8, labelpad=2)
     ax_mo.tick_params(axis='x', pad=2)
     ax_hr.tick_params(axis='y', pad=2)
-    ax_lg.annotate(panel_labels[y],xy=(0.5,0.5), xycoords='axes fraction', fontsize=14, fontweight='bold',ha='center',va='center')
+    ax_lg.annotate(panel_labels[y],xy=(0.5,0.5), xycoords='axes fraction', fontsize=10, fontweight='bold',ha='center',va='center')
 
 plt.savefig(figpath + 'figure_S9.png',facecolor='w',bbox_inches='tight',dpi=800)
 plt.show()
